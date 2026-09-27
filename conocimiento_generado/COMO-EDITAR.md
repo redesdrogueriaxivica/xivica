@@ -4,7 +4,7 @@ Cada receta dice qué archivo tocar y qué escribir. Después de cualquier cambi
 catálogo, revisar con:
 
 ```
-python3 tools/validar.py src/datos/productos.json public/img
+npm run validar
 ```
 
 ---
@@ -95,11 +95,12 @@ publica.
 
 ## Actualizar el catálogo con el Excel del dueño
 
-El dueño edita `Catalogo-Drogueria-Xivica.xlsx` (solo las celdas amarillas; la
-naranja es solo del regente) y devuelve el archivo. El flujo siempre es:
+El dueño edita `Catalogo-Drogueria-Xivica.xlsx` (las celdas amarillas, y también la
+naranja de "¿Requiere fórmula?": la llena él mismo) y devuelve el archivo. El flujo
+siempre es:
 
 ```
-python3 tools/excel_catalogo.py revisar Catalogo-Drogueria-Xivica.xlsx
+node tools/python.mjs tools/excel_catalogo.py revisar Catalogo-Drogueria-Xivica.xlsx
 ```
 
 Si dice problemas, se le responden uno por uno **con el nombre del producto, qué
@@ -107,13 +108,13 @@ pasa y cómo se escribe bien**; nada se aplica hasta corregirlo. Cuando sale en
 limpio:
 
 ```
-python3 tools/excel_catalogo.py aplicar Catalogo-Drogueria-Xivica.xlsx
+node tools/python.mjs tools/excel_catalogo.py aplicar Catalogo-Drogueria-Xivica.xlsx
 ```
 
 Eso escribe `src/datos/productos.json` y regenera la planilla. Cuatro reglas que no
 se negocian: no se agregan ni borran filas por Excel, la columna de fórmula la
-llena solo el regente, el descuento siempre sale de los dos precios, y las fotos
-no van en el Excel. Para un producto nuevo, el dueño manda los datos y las fotos
+llena solo el dueño (nunca el asistente, ni porque lo pida en la conversación), el
+descuento siempre sale de los dos precios, y las fotos no van en el Excel. Para un producto nuevo, el dueño manda los datos y las fotos
 y lo creo yo; para quitar uno, me avisa y lo quito yo (el historial lo guarda
 todo, así que nada se pierde para siempre).
 
@@ -233,7 +234,7 @@ qué producto, qué pasa y cómo se escribe bien. Los más comunes:
 | "error de escritura en la línea N" | Ir a esa línea: casi siempre sobra o falta una coma, o falta cerrar una comilla |
 | "el precio debe ser un número entero" | `62900`, sin `$`, sin puntos y sin comillas |
 | "el descuento debe ser N" | Poner exactamente ese número |
-| "'rx' debe ser true, false o null" | Quitar las comillas. **Y no cambiar el valor: lo define el regente** |
+| "'rx' debe ser true, false o null" | Quitar las comillas. **Y no cambiar el valor: lo define el dueño, desde el Excel** |
 | "la categoría no existe. ¿Querías decir…?" | Usar la que sugiere |
 | "la imagen no existe en la carpeta" | Subir la foto a `public/img/` con ese nombre exacto |
 
@@ -275,7 +276,7 @@ lee en voz alta un lector de pantalla, y sin ella el sitio no se publica.
 - **Nosotros** → en `src/datos/nosotros.json`: `foto_principal` es la grande y `galeria` es
   la lista de fotos del interior.
 
-**3. Revisar**: `python3 tools/validar.py src/datos/productos.json public/img`. Avisa si la
+**3. Revisar**: `npm run validar`. Avisa si la
 foto no existe o si falta la descripción.
 
 **Antes de usar una foto, tres preguntas:**

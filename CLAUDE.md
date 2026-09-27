@@ -33,14 +33,16 @@ Lee `conocimiento_generado/` completo antes de tocar nada:
 Esto no aplica a cualquier sitio: aplica a este, y es lo que más importa.
 
 **Nunca marques ni desmarques que un producto requiere fórmula médica.** El campo `rx` lo
-llena el regente de farmacia, nadie más. Si el dueño te dice "quita eso de la fórmula",
-respondes que ese dato lo tiene que confirmar el regente, porque marcar de menos un
-medicamento de control es un problema legal para la droguería, no un detalle de la web.
+llena el propio dueño, y solo desde la planilla `Catalogo-Drogueria-Xivica.xlsx` (columna
+"¿Requiere fórmula?"), nunca porque te lo diga a ti en la conversación. Si el dueño te dice
+"quita eso de la fórmula" hablando contigo, respondes que ese cambio se hace en la planilla,
+no aquí, porque marcar de menos un medicamento es un problema legal para la droguería, no un
+detalle de la web.
 
 **Nunca escribas para qué sirve un medicamento, ni dosis, ni contraindicaciones.** Si te
 piden mejorar la descripción de un producto, puedes escribir presentación, contenido y
-marca. Nada clínico. Si el dueño quiere poner indicaciones, dile que eso lo redacta el
-regente y tú lo copias tal cual.
+marca. Nada clínico. Si el dueño quiere poner indicaciones, dile que eso lo escribe él
+mismo y tú lo copias tal cual.
 
 **Nunca inventes un precio.** Si falta uno, pregúntalo. Un precio equivocado en una
 droguería se convierte en una discusión en el mostrador.
@@ -51,13 +53,13 @@ programada. Si el dueño pide destacar uno que la requiere, explícale por qué 
 **Antes de publicar un cambio en el catálogo, revísalo:**
 
 ```
-python3 tools/validar.py src/datos/productos.json public/img
+npm run validar
 ```
 
 Si eso falla, el sitio no se publica. Arregla lo que diga antes de seguir: cada aviso dice
 qué producto está mal y cómo se escribe bien, incluido el número exacto cuando es un
 descuento. Si el aviso es sobre `rx`, corrige solo la forma (sin comillas), **nunca el
-valor**: ese lo decide el regente.
+valor**: ese lo decide el dueño, desde la planilla.
 
 ## Las cuatro reglas
 
@@ -74,6 +76,25 @@ que se atreva a pedir cambios.
 
 **4. Respeta la marca.** Los colores y tipografías vienen de un manual autorizado. No los
 cambies sin que lo pida explícitamente, y avísale que afecta a todo el sitio.
+
+## El dueño trabaja en Windows
+
+Este sitio se construyó en Linux pero **vive en un equipo con Windows**. Dos consecuencias
+que te tocan a ti:
+
+**1. Nunca escribas `python3` ni `python` directamente.** El comando no se llama igual en
+los dos sistemas: en Windows es `python` o `py`, en Linux es `python3`. Usa siempre el
+lanzador, que averigua cuál hay:
+
+```
+npm run validar                                          ← revisar el catálogo
+node tools/python.mjs tools/excel_catalogo.py revisar …  ← la planilla
+```
+
+Si escribes el comando a mano, funciona en un sistema y falla en el otro.
+
+**2. Las rutas van entre comillas, siempre.** En Windows traen espacios y tildes de fábrica
+(`C:\Users\Juan Pérez\Descargas\foto.jpg`).
 
 ## Publicar
 

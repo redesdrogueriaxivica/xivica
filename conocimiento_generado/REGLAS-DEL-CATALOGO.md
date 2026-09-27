@@ -56,8 +56,9 @@ Ese dato se podía deducir automáticamente del nombre del producto, y se decidi
 hacerlo: equivocarse marcando de menos un medicamento de control no es un error de datos,
 es un problema legal para la droguería.
 
-**Lo tiene que llenar el regente de farmacia.** Hasta que eso ocurra, la regla 2 no
-protege nada, porque no hay ningún producto marcado.
+**Lo tiene que llenar el propio dueño**, desde `Catalogo-Drogueria-Xivica.xlsx` (columna
+"¿Requiere fórmula?"). Hasta que eso ocurra, la regla 2 no protege nada, porque no hay
+ningún producto marcado.
 
 *Dónde se cambia:* poner `"rx": true` en los productos que la requieran, dentro de
 `src/datos/productos.json`. Está anotado en `PENDIENTES.md`.
@@ -85,7 +86,7 @@ dato**, en un campo llamado `origen`:
 | `titulo` | Se leyó literal del nombre del producto | Sí |
 | `inferido` | Se dedujo por palabras clave | Revisable, puede fallar |
 | `pendiente` | No se dedujo: lo llena una persona | Vacío hoy |
-| `revisado` | Confirmado por el regente de farmacia | Sí |
+| `revisado` | Confirmado por el propio dueño | Sí |
 
 Estado actual de los 407 productos:
 
@@ -94,7 +95,7 @@ Estado actual de los 407 productos:
 | Presentación (mg, ml, cantidad) | 94% | Leído del título |
 | Marca | 22% | Leído del título |
 | Subcategoría | 52% | Inferido por palabras clave |
-| Requiere fórmula médica | 0% | Pendiente del regente |
+| Requiere fórmula médica | 0% | Pendiente de que el dueño lo llene en el Excel |
 
 **La subcategoría se quedó en la mitad a propósito.** El resto son medicamentos genéricos
 cuyo uso no se puede deducir del nombre sin arriesgar equivocarse. Por eso el filtro
@@ -207,7 +208,7 @@ Cada aviso dice **qué producto**, **qué pasa** y **cómo se escribe bien**.
 Para revisar el catálogo antes de subirlo, desde la carpeta del proyecto:
 
 ```
-python3 tools/validar.py src/datos/productos.json public/img
+npm run validar
 ```
 
 Dice exactamente qué producto está mal y por qué.

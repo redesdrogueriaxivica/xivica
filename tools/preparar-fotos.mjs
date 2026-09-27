@@ -29,7 +29,7 @@
 import { existsSync } from "node:fs";
 import { mkdir, readdir } from "node:fs/promises";
 import { dirname, basename, join, relative } from "node:path";
-import { fileURLToPath } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
 import sharp from "sharp";
 
 // El sitio muestra tarjetas de ~330 px y fotos anchas de ~760 px, y un celular
@@ -147,7 +147,8 @@ export async function preparar(origen, nombre, destino = CARPETA_IMG, opciones =
 }
 
 async function main(argv) {
-  const [origen, nombre, ...resto] = argv;
+  const [origen, ...resto0] = argv;
+  let [nombre, ...resto] = resto0;
   if (!origen || !nombre) {
     console.log(
       "Uso: node tools/preparar-fotos.mjs ORIGEN NOMBRE [--relacion 4:3] " +
@@ -162,6 +163,9 @@ async function main(argv) {
       return pares;
     }, [])
   );
+  // En Windows es natural escribir la ruta con "\\". El nombre que va al JSON
+  // del sitio siempre lleva "/", asi que se normaliza aqui.
+  nombre = nombre.replace(/\\/g, "/");
   const centro = args.centro ? args.centro.split(",").map(Number) : [0.5, 0.5];
   const recorte = args.recorte ? args.recorte.split(",").map(Number) : undefined;
 
@@ -184,6 +188,10 @@ async function main(argv) {
   }
 }
 
-if (import.meta.url === `file://${process.argv[1]}`) {
+// Comparar con pathToFileURL, NO con `file://${process.argv[1]}`.
+// En Windows argv[1] es "C:\\sitios\\..." y import.meta.url es
+// "file:///C:/sitios/...": la comparacion de texto nunca coincide y el script
+// se cierra sin hacer nada y sin decir por que. Probado en preparar-fotos.test.mjs.
+if (import.meta.url === pathToFileURL(process.argv[1]).href) {
   main(process.argv.slice(2)).then((codigo) => process.exit(codigo));
 }

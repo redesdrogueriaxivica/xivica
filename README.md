@@ -22,7 +22,7 @@ npm run dev      # http://localhost:4321
 ## Antes de subir un cambio al catálogo
 
 ```bash
-python3 tools/validar.py src/datos/productos.json public/img
+npm run validar
 ```
 
 Si algo está mal, dice exactamente qué producto y por qué. La misma revisión

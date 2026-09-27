@@ -10,9 +10,10 @@
  */
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { mkdtemp, readdir, rm } from "node:fs/promises";
+import { mkdtemp, readdir, readFile, rm } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
+import { fileURLToPath, pathToFileURL } from "node:url";
 import sharp from "sharp";
 
 import { cajaDeRecorte, preparar } from "./preparar-fotos.mjs";
@@ -189,4 +190,24 @@ test("crea la carpeta de destino si no existe", async () => {
   } finally {
     await rm(dir, { recursive: true, force: true });
   }
+});
+
+// --- Portabilidad a Windows -------------------------------------------------
+// El cliente trabaja en Windows. Estas dos pruebas cubren el punto de entrada,
+// que es lo que no tenia prueba y por eso el script se cerraba en silencio alli.
+
+test("el punto de entrada se compara con pathToFileURL, no con texto", async () => {
+  const fuente = await readFile(new URL("preparar-fotos.mjs", import.meta.url), "utf8");
+  assert.match(fuente, /import\.meta\.url === pathToFileURL\(process\.argv\[1\]\)\.href/);
+  assert.doesNotMatch(
+    fuente,
+    /import\.meta\.url === `file:\/\/\$\{process\.argv\[1\]\}`/,
+    "En Windows argv[1] es C:\\... y import.meta.url es file:///C:/...: nunca coinciden"
+  );
+});
+
+test("pathToFileURL resuelve igual la ruta de cada sistema", () => {
+  // En POSIX se comprueba de verdad; la forma de Windows se documenta arriba.
+  const ruta = fileURLToPath(new URL("preparar-fotos.mjs", import.meta.url));
+  assert.equal(pathToFileURL(ruta).href, new URL("preparar-fotos.mjs", import.meta.url).href);
 });

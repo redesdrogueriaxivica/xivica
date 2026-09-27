@@ -37,7 +37,7 @@ error de edición no puede tumbar la tienda.
 Para revisar antes de subir, desde la carpeta del proyecto:
 
 ```
-python3 tools/validar.py src/datos/productos.json public/img
+npm run validar
 npm test
 ```
 

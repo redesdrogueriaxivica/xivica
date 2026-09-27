@@ -55,7 +55,7 @@ conocimiento_generado/  Esta documentación
 npm run dev      # ver el sitio en tu computador
 npm run build    # compilarlo
 npm test         # correr las 53 pruebas
-python3 tools/validar.py src/datos/productos.json public/img
+npm run validar
 ```
 
 ## Las herramientas de tools/
