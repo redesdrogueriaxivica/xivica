@@ -17,22 +17,40 @@ function Mal($t)  { Write-Host "  [X]  $t"  -ForegroundColor Red }
 function Ojo($t)  { Write-Host "  [!]  $t"  -ForegroundColor Yellow }
 function Hay($c)  { $null -ne (Get-Command $c -ErrorAction SilentlyContinue) }
 
-# Devuelve el comando de un Python 3 de VERDAD, o $null.
+# Devuelve el comando de un Python 3 USABLE, o $null.
 #
-# No basta con Get-Command: en Windows "python" puede ser el alias de Microsoft
-# Store, que existe como comando pero abre la tienda en vez de ejecutar nada.
-# Por eso se le pide la version y se comprueba que responda "Python 3.".
-function PythonReal {
-  foreach ($c in @(@("python",@()), @("py",@("-3")), @("python3",@()))) {
+# No basta con que responda "Python 3.". Dos trampas reales:
+#
+#  - El alias de Microsoft Store existe como comando pero abre la tienda sin
+#    ejecutar nada.
+#  - Un Python EMBEBIDO dentro de otro programa (Inkscape, GIMP, Krita) puede
+#    quedar primero en el PATH y responder la version perfectamente, pero no
+#    trae pip, asi que `openpyxl` no se puede instalar y la planilla de Excel
+#    queda inservible. Pasó en la primera prueba en Windows: doctor.ps1 lo
+#    daba por bueno en verde.
+#
+# Por eso se exige tambien que responda `-m pip --version`. Se buscan primero
+# los que tienen pip; si ninguno lo tiene, se devuelve el mejor que haya y se
+# avisa, porque para revisar el catalogo basta con la biblioteca estandar.
+function PythonUsable($ExigirPip = $true) {
+  foreach ($c in @(@("py",@("-3")), @("python",@()), @("python3",@()))) {
     $cmd, $pre = $c
     if (-not (Hay $cmd)) { continue }
     try {
       $v = & $cmd @pre --version 2>&1 | Out-String
-      if ($v -match "Python 3\.") { return ,@($cmd, $pre) }
+      if ($v -notmatch "Python 3\.") { continue }
+      if ($ExigirPip) {
+        $p = & $cmd @pre -m pip --version 2>&1 | Out-String
+        if ($LASTEXITCODE -ne 0 -or $p -notmatch "pip ") { continue }
+      }
+      return ,@($cmd, $pre, $v.Trim())
     } catch { }
   }
   return $null
 }
+
+# Compatibilidad: el nombre anterior.
+function PythonReal { PythonUsable $true }
 
 
 Write-Host "`n  Instalacion del asistente del sitio web`n"
@@ -73,16 +91,22 @@ if (Hay "node") {
 # -- Python ---------------------------------------------------------------------
 # Algunas herramientas del sitio lo usan (el catalogo en Excel, por ejemplo).
 Paso "Python"
-$py = PythonReal
+$py = PythonUsable $true
 if ($py) {
-  Bien "Ya estaba instalado ($(& $py[0] @($py[1]) --version))"
+  Bien "Ya estaba instalado ($($py[2]))"
 } else {
+  $sinPip = PythonUsable $false
+  if ($sinPip) {
+    Ojo "Hay un Python ($($sinPip[2])) pero no trae pip."
+    Write-Host "     Suele ser el que viene dentro de otro programa (Inkscape, GIMP)."
+    Write-Host "     Se instala uno propio; el otro no se toca."
+  }
   Write-Host "  Instalando..."
   winget install --id Python.Python.3.12 -e --source winget --accept-package-agreements --accept-source-agreements | Out-Null
   $env:Path = [Environment]::GetEnvironmentVariable("Path","Machine") + ";" +
               [Environment]::GetEnvironmentVariable("Path","User")
-  $py = PythonReal
-  if ($py) { Bien "Instalado" }
+  $py = PythonUsable $true
+  if ($py) { Bien "Instalado ($($py[2]))" }
   else {
     Mal "No se pudo instalar Python"
     Ojo "Si 'python' abre la Microsoft Store, apaga el alias en:"

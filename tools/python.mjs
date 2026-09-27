@@ -15,9 +15,18 @@
  * lo necesita para la vista previa. Asi que el que decide es este archivo, una
  * sola vez y en un solo lugar.
  *
- * Cuidado con Windows: `python` puede existir y NO ser Python, sino el alias
- * de Microsoft Store que abre la tienda. Por eso no basta con que el comando
- * exista: se le pide la version y se comprueba que responda "Python 3".
+ * Dos trampas reales de Windows, las dos encontradas en equipos de verdad:
+ *
+ *  - `python` puede existir y NO ser Python, sino el alias de Microsoft Store
+ *    que abre la tienda sin ejecutar nada.
+ *  - Puede responder "Python 3.11" perfectamente y ser un Python EMBEBIDO
+ *    dentro de otro programa (Inkscape, GIMP, Krita) que quedo primero en el
+ *    PATH. Ese no trae pip, asi que `openpyxl` no se puede instalar y la
+ *    planilla de Excel no se puede leer.
+ *
+ * Por eso se prefiere el que ademas responda `-m pip --version`. Si ninguno
+ * tiene pip se usa el que haya, porque revisar el catalogo solo necesita la
+ * biblioteca estandar; quien necesite mas lo sabra por su propio error.
  */
 import { spawnSync } from "node:child_process";
 import { pathToFileURL } from "node:url";
@@ -28,17 +37,37 @@ const CANDIDATOS = [
   ["py", ["-3"]], // el lanzador oficial de Windows
 ];
 
-/** Devuelve [comando, argumentos] del primer Python 3 de verdad que encuentre. */
-export function buscarPython(candidatos = CANDIDATOS) {
-  for (const [comando, previos] of candidatos) {
-    const prueba = spawnSync(comando, [...previos, "--version"], {
-      encoding: "utf8",
-      shell: process.platform === "win32",
-    });
-    if (prueba.error || prueba.status !== 0) continue;
-    const version = `${prueba.stdout || ""}${prueba.stderr || ""}`.trim();
-    // El alias de Microsoft Store responde vacio o abre la tienda: no pasa de aqui.
-    if (/^Python 3\./.test(version)) return [comando, previos, version];
+const salida = (r) => `${r.stdout || ""}${r.stderr || ""}`.trim();
+
+function responde(comando, previos, args) {
+  const r = spawnSync(comando, [...previos, ...args], {
+    encoding: "utf8",
+    shell: process.platform === "win32",
+  });
+  if (r.error || r.status !== 0) return null;
+  return salida(r);
+}
+
+/**
+ * Devuelve [comando, argumentos, version] del mejor Python 3 que encuentre.
+ *
+ * Dos pasadas: primero los que tienen pip, que son los unicos capaces de
+ * instalar lo que hace falta; si ninguno lo tiene, se acepta cualquier
+ * Python 3.
+ */
+export function buscarPython(candidatos = CANDIDATOS, { exigirPip } = {}) {
+  const pasadas = exigirPip === undefined ? [true, false] : [exigirPip];
+  for (const conPip of pasadas) {
+    for (const [comando, previos] of candidatos) {
+      const version = responde(comando, previos, ["--version"]);
+      // El alias de Microsoft Store responde vacio o abre la tienda.
+      if (!version || !/^Python 3\./.test(version)) continue;
+      if (conPip) {
+        const pip = responde(comando, previos, ["-m", "pip", "--version"]);
+        if (!pip || !/^pip /.test(pip)) continue;
+      }
+      return [comando, previos, version];
+    }
   }
   return null;
 }

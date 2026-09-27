@@ -18,22 +18,40 @@ function Nota($t) { Write-Host "       $t" -ForegroundColor DarkGray }
 
 function Hay($c)  { $null -ne (Get-Command $c -ErrorAction SilentlyContinue) }
 
-# Devuelve el comando de un Python 3 de VERDAD, o $null.
+# Devuelve el comando de un Python 3 USABLE, o $null.
 #
-# No basta con Get-Command: en Windows "python" puede ser el alias de Microsoft
-# Store, que existe como comando pero abre la tienda en vez de ejecutar nada.
-# Por eso se le pide la version y se comprueba que responda "Python 3.".
-function PythonReal {
-  foreach ($c in @(@("python",@()), @("py",@("-3")), @("python3",@()))) {
+# No basta con que responda "Python 3.". Dos trampas reales:
+#
+#  - El alias de Microsoft Store existe como comando pero abre la tienda sin
+#    ejecutar nada.
+#  - Un Python EMBEBIDO dentro de otro programa (Inkscape, GIMP, Krita) puede
+#    quedar primero en el PATH y responder la version perfectamente, pero no
+#    trae pip, asi que `openpyxl` no se puede instalar y la planilla de Excel
+#    queda inservible. Pasó en la primera prueba en Windows: doctor.ps1 lo
+#    daba por bueno en verde.
+#
+# Por eso se exige tambien que responda `-m pip --version`. Se buscan primero
+# los que tienen pip; si ninguno lo tiene, se devuelve el mejor que haya y se
+# avisa, porque para revisar el catalogo basta con la biblioteca estandar.
+function PythonUsable($ExigirPip = $true) {
+  foreach ($c in @(@("py",@("-3")), @("python",@()), @("python3",@()))) {
     $cmd, $pre = $c
     if (-not (Hay $cmd)) { continue }
     try {
       $v = & $cmd @pre --version 2>&1 | Out-String
-      if ($v -match "Python 3\.") { return ,@($cmd, $pre) }
+      if ($v -notmatch "Python 3\.") { continue }
+      if ($ExigirPip) {
+        $p = & $cmd @pre -m pip --version 2>&1 | Out-String
+        if ($LASTEXITCODE -ne 0 -or $p -notmatch "pip ") { continue }
+      }
+      return ,@($cmd, $pre, $v.Trim())
     } catch { }
   }
   return $null
 }
+
+# Compatibilidad: el nombre anterior.
+function PythonReal { PythonUsable $true }
 
 Write-Host "`n  Revision del asistente de tu sitio web"
 
@@ -53,8 +71,16 @@ if ($agente) { Bien "Asistente instalado ($agente)" }
 else { Mal "No se encontro ningun asistente"; Nota "Deberia estar opencode, claude o codex." }
 
 if (Test-Path "tools/requirements.txt") {
-  $py = PythonReal
-  if ($py) { Bien "Python instalado ($(& $py[0] @($py[1]) --version))" }
+  $py = PythonUsable $true
+  if ($py) { Bien "Python instalado ($($py[2]))" }
+  elseif (PythonUsable $false) {
+    $otro = PythonUsable $false
+    Mal "El Python de este equipo no sirve ($($otro[2]))"
+    Nota "Responde la version pero no trae pip, asi que no se puede instalar lo"
+    Nota "que necesita la planilla de Excel. Suele ser el Python que viene dentro"
+    Nota "de otro programa (Inkscape, GIMP) y quedo primero en el PATH."
+    Nota "Se arregla con: .\instalar.ps1"
+  }
   else {
     Mal "Falta Python"
     Nota "Este sitio lo necesita para revisar el catalogo y para la planilla de Excel."
@@ -81,7 +107,14 @@ else { Ojo "Faltan los componentes internos"; Nota "Se arreglan solos con: npm i
 
 Titulo "Conexion para publicar"
 
-if (Test-Path ".git") {
+# Sin el comando git no se puede revisar nada de esto: que la carpeta .git
+# exista no basta. Antes se intentaba igual, PowerShell escupia su error crudo
+# y despues se imprimia "No hay cambios pendientes" en verde, que es mentira:
+# no se habia revisado nada.
+if (-not (Hay "git")) {
+  Mal "No se puede revisar la publicacion: falta Git"
+  Nota "Se arregla con: .\instalar.ps1"
+} elseif (Test-Path ".git") {
   $remoto = git remote get-url origin 2>$null
   if ($remoto) {
     Bien "Conectado al lugar donde se publica"
