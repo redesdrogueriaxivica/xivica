@@ -50,11 +50,16 @@ droguería se convierte en una discusión en el mostrador.
 **Los productos que requieren fórmula no salen en la portada.** Es una regla del sitio, ya
 programada. Si el dueño pide destacar uno que la requiere, explícale por qué no conviene.
 
-**Antes de publicar un cambio en el catálogo, revísalo:**
+**Antes de publicar cualquier cambio, revisa el sitio entero:**
 
 ```
-npm run validar
+npm run verificar
 ```
+
+Revisa de una vez las pruebas, el catálogo y los colores, y dice en palabras claras qué
+está mal si algo lo está. Es el único comando que hace falta recordar.
+
+*(Si solo quieres el catálogo: `npm run validar`.)*
 
 Si eso falla, el sitio no se publica. Arregla lo que diga antes de seguir: cada aviso dice
 qué producto está mal y cómo se escribe bien, incluido el número exacto cuando es un
@@ -77,7 +82,8 @@ que se atreva a pedir cambios.
 **4. Respeta la marca.** Los colores y tipografías vienen de un manual autorizado. No los
 cambies sin que lo pida explícitamente, y avísale que afecta a todo el sitio.
 
-**Si tocas estilos o creas una sección nueva, revisa los colores:**
+**Si tocas estilos o creas una sección nueva**, `npm run verificar` incluye la revisión de
+colores. Para correrla sola:
 
 ```
 node tools/python.mjs tools/revisar-css.py

@@ -57,6 +57,15 @@ Write-Host "`n  Revision del asistente de tu sitio web"
 
 Titulo "Programas necesarios"
 
+$pol = Get-ExecutionPolicy -Scope CurrentUser
+if ($pol -in @("RemoteSigned","Unrestricted","Bypass")) {
+  Bien "Los programas del sitio se pueden ejecutar ($pol)"
+} else {
+  Mal "Windows tiene bloqueada la ejecucion de programas ($pol)"
+  Nota "Asi el comando npm no funciona: en npm moderno `npm` es un script."
+  Nota "Se arregla con: Set-ExecutionPolicy -Scope CurrentUser RemoteSigned"
+}
+
 if (Hay "git") { Bien "Git instalado ($((git --version) -replace 'git version ',''))" }
 else { Mal "Falta Git"; Nota "Sin Git no se pueden guardar ni publicar los cambios." }
 

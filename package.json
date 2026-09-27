@@ -8,7 +8,8 @@
     "preview": "astro preview",
     "astro": "astro",
     "test": "node --test \"src/scripts/*.test.js\" \"tools/*.test.mjs\" && node tools/python.mjs -m unittest discover tools",
-    "validar": "node tools/python.mjs tools/validar.py src/datos/productos.json public/img"
+    "validar": "node tools/python.mjs tools/validar.py src/datos/productos.json public/img",
+    "verificar": "node tools/verificar.mjs"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.0",

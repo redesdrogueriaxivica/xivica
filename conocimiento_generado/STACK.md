@@ -54,7 +54,8 @@ conocimiento_generado/  Esta documentación
 ```bash
 npm run dev      # ver el sitio en tu computador
 npm run build    # compilarlo
-npm test         # correr las 53 pruebas
+npm test         # correr las pruebas
+npm run verificar # revisarlo todo: pruebas, catálogo y colores
 npm run validar
 ```
 
@@ -65,6 +66,7 @@ publicado no necesita Python.
 
 | Herramienta | Qué hace |
 |---|---|
+| `verificar.mjs` | **El comando de todos los días.** Corre las pruebas, el catálogo y los colores de una vez |
 | `python.mjs` | Encuentra el Python del equipo. **Todo lo de Python pasa por aquí**, porque el comando no se llama igual en Windows que en Linux |
 | `validar.py` | Revisa que el catálogo esté bien antes de publicar |
 | `excel_catalogo.py` | El puente con la planilla del dueño: `revisar` antes y `aplicar` solo si está limpia |

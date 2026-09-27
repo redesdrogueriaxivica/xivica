@@ -62,6 +62,30 @@ if (-not (Hay "winget")) {
 }
 Bien "Sistema detectado (usando winget)"
 
+# -- Permiso para ejecutar scripts --------------------------------------------
+# Windows viene con la ejecucion de scripts DESHABILITADA. Eso no solo bloquea
+# doctor.ps1: en npm moderno el comando `npm` ES un script (npm.ps1), asi que
+# el cliente abre su terminal, escribe npm y le dice que no se puede cargar el
+# archivo. Con Bypass por ventana no alcanza, porque se pierde al cerrarla.
+#
+# RemoteSigned en el ambito del usuario es lo que recomienda Microsoft para
+# trabajar: deja correr los scripts locales y sigue exigiendo firma a los que
+# vengan de internet. No necesita permisos de administrador.
+Paso "Permiso para ejecutar los programas"
+$pol = Get-ExecutionPolicy -Scope CurrentUser
+if ($pol -in @("RemoteSigned","Unrestricted","Bypass")) {
+  Bien "Ya estaba permitido ($pol)"
+} else {
+  try {
+    Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned -Force
+    Bien "Permitido (RemoteSigned, solo para este usuario)"
+    Write-Host "     Sin esto, el comando npm no funciona en una ventana nueva."
+  } catch {
+    Mal "No se pudo dar el permiso"
+    Nota "Ejecuta a mano: Set-ExecutionPolicy -Scope CurrentUser RemoteSigned"
+  }
+}
+
 # -- Git ----------------------------------------------------------------------
 Paso "Git"
 if (Hay "git") {
