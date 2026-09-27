@@ -1,10 +1,24 @@
 # Pendientes de Droguería Xivica
 
-Actualizado el 21/09/2026, comprobando cada punto contra `src/datos/` y no de memoria. Lo
+Actualizado el 26/09/2026, comprobando cada punto contra `src/datos/` y no de memoria. Lo
 tachado ya está resuelto y queda como registro de cómo se resolvió.
 
 ## Ya resuelto
 
+- [x] ~~Dominio y hosting definitivos~~ — `drogueriaxivica.com`, DNS en Namecheap
+      (BasicDNS) apuntando a GitHub Pages, repositorio transferido a la cuenta del
+      cliente (`redesdrogueriaxivica/xivica`). Publicado y con HTTPS activo el 26/09.
+- [x] ~~¿Quién confirma qué productos requieren fórmula médica?~~ — decisión del
+      propietario (25/09): lo marca él mismo, desde `Catalogo-Drogueria-Xivica.xlsx`
+      (columna "¿Requiere fórmula?"). Los 407 productos siguen con `rx` vacío hasta que
+      la revise; el filtro de portada ya está listo para respetarlo en cuanto se llene.
+- [x] ~~Definir la "zona cercana" del domicilio gratis~~ — decisión del propietario
+      (25/09): no se define un radio ni una lista de barrios; se evalúa a mano en cada
+      pedido y se informa el costo por WhatsApp antes de despachar si aplica. Coincide
+      con lo que ya dice `legal.json` → `domicilios`, así que no hizo falta tocar el texto.
+- [x] ~~Revisión de un abogado~~ — los cuatro textos legales (privacidad, tratamiento de
+      datos, términos, domicilios) quedaron validados (25/09).
+- [x] ~~Derechos de uso de las fotos de producto~~ — resuelto, el propietario los tiene.
 - [x] ~~Habilitación sanitaria~~ — una por sede: MS00010200, MS00017993 y MS00001129.
 - [x] ~~Regente de farmacia~~ — **no aplica**: la droguería no vende medicamentos de control
       especial (confirmado por el propietario el 16/09). Ver el punto 1 de "Bloquean" por el

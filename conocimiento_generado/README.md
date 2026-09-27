@@ -19,6 +19,6 @@ Todo lo que hay que saber para trabajar sobre este sitio sin haberlo construido.
 ## Lo más importante, en tres líneas
 
 1. **Todo el texto editable está en `src/datos/`.** Nunca dentro del código.
-2. **El campo de fórmula médica lo llena el regente**, nadie más.
+2. **El campo de fórmula médica lo llena el propio dueño, desde el Excel**, nadie más.
 3. **Si el catálogo está mal escrito, el sitio no se publica** y sigue funcionando la
    versión anterior. Un error de edición no puede tumbar la tienda.

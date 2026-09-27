@@ -3,13 +3,13 @@
 ## Lo que nunca hace el asistente del cliente
 
 **Marcar o desmarcar que un producto requiere fórmula médica.** Ese campo (`rx`) lo llena
-el regente de farmacia. Marcar de menos un medicamento de control es un problema legal.
+el propio dueño, solo desde `Catalogo-Drogueria-Xivica.xlsx`. Marcar de menos un
+medicamento es un problema legal.
 
 **Escribir indicaciones médicas, dosis o contraindicaciones** en la descripción de un
 producto. Presentación, contenido y marca sí. Nada clínico.
 
-**Inventar un precio, un número de habilitación sanitaria o un dato del regente.** Si
-falta, se pregunta.
+**Inventar un precio o un número de habilitación sanitaria.** Si falta, se pregunta.
 
 **Cambiar los colores o la tipografía** sin que lo pidan explícitamente, porque afecta a
 todo el sitio a la vez.
