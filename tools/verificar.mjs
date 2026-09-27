@@ -36,10 +36,8 @@ const REVISIONES = [
 
 function correr({ nombre, comando: [cmd, args], porque }) {
   process.stdout.write(`  ${nombre}... `);
-  const r = spawnSync(cmd, args, {
-    encoding: "utf8",
-    shell: process.platform === "win32",
-  });
+  // Sin shell: en Windows junta los argumentos y parte las rutas con espacios.
+  const r = spawnSync(cmd, args, { encoding: "utf8" });
   const salida = `${r.stdout || ""}${r.stderr || ""}`.trim();
   if (!r.error && r.status === 0) {
     console.log(`${VERDE}bien${FIN}`);

@@ -12,7 +12,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { mkdtemp, readdir, readFile, rm } from "node:fs/promises";
 import { tmpdir } from "node:os";
-import { join } from "node:path";
+import { basename, join } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import sharp from "sharp";
 
@@ -69,7 +69,8 @@ test("genera tres tamaños en WebP con la relación pedida", async () => {
     const salida = join(dir, "img");
     const archivos = await preparar(origen, "fotos/prueba", salida, { relacion: "4:3" });
 
-    const nombres = archivos.map((a) => a.split("/").pop()).sort();
+    // basename, no split("/"): en Windows el separador es "\\".
+    const nombres = archivos.map((a) => basename(a)).sort();
     assert.deepEqual(nombres, ["prueba-1200.webp", "prueba-600.webp", "prueba-900.webp"]);
 
     for (const archivo of archivos) {
@@ -81,7 +82,7 @@ test("genera tres tamaños en WebP con la relación pedida", async () => {
     const grande = await sharp(join(salida, "fotos", "prueba-1200.webp")).metadata();
     assert.equal(grande.width, 1200);
   } finally {
-    await rm(dir, { recursive: true, force: true });
+    await rm(dir, { recursive: true, force: true, maxRetries: 5, retryDelay: 100 });
   }
 });
 
@@ -95,7 +96,7 @@ test("no amplía una foto pequeña", async () => {
       .sort((a, b) => a - b);
     assert.deepEqual(anchos, [600, 900]); // el grande es el original, no 1200 estirado
   } finally {
-    await rm(dir, { recursive: true, force: true });
+    await rm(dir, { recursive: true, force: true, maxRetries: 5, retryDelay: 100 });
   }
 });
 
@@ -108,7 +109,7 @@ test("si el chico casi no se diferencia del grande, no se genera", async () => {
     assert.equal(archivos.length, 1);
     assert.equal(meta.width, 650);
   } finally {
-    await rm(dir, { recursive: true, force: true });
+    await rm(dir, { recursive: true, force: true, maxRetries: 5, retryDelay: 100 });
   }
 });
 
@@ -118,7 +119,7 @@ test("una foto demasiado pequeña se rechaza", async () => {
     const origen = await fotoDePrueba(dir, 500, 500);
     await assert.rejects(preparar(origen, "fotos/minima", join(dir, "img")), /pequeña/);
   } finally {
-    await rm(dir, { recursive: true, force: true });
+    await rm(dir, { recursive: true, force: true, maxRetries: 5, retryDelay: 100 });
   }
 });
 
@@ -135,7 +136,7 @@ test("el recorte en píxeles manda sobre la relación", async () => {
     assert.equal(grande.width, 1000);
     assert.equal(grande.height, 1000);
   } finally {
-    await rm(dir, { recursive: true, force: true });
+    await rm(dir, { recursive: true, force: true, maxRetries: 5, retryDelay: 100 });
   }
 });
 
@@ -150,7 +151,7 @@ test("respeta la orientación de los celulares", async () => {
     const grande = anchos.reduce((m, a) => (a.width > m.width ? a : m));
     assert.ok(grande.height > grande.width);
   } finally {
-    await rm(dir, { recursive: true, force: true });
+    await rm(dir, { recursive: true, force: true, maxRetries: 5, retryDelay: 100 });
   }
 });
 
@@ -164,7 +165,7 @@ test("no deja metadatos de la foto original", async () => {
       assert.ok(!meta.exif, `${archivo} no debería tener exif`);
     }
   } finally {
-    await rm(dir, { recursive: true, force: true });
+    await rm(dir, { recursive: true, force: true, maxRetries: 5, retryDelay: 100 });
   }
 });
 
@@ -176,7 +177,7 @@ test("el origen inexistente es un error claro", async () => {
       /no existe/
     );
   } finally {
-    await rm(dir, { recursive: true, force: true });
+    await rm(dir, { recursive: true, force: true, maxRetries: 5, retryDelay: 100 });
   }
 });
 
@@ -188,7 +189,7 @@ test("crea la carpeta de destino si no existe", async () => {
     const listado = await readdir(join(dir, "img", "fotos", "nueva"));
     assert.ok(listado.length > 0);
   } finally {
-    await rm(dir, { recursive: true, force: true });
+    await rm(dir, { recursive: true, force: true, maxRetries: 5, retryDelay: 100 });
   }
 });
 

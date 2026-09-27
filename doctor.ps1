@@ -126,7 +126,7 @@ if (-not (Hay "git")) {
 } elseif (Test-Path ".git") {
   $remoto = git remote get-url origin 2>$null
   if ($remoto) {
-    Bien "Conectado al lugar donde se publica"
+    Bien "Tiene configurado a donde publicar"
     git ls-remote origin 2>&1 | Out-Null
     if ($LASTEXITCODE -eq 0) {
       Bien "La conexion funciona: se puede publicar"
@@ -135,7 +135,7 @@ if (-not (Hay "git")) {
       Nota "Puede ser falta de internet, o que las credenciales caducaron."
     }
   } else {
-    Mal "El sitio no esta conectado a ningun lugar de publicacion"
+    Mal "No tiene configurado a donde publicar"
   }
 
   $sinGuardar = @(git status --porcelain 2>$null).Count

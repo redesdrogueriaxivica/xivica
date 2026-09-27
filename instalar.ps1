@@ -143,6 +143,31 @@ if ($py -and (Test-Path "tools/requirements.txt")) {
   if ($LASTEXITCODE -eq 0) { Bien "Listas" } else { Ojo "No se pudieron instalar; se reintenta con doctor.ps1" }
 }
 
+# -- La marca de "descargado de internet" -------------------------------------
+# Windows le pone una marca (Zone.Identifier) a todo lo que sale de un .zip
+# descargado. Con la politica en RemoteSigned, esa marca hace que los scripts
+# del sitio se nieguen a correr: "no esta firmado digitalmente". Pasa cada vez
+# que el sitio se descomprime de un zip, aunque la politica este bien puesta.
+Paso "Quitar la marca de descarga"
+try {
+  Get-ChildItem -Path . -Recurse -File -Include *.ps1,*.mjs,*.js,*.py,*.sh `
+    -ErrorAction SilentlyContinue | Unblock-File -ErrorAction SilentlyContinue
+  Bien "Listo"
+} catch {
+  Ojo "No se pudo del todo; si un script se niega a correr, ejecuta:"
+  Write-Host "     Get-ChildItem -Recurse | Unblock-File"
+}
+
+# -- El permiso de ejecutable de los archivos ---------------------------------
+# En Windows el bit de ejecutable no existe, asi que Git ve los .sh como
+# modificados para siempre. Si alguien guarda ese cambio, los .sh dejan de ser
+# ejecutables y la instalacion en Linux se rompe.
+if (Test-Path ".git") {
+  Paso "Ajuste de Git para Windows"
+  git config core.filemode false
+  Bien "Listo (los permisos de archivo no se tienen en cuenta)"
+}
+
 # -- El asistente -------------------------------------------------------------
 Paso "Asistente de terminal"
 $agente = @("opencode","claude","codex") | Where-Object { Hay $_ } | Select-Object -First 1

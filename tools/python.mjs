@@ -40,10 +40,7 @@ const CANDIDATOS = [
 const salida = (r) => `${r.stdout || ""}${r.stderr || ""}`.trim();
 
 function responde(comando, previos, args) {
-  const r = spawnSync(comando, [...previos, ...args], {
-    encoding: "utf8",
-    shell: process.platform === "win32",
-  });
+  const r = spawnSync(comando, [...previos, ...args], { encoding: "utf8" });
   if (r.error || r.status !== 0) return null;
   return salida(r);
 }
@@ -93,10 +90,11 @@ function main(argv) {
   }
 
   const [comando, previos] = encontrado;
-  const resultado = spawnSync(comando, [...previos, ...argv], {
-    stdio: "inherit",
-    shell: process.platform === "win32",
-  });
+  // SIN shell, a proposito. Con `shell: true` Windows junta los argumentos en
+  // una sola linea y la vuelve a interpretar, asi que parte en dos cualquier
+  // ruta con espacios: "C:\\Mis documentos\\x.py" llega como "C:\\Mis".
+  // `py`, `python` y `python3` son ejecutables de verdad y no necesitan shell.
+  const resultado = spawnSync(comando, [...previos, ...argv], { stdio: "inherit" });
   return resultado.status ?? 1;
 }
 
