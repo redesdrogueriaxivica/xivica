@@ -6,7 +6,7 @@
  *   <Foto nombre="fotos/fachada-villa-del-prado" alt="Fachada de…" sizes="330px" />
  *
  * `nombre` es la ruta dentro de public/img SIN extension ni ancho. Las
- * versiones las crea tools/preparar_fotos.py y quedan como
+ * versiones las crea tools/preparar-fotos.mjs y quedan como
  * fotos/fachada-villa-del-prado-600.webp y …-1200.webp.
  *
  * Lo que hace por su cuenta, para que nadie tenga que acordarse:
@@ -49,7 +49,7 @@ const anchos = (fs.existsSync(carpeta) ? fs.readdirSync(carpeta) : [])
 if (anchos.length === 0) {
   throw new Error(
     `[Foto] no existe la foto "${nombre}" en public/img. ` +
-      `Se prepara con: python3 tools/preparar_fotos.py ORIGEN ${nombre}`
+      `Se prepara con: python3 tools/preparar-fotos.mjs ORIGEN ${nombre}`
   );
 }
 

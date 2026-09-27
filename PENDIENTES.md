@@ -67,7 +67,7 @@ tachado ya está resuelto y queda como registro de cómo se resolvió.
 ## Falta material
 
 - [ ] **Fotos de Verbenal** (fachada e interior). En Sedes sale como "Foto de la sede
-      próximamente". Se preparan con `tools/preparar_fotos.py`.
+      próximamente". Se preparan con `tools/preparar-fotos.mjs`.
 - [ ] **Fotos del equipo**, con autorización. El manual pide personas reales (cap. 33).
 - [ ] **Fotos para los banners 2 y 3 del carrusel** (domicilio y fórmula médica). Hoy llevan
       icono. Una foto del domiciliario en moto serviría para el primero.

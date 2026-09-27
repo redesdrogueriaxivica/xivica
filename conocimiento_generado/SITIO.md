@@ -46,7 +46,7 @@ conversación de WhatsApp, que es como ya trabaja la droguería.
 | **Volver a comprar** | Sus pedidos anteriores, para repetirlos |
 | **Legales** | Privacidad, tratamiento de datos y términos |
 
-Son **427 páginas en total**, porque cada producto tiene la suya. Eso es lo que permite
+Son **428 páginas en total**, porque cada producto tiene la suya. Eso es lo que permite
 que alguien que busca un medicamento en Google llegue directo a ese producto.
 
 ## Lo que hay que saber antes de tocar nada

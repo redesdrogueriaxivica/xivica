@@ -4,7 +4,7 @@
 
 | Qué | Versión | Para qué |
 |---|---|---|
-| Astro | 7 | Genera las 427 páginas HTML |
+| Astro | 7 | Genera las 428 páginas HTML |
 | Tailwind CSS | 4 | Sistema de estilos, usado solo para los tokens de color |
 | sharp | 0.35 | Lee las medidas de cada foto al compilar (Foto.astro), y recorta y optimiza las que se agregan (tools/preparar-fotos.mjs) |
 | Manrope e Inter | variables | Tipografías oficiales del manual, guardadas en `public/fonts/` |
@@ -65,11 +65,10 @@ publicado no necesita Python.
 
 | Herramienta | Qué hace |
 |---|---|
+| `python.mjs` | Encuentra el Python del equipo. **Todo lo de Python pasa por aquí**, porque el comando no se llama igual en Windows que en Linux |
 | `validar.py` | Revisa que el catálogo esté bien antes de publicar |
-| `revisar-css.py` | Comprueba que no se use un color que no existe |
-| `normalizar.py` | Convirtió el catálogo viejo al formato nuevo. Ya se usó |
-| `enriquecer.py` | Dedujo presentación, marca y tipo de cada producto. Ya se usó |
-| `preparar-imagenes.py` | Copió y optimizó las fotos de los productos. Ya se usó |
+| `excel_catalogo.py` | El puente con la planilla del dueño: `revisar` antes y `aplicar` solo si está limpia |
+| `revisar-css.py` | Comprueba que no se use un color que no existe. **Correrla después de tocar estilos**: un `var(--color)` mal escrito no da error, simplemente deja de verse |
 | `preparar-fotos.mjs` | **Se sigue usando.** Recorta y optimiza las fotos de sedes, portada y Nosotros. En Node, no en Python: funciona igual en Windows |
 
 ## Rendimiento medido

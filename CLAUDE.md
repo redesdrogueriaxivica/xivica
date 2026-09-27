@@ -77,6 +77,16 @@ que se atreva a pedir cambios.
 **4. Respeta la marca.** Los colores y tipografías vienen de un manual autorizado. No los
 cambies sin que lo pida explícitamente, y avísale que afecta a todo el sitio.
 
+**Si tocas estilos o creas una sección nueva, revisa los colores:**
+
+```
+node tools/python.mjs tools/revisar-css.py
+```
+
+Un `var(--color)` mal escrito **no da ningún error**: el borde o el texto simplemente
+dejan de verse y nadie se entera hasta que alguien mira la página con atención. Ya pasó
+una vez, con 31 usos de una variable que no existía.
+
 ## El dueño trabaja en Windows
 
 Este sitio se construyó en Linux pero **vive en un equipo con Windows**. Dos consecuencias
