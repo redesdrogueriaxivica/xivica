@@ -7,7 +7,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "test": "node --test \"src/scripts/*.test.js\" \"tools/*.test.mjs\" && node tools/python.mjs -m unittest discover tools",
+    "test": "node --test --test-timeout=60000 \"src/scripts/*.test.js\" \"tools/*.test.mjs\" && node tools/python.mjs -m unittest discover tools",
     "validar": "node tools/python.mjs tools/validar.py src/datos/productos.json public/img",
     "verificar": "node tools/verificar.mjs"
   },

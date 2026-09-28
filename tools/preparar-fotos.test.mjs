@@ -16,6 +16,30 @@ import { basename, join } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import sharp from "sharp";
 
+// sharp guarda en cache los archivos que abre. En Windows eso los deja
+// tomados, y borrar la carpeta temporal da EBUSY. Apagar el cache los suelta.
+// Es solo para las pruebas: en la herramienta de verdad el cache ayuda y el
+// proceso termina enseguida.
+sharp.cache(false);
+
+/**
+ * Borra la carpeta temporal sin que la prueba dependa de ello.
+ *
+ * Limpiar NO es lo que se esta probando. Si Windows todavia tiene un archivo
+ * tomado, se deja y el sistema lo limpia solo: es preferible a que la prueba
+ * falle —o peor, a que se quede colgada— por algo que no importa.
+ *
+ * Aqui estuvo un `rm` con maxRetries que convirtio un EBUSY rapido y visible
+ * en un cuelgue indefinido. Un fallo lento es peor que uno rapido.
+ */
+async function limpiar(dir) {
+  try {
+    await rm(dir, { recursive: true, force: true });
+  } catch {
+    // Da igual: es una carpeta temporal.
+  }
+}
+
 import { cajaDeRecorte, preparar } from "./preparar-fotos.mjs";
 
 async function fotoDePrueba(carpeta, ancho, alto, { orientacion, nombre = "origen.jpg" } = {}) {
@@ -82,7 +106,7 @@ test("genera tres tamaños en WebP con la relación pedida", async () => {
     const grande = await sharp(join(salida, "fotos", "prueba-1200.webp")).metadata();
     assert.equal(grande.width, 1200);
   } finally {
-    await rm(dir, { recursive: true, force: true, maxRetries: 5, retryDelay: 100 });
+    await limpiar(dir);
   }
 });
 
@@ -96,7 +120,7 @@ test("no amplía una foto pequeña", async () => {
       .sort((a, b) => a - b);
     assert.deepEqual(anchos, [600, 900]); // el grande es el original, no 1200 estirado
   } finally {
-    await rm(dir, { recursive: true, force: true, maxRetries: 5, retryDelay: 100 });
+    await limpiar(dir);
   }
 });
 
@@ -109,7 +133,7 @@ test("si el chico casi no se diferencia del grande, no se genera", async () => {
     assert.equal(archivos.length, 1);
     assert.equal(meta.width, 650);
   } finally {
-    await rm(dir, { recursive: true, force: true, maxRetries: 5, retryDelay: 100 });
+    await limpiar(dir);
   }
 });
 
@@ -119,7 +143,7 @@ test("una foto demasiado pequeña se rechaza", async () => {
     const origen = await fotoDePrueba(dir, 500, 500);
     await assert.rejects(preparar(origen, "fotos/minima", join(dir, "img")), /pequeña/);
   } finally {
-    await rm(dir, { recursive: true, force: true, maxRetries: 5, retryDelay: 100 });
+    await limpiar(dir);
   }
 });
 
@@ -136,7 +160,7 @@ test("el recorte en píxeles manda sobre la relación", async () => {
     assert.equal(grande.width, 1000);
     assert.equal(grande.height, 1000);
   } finally {
-    await rm(dir, { recursive: true, force: true, maxRetries: 5, retryDelay: 100 });
+    await limpiar(dir);
   }
 });
 
@@ -151,7 +175,7 @@ test("respeta la orientación de los celulares", async () => {
     const grande = anchos.reduce((m, a) => (a.width > m.width ? a : m));
     assert.ok(grande.height > grande.width);
   } finally {
-    await rm(dir, { recursive: true, force: true, maxRetries: 5, retryDelay: 100 });
+    await limpiar(dir);
   }
 });
 
@@ -165,7 +189,7 @@ test("no deja metadatos de la foto original", async () => {
       assert.ok(!meta.exif, `${archivo} no debería tener exif`);
     }
   } finally {
-    await rm(dir, { recursive: true, force: true, maxRetries: 5, retryDelay: 100 });
+    await limpiar(dir);
   }
 });
 
@@ -177,7 +201,7 @@ test("el origen inexistente es un error claro", async () => {
       /no existe/
     );
   } finally {
-    await rm(dir, { recursive: true, force: true, maxRetries: 5, retryDelay: 100 });
+    await limpiar(dir);
   }
 });
 
@@ -189,7 +213,7 @@ test("crea la carpeta de destino si no existe", async () => {
     const listado = await readdir(join(dir, "img", "fotos", "nueva"));
     assert.ok(listado.length > 0);
   } finally {
-    await rm(dir, { recursive: true, force: true, maxRetries: 5, retryDelay: 100 });
+    await limpiar(dir);
   }
 });
 
@@ -212,3 +236,20 @@ test("pathToFileURL resuelve igual la ruta de cada sistema", () => {
   const ruta = fileURLToPath(new URL("preparar-fotos.mjs", import.meta.url));
   assert.equal(pathToFileURL(ruta).href, new URL("preparar-fotos.mjs", import.meta.url).href);
 });
+
+// --- Red de seguridad -------------------------------------------------------
+
+test("el borrado de temporales no reintenta: en Windows se cuelga", async () => {
+  const fuente = await readFile(new URL("preparar-fotos.test.mjs", import.meta.url), "utf8");
+  const enPruebas = fuente.split("// --- Red de seguridad")[0];
+  // Se busca la opcion escrita en codigo (`maxRetries:`), no la palabra:
+  // el comentario de limpiar() la menciona a proposito para explicar por que
+  // no esta.
+  assert.doesNotMatch(
+    enPruebas,
+    /maxRetries\s*:/,
+    "volvio el rm con reintentos: con un archivo tomado por sharp no falla, se cuelga"
+  );
+  assert.match(enPruebas, /sharp\.cache\(false\)/, "falta apagar el cache de sharp");
+});
+

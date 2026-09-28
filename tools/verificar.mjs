@@ -18,7 +18,11 @@ const VERDE = "\x1b[32m", ROJO = "\x1b[31m", GRIS = "\x1b[90m", FIN = "\x1b[0m";
 const REVISIONES = [
   {
     nombre: "Las pruebas del sitio",
-    comando: ["node", ["--test", "src/scripts/*.test.js", "tools/*.test.mjs"]],
+    // Con tiempo limite: una prueba colgada debe fallar, no dejar al
+    // cliente mirando una pantalla quieta. Paso en Windows, con un borrado
+    // que reintentaba sobre un archivo que sharp tenia tomado.
+    comando: ["node", ["--test", "--test-timeout=60000",
+                       "src/scripts/*.test.js", "tools/*.test.mjs"]],
     porque: "Comprueban el buscador, el carrito y las fotos.",
   },
   {
