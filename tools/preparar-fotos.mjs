@@ -239,9 +239,14 @@ async function main(argv) {
   const [origen, ...resto0] = argv;
   let [nombre, ...resto] = resto0;
   if (!origen || !nombre) {
+    // La ayuda muestra los dos modos: quien la pide no sabe cual necesita.
     console.log(
-      "Uso: node tools/preparar-fotos.mjs ORIGEN NOMBRE [--relacion 4:3] " +
-        "[--centro 0.5,0.5] [--recorte x0,y0,x1,y1]"
+      "Fotos del sitio (fachadas, portada, Nosotros) — tres tamanos con recorte:\n" +
+        "  node tools/preparar-fotos.mjs ORIGEN NOMBRE [--relacion 4:3] " +
+        "[--centro 0.5,0.5] [--recorte x0,y0,x1,y1]\n\n" +
+        "Fotos de PRODUCTO del catalogo — cuadrada, un solo archivo:\n" +
+        "  node tools/preparar-fotos.mjs --producto ORIGEN NOMBRE\n" +
+        "  node tools/preparar-fotos.mjs --producto --lote CARPETA"
     );
     return 1;
   }

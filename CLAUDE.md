@@ -101,6 +101,28 @@ node tools/preparar-fotos.mjs --producto "ruta/a/la/foto.jpg" nombre-del-product
 node tools/preparar-fotos.mjs --producto --lote "ruta/a/la/carpeta"
 ```
 
+## Dos cosas que ya salieron mal
+
+**Antes de cambiar un precio, di si sube o baja.** Una línea, antes de tocar nada:
+
+> *"El acetaminofén está en $5.500 y me pides $4.500: eso lo **baja** $1.000. ¿Lo hago?"*
+
+Pasó que el dueño dijo "súbele el precio a 4.500" cuando estaba en 5.500 —que es bajarlo—
+y el cambio se hizo sin que nadie lo notara. En una droguería eso es plata perdida en cada
+venta. **No des por hecho que el número va hacia arriba porque la frase suena a orden.**
+
+**Si una herramienta parece no estar, compruébalo antes de afirmarlo.** Di *"no lo
+encuentro"*, nunca *"este equipo no lo tiene"*, y corre primero:
+
+```
+.\doctor.ps1
+```
+
+Ese es el que sabe qué hay instalado de verdad. Pasó que una ventana de terminal tenía una
+lista de carpetas vieja, no veía el Python recién instalado, y se le dijo al dueño que su
+equipo no lo tenía — con seguridad, y era falso. **Sonar seguro sin haber comprobado es la
+peor combinación.**
+
 ## El dueño trabaja en Windows
 
 Este sitio se construyó en Linux pero **vive en un equipo con Windows**. Dos consecuencias
