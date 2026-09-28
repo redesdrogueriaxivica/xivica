@@ -287,6 +287,19 @@ Si algún día dejas de trabajar con emp2web, **tu sitio se va contigo, completo
 
 **Lo que se cobra aparte:** soporte después de los 30 días, rediseños y funciones nuevas.
 
+## Tu asistente no depende de una sola empresa
+
+El asistente usa un modelo de inteligencia artificial para entenderte, y **ese modelo se
+puede cambiar cuando quieras**. Hay varios gratuitos disponibles, y si algún día prefieres
+uno de pago (como los de ChatGPT o Claude) se conecta y listo.
+
+**Las instrucciones de tu sitio viven en tu carpeta, no en la IA.** Por eso, si un modelo
+deja de servir, se cambia por otro y tu página sigue igual. No quedas amarrado a nadie.
+
+Si notas que el asistente empieza a portarse raro —que publica sin preguntarte, que no te
+avisa cuando un precio baja— **avísale a emp2web**: probablemente haya que cambiarle el
+modelo.
+
 **Contacto:** 302 552 6058 · ayuda@emp2web.com
 
 ---

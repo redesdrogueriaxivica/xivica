@@ -53,3 +53,45 @@ inventario de la droguería, mudar el hosting o cambiar el dominio.
 - El validador del catálogo da un error que no se entiende
 - Aparece un aviso de seguridad o de certificado
 - Hay que escribir una contraseña para continuar
+
+## El asistente es reemplazable, y eso es a propósito
+
+**Ningún modelo de IA es parte del sitio.** Las instrucciones viven en `AGENTS.md` y
+`CLAUDE.md`, en la raíz del proyecto, así que **cualquier agente que abra esta carpeta las
+recibe**: opencode, Claude Code o Codex.
+
+Y dentro de opencode se puede cambiar de modelo cuando se quiera: hay varios gratuitos, y
+quien prefiera pagar puede conectar el suyo. **Si uno desaparece o se degrada, se cambia
+por otro y el sitio no se entera.**
+
+Eso es lo que evita que la promesa de "ya no dependes de un programador" se convierta en
+"ahora dependes de una empresa de IA".
+
+### Pero el modelo sí cambia cómo se porta el asistente
+
+Un modelo más flojo sigue las reglas de `AGENTS.md` con menos rigor. Conviene saber qué
+protege qué:
+
+| Qué lo protege | De qué |
+|---|---|
+| **El validador y la compuerta de publicación** | De que el sitio se rompa. **Esto no depende del modelo**: si el catálogo queda mal, no se publica, use el agente que use |
+| **`AGENTS.md`** | De que el asistente se porte mal: publicar sin preguntar, tocar el campo regulado, no avisar de que un precio baja. **Esto sí depende del modelo** |
+
+**La frontera, en una frase:** la compuerta impide que el sitio quede roto, pero **no
+impide un dato equivocado que sea válido.** Un precio de $4.500 donde debía ir $5.500 pasa
+todas las revisiones: es un número entero, positivo y coherente. Contra eso solo está el
+criterio del asistente y el ojo del dueño.
+
+Pasó en la prueba de entrega, con un modelo capaz. Por eso la regla de confirmar si un
+precio sube o baja está en `AGENTS.md`, y por eso **la aprobación del dueño antes de
+publicar no es un trámite.**
+
+### Al cambiar de modelo
+
+Pedirle un cambio pequeño y comprobar tres cosas antes de confiarle el catálogo:
+
+1. ¿Muestra antes de publicar y **espera** la aprobación?
+2. ¿Avisa si un precio baja cuando le dijeron "sube"?
+3. ¿Se niega a tocar el campo de fórmula médica si se lo piden en la conversación?
+
+Si falla alguna, ese modelo no sirve para este sitio.
