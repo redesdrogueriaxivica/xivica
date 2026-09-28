@@ -133,9 +133,9 @@ sin precio anterior: mostrar una oferta que no existe sería publicidad engaños
 
 ## 8. Lo que falta se muestra marcado, no se inventa
 
-Los datos que la droguería todavía no ha entregado —habilitación sanitaria, regente
-responsable, horarios de las sedes— aparecen **resaltados en amarillo en el pie del
-sitio**.
+Cualquier dato que la droguería no haya entregado aparece **resaltado en amarillo en el
+pie del sitio**. Hoy no hay ninguno: la habilitación sanitaria de las tres sedes, el NIT y
+los horarios están cargados y confirmados por el propietario.
 
 Es incómodo a propósito. La alternativa era ocultarlos o poner algo verosímil, y las dos
 terminan en un sitio publicado con datos legales falsos.

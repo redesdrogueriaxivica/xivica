@@ -38,9 +38,8 @@ tachado ya está resuelto y queda como registro de cómo se resolvió.
 
 1. **¿Quién confirma qué productos requieren fórmula médica?** Hoy los 407 están sin marcar
    (`rx` vacío) y la regla que mantiene esos productos fuera de la portada no protege nada.
-   **`AGENTS.md` sigue diciendo que lo decide "el regente", y ya no hay regente.** El agente
-   del cliente no tiene a quién obedecer en ese punto. Decisión del propietario: quién lo
-   confirma (¿él mismo?), y revisar con él la lista. Ojo: "no vendemos medicamentos de control"
+   `AGENTS.md` ya dice que lo llena el propio dueño desde la planilla, no un regente.
+   Falta lo de fondo: **que el propietario revise la lista y marque cuáles la requieren.** Ojo: "no vendemos medicamentos de control"
    no significa "ninguno requiere fórmula": un antibiótico la requiere aunque no sea de control.
 2. **Definir la "zona cercana" del domicilio gratis.** Los términos (`/legal/domicilios`) dicen
    que en la zona cercana el domicilio es gratis "sin importar el valor del pedido", pero no

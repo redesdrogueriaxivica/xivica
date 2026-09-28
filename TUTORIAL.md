@@ -2,6 +2,29 @@
 
 Para el día a día. Todo se le pide al asistente en lenguaje normal.
 
+---
+
+## Lo primero que debes saber
+
+> **No le puedes hacer daño. Todo se puede devolver.**
+
+Cada cambio queda guardado. Si algo no te gusta —hoy, mañana o el mes que viene— le dices
+que lo devuelva y vuelve como estaba. Por eso puedes probar con confianza.
+
+## Cómo abrirlo
+
+1. Abre la **terminal** (el programa negro donde se escriben comandos)
+2. Escribe esto y pulsa Enter:
+
+```
+cd C:\sitios\xivica
+opencode
+```
+
+Ya está. Ahora escríbele lo que quieras, como le escribirías a una persona.
+
+---
+
 ## Lo que puedes pedir
 
 **Precios y productos**
@@ -35,28 +58,41 @@ después de publicado, se pide "devuélvelo como estaba".
 
 ## Lo que el asistente no va a hacer, y por qué
 
-**No marca qué medicamentos requieren fórmula médica.** Eso lo define el regente de
-farmacia. Es un tema legal, no de la página.
-
 **No escribe para qué sirve un medicamento**, ni dosis ni contraindicaciones. Si quieres
-poner esa información, la redacta el regente y el asistente la copia tal cual.
+poner esa información, la redactas tú y el asistente la copia tal cual.
 
-**No inventa precios.** Si no sabe uno, lo pregunta.
+**No inventa precios ni datos.** Si no sabe uno, lo pregunta.
+
+**No cambia los colores ni la tipografía** sin que se lo pidas: vienen del manual de marca.
+
+**No publica sin tu aprobación.** Nunca.
 
 ## Lo que todavía falta
 
-El sitio está funcionando, pero hay datos pendientes que se muestran resaltados en
-amarillo en el pie de la página:
+Nada impide usar el sitio. Lo que queda es material que mejoraría lo que ya hay:
 
-- El número de habilitación sanitaria
-- El nombre del regente de farmacia responsable
-- El NIT
-- Los horarios de cada sede
-- **Cuáles de los 407 productos requieren fórmula médica**
+- **Fotos de la sede de Verbenal** (fachada e interior). Hoy sale con una imagen provisional
+- **Fotos del equipo**, con su autorización
+- **Los enlaces de Facebook, Instagram y TikTok.** Los iconos están, pero no llevan a ningún
+  lado hasta que nos pases las direcciones
+- **Elegir los 8 productos destacados** de la portada. Los de ahora son de ejemplo
 
-Ese último es el más importante y solo lo puede resolver el regente.
+Cuando tengas cualquiera de esas cosas, se las pasas al asistente y él las pone.
 
 ## Si algo se ve raro
 
-Recarga con **Ctrl+F5**. Si sigue igual, escríbele a emp2web al **302 552 6058** o a
-**ayuda@emp2web.com** contando qué esperabas ver y qué viste.
+**Primero recarga con Ctrl+F5.** Muchas veces es solo que tu navegador guardó la versión
+vieja.
+
+Si sigue igual, abre la terminal en la carpeta del sitio y escribe:
+
+```
+.\doctor.ps1
+```
+
+Te dice en palabras claras si algo está mal y qué falta. **Si sale algo en rojo, mándale esa
+pantalla completa a emp2web** — con eso se resuelve en minutos lo que por teléfono toma
+horas.
+
+Y si necesitas ayuda: **302 552 6058** o **ayuda@emp2web.com**, contando qué esperabas ver
+y qué viste.

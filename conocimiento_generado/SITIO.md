@@ -52,7 +52,9 @@ que alguien que busca un medicamento en Google llegue directo a ese producto.
 ## Lo que hay que saber antes de tocar nada
 
 - Los precios se guardan como números, no como texto. Ver `REGLAS-DEL-CATALOGO.md`.
-- Ningún producto está marcado como que requiere fórmula médica: falta que lo revise el
-  regente de farmacia. Es el pendiente más importante del sitio.
-- Faltan datos legales (habilitación sanitaria, regente, NIT) y se muestran resaltados en
-  amarillo en el pie hasta que lleguen.
+- Ningún producto está marcado como que requiere fórmula médica (`rx` vacío en los 407).
+  La droguería no vende medicamentos de control, pero **eso no significa que ninguno
+  requiera fórmula**: un antibiótico la requiere aunque no sea de control. Falta decidir
+  con el propietario quién lo confirma. Es el pendiente más importante del sitio.
+- Los datos legales (habilitación sanitaria de las tres sedes, NIT, horarios) **ya están
+  cargados** y se ven en el pie.
