@@ -2,6 +2,10 @@
 
 Para el día a día. Todo se le pide al asistente en lenguaje normal.
 
+> **¿Buscas algo que no está aquí?** El **`MANUAL.md`** lo explica todo con calma: la
+> planilla de Excel, las reglas de la página, qué incluye tu servicio y qué hacer si algo
+> falla. Esta guía es el resumen; ese es el manual completo.
+
 ---
 
 ## Lo primero que debes saber
@@ -13,15 +17,11 @@ que lo devuelva y vuelve como estaba. Por eso puedes probar con confianza.
 
 ## Cómo abrirlo
 
-1. Abre la **terminal** (el programa negro donde se escriben comandos)
-2. Escribe esto y pulsa Enter:
+**Tu asistente ya quedó instalado y abierto en tu computador.** Solo escríbele lo que
+quieras, como le escribirías a una persona.
 
-```
-cd C:\sitios\xivica
-opencode
-```
-
-Ya está. Ahora escríbele lo que quieras, como le escribirías a una persona.
+Si alguna vez se cierra, lo vuelves a abrir con el acceso directo del escritorio. Si no
+aparece, escríbele a emp2web al **302 552 6058** y te ayudan a dejarlo otra vez.
 
 ---
 
