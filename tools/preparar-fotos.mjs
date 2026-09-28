@@ -5,6 +5,12 @@
  *   node tools/preparar-fotos.mjs ORIGEN NOMBRE [--relacion 4:3] [--centro 0.5,0.3]
  *                                              [--recorte x0,y0,x1,y1]
  *
+ * Para las fotos de PRODUCTO del catalogo, que son cuadradas y de un solo
+ * tamano:
+ *
+ *   node tools/preparar-fotos.mjs --producto ORIGEN NOMBRE
+ *   node tools/preparar-fotos.mjs --producto --lote CARPETA
+ *
  *   ORIGEN   la foto tal como llega (JPG, PNG, la que mande el cliente por WhatsApp)
  *   NOMBRE   dónde queda dentro de public/img, sin extensión. Por ejemplo
  *            fotos/fachada-tejares-del-norte
@@ -38,6 +44,10 @@ import sharp from "sharp";
 const ANCHOS = [600, 900, 1200];
 const ANCHO_MINIMO = 600;
 const CALIDAD = 80;
+
+// Las fotos de producto son cuadradas y de un solo tamano: en la grilla se ven
+// a ~330 px y en la ficha a ~600. Con 600 alcanza para las dos.
+const ANCHO_PRODUCTO = 600;
 
 // Carpeta de imágenes del sitio, relativa a la raíz del proyecto.
 const RAIZ = dirname(dirname(fileURLToPath(import.meta.url)));
@@ -146,7 +156,86 @@ export async function preparar(origen, nombre, destino = CARPETA_IMG, opciones =
   return archivos;
 }
 
+/**
+ * Una foto de PRODUCTO: cuadrada, un solo archivo, con el nombre exacto que
+ * lleva el catalogo.
+ *
+ * Los productos no usan srcset como las fotos del sitio: son imagenes chicas
+ * en una grilla, y el catalogo las nombra con un solo archivo
+ * ("acetaminofen.webp"). Generar tres tamanos aqui rompería ese modelo.
+ */
+export async function prepararProducto(origen, nombre, destino = CARPETA_IMG) {
+  if (!existsSync(origen)) throw new Error(`La foto '${origen}' no existe.`);
+
+  const base = basename(nombre).replace(/\.webp$/i, "");
+  await mkdir(destino, { recursive: true });
+  const archivo = join(destino, `${base}.webp`);
+
+  await sharp(origen)
+    .rotate()  // endereza lo que venga girado del celular
+    .resize({
+      width: ANCHO_PRODUCTO,
+      height: ANCHO_PRODUCTO,
+      fit: "contain",           // cabe entera: un producto no se recorta
+      background: { r: 255, g: 255, b: 255, alpha: 1 },
+    })
+    .webp({ quality: CALIDAD, effort: 6 })
+    .toFile(archivo);
+
+  return archivo;
+}
+
+/** Todas las fotos de una carpeta, de una sola vez. */
+export async function prepararLote(carpeta, destino = CARPETA_IMG) {
+  const entradas = await readdir(carpeta, { withFileTypes: true });
+  const fotos = entradas
+    .filter((e) => e.isFile() && /\.(jpe?g|png|webp|gif|tiff?|avif)$/i.test(e.name))
+    .map((e) => e.name);
+
+  const hechos = [];
+  for (const foto of fotos) {
+    const nombre = foto.replace(/\.[^.]+$/, "");
+    hechos.push(await prepararProducto(join(carpeta, foto), nombre, destino));
+  }
+  return hechos;
+}
+
 async function main(argv) {
+  // Modo producto: cuadrado, un solo archivo. Separado del modo normal porque
+  // las fotos del sitio y las del catalogo tienen modelos distintos.
+  if (argv[0] === "--producto") {
+    const resto = argv.slice(1);
+    try {
+      if (resto[0] === "--lote") {
+        const carpeta = resto[1];
+        if (!carpeta) { console.log("Uso: --producto --lote CARPETA"); return 1; }
+        const hechos = await prepararLote(carpeta);
+        if (hechos.length === 0) { console.log("No encontre fotos en esa carpeta."); return 1; }
+        for (const archivo of hechos) {
+          const kb = Math.round((await sharp(archivo).toBuffer()).length / 1024);
+          console.log(`  ${relative(CARPETA_IMG, archivo)}  ${kb} KB`);
+        }
+        console.log(`\n${hechos.length} foto(s) listas. En el catalogo van en "imagenes".`);
+        return 0;
+      }
+      const [origen, nombre] = resto;
+      if (!origen || !nombre) {
+        console.log("Uso: node tools/preparar-fotos.mjs --producto ORIGEN NOMBRE");
+        console.log("     node tools/preparar-fotos.mjs --producto --lote CARPETA");
+        return 1;
+      }
+      const archivo = await prepararProducto(origen, nombre.replace(/\\/g, "/"));
+      const meta = await sharp(archivo).metadata();
+      const kb = Math.round((await sharp(archivo).toBuffer()).length / 1024);
+      console.log(`  ${relative(CARPETA_IMG, archivo)}  ${meta.width}x${meta.height}  ${kb} KB`);
+      console.log(`\nEn el catalogo va como  "imagenes": ["${basename(archivo)}"]`);
+      return 0;
+    } catch (error) {
+      console.log(`No se pudo preparar la foto: ${error.message}`);
+      return 1;
+    }
+  }
+
   const [origen, ...resto0] = argv;
   let [nombre, ...resto] = resto0;
   if (!origen || !nombre) {
@@ -192,6 +281,6 @@ async function main(argv) {
 // En Windows argv[1] es "C:\\sitios\\..." y import.meta.url es
 // "file:///C:/sitios/...": la comparacion de texto nunca coincide y el script
 // se cierra sin hacer nada y sin decir por que. Probado en preparar-fotos.test.mjs.
-if (import.meta.url === pathToFileURL(process.argv[1]).href) {
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   main(process.argv.slice(2)).then((codigo) => process.exit(codigo));
 }

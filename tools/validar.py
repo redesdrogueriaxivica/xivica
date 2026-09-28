@@ -28,6 +28,12 @@ SLUG_VALIDO = re.compile(r"^[a-z0-9-]+$")
 # drogueria vende algo mas caro, se sube este numero.
 PRECIO_MAXIMO = 3_000_000
 
+# Tope de peso de una foto de producto. Las del catalogo pesan entre 1 y 23 KB;
+# 150 KB deja muchisimo margen y aun asi atrapa lo que de verdad importa: la
+# foto recien sacada de WhatsApp, de varios megas, que haria lenta la pagina
+# sin que nadie se entere. Se publica igual de bien y nadie mira el peso.
+IMAGEN_MAXIMA_KB = 150
+
 # Campos que solo admiten verdadero o falso. Escribirlos entre comillas
 # ("true", "si", "no") no da error en ninguna parte: el sitio simplemente
 # los lee mal. Con rx eso significa sacar un medicamento de control a la
@@ -215,8 +221,28 @@ def validar(productos, carpeta_imagenes=None, categorias=None):
             errores.append(f"{quien}: necesita al menos una imagen")
         elif carpeta_imagenes:
             for imagen in imagenes:
-                if not (Path(carpeta_imagenes) / imagen).exists():
+                ruta = Path(carpeta_imagenes) / imagen
+                if not ruta.exists():
                     errores.append(f"{quien}: la imagen '{imagen}' no existe en la carpeta")
+                    continue
+                # El formato y el peso: una foto sin preparar se publica igual
+                # de bien, y el sitio se vuelve lento producto a producto sin
+                # que nadie lo note.
+                if ruta.suffix.lower() != ".webp":
+                    errores.append(
+                        f"{quien}: la imagen '{imagen}' no esta en formato webp. "
+                        f"Se prepara con: node tools/preparar-fotos.mjs --producto "
+                        f"\"{imagen}\" {ruta.stem}"
+                    )
+                    continue
+                kb = ruta.stat().st_size / 1024
+                if kb > IMAGEN_MAXIMA_KB:
+                    errores.append(
+                        f"{quien}: la imagen '{imagen}' pesa {kb:.0f} KB y el maximo es "
+                        f"{IMAGEN_MAXIMA_KB} KB. Una foto asi hace lenta la pagina en "
+                        f"celular. Se arregla con: node tools/preparar-fotos.mjs "
+                        f"--producto ORIGEN {ruta.stem}"
+                    )
 
     return errores
 

@@ -40,7 +40,7 @@ async function limpiar(dir) {
   }
 }
 
-import { cajaDeRecorte, preparar } from "./preparar-fotos.mjs";
+import { cajaDeRecorte, preparar, prepararProducto, prepararLote } from "./preparar-fotos.mjs";
 
 async function fotoDePrueba(carpeta, ancho, alto, { orientacion, nombre = "origen.jpg" } = {}) {
   const ruta = join(carpeta, nombre);
@@ -235,6 +235,57 @@ test("pathToFileURL resuelve igual la ruta de cada sistema", () => {
   // En POSIX se comprueba de verdad; la forma de Windows se documenta arriba.
   const ruta = fileURLToPath(new URL("preparar-fotos.mjs", import.meta.url));
   assert.equal(pathToFileURL(ruta).href, new URL("preparar-fotos.mjs", import.meta.url).href);
+});
+
+// --- Fotos de producto ------------------------------------------------------
+// Las del catalogo son cuadradas y de un solo archivo: el JSON las nombra
+// "acetaminofen.webp", sin sufijo de ancho. Generar tres tamanos romperia eso.
+
+test("una foto de producto queda cuadrada, en webp y bajo el tope", async () => {
+  const dir = await mkdtemp(join(tmpdir(), "producto-"));
+  try {
+    const origen = await fotoDePrueba(dir, 1800, 1400);
+    const archivo = await prepararProducto(origen, "jabon", join(dir, "img"));
+
+    assert.equal(basename(archivo), "jabon.webp", "un solo archivo, sin sufijo de ancho");
+    const meta = await sharp(archivo).metadata();
+    assert.equal(meta.format, "webp");
+    assert.equal(meta.width, 600);
+    assert.equal(meta.height, 600, "cuadrada: la grilla del catalogo lo es");
+
+    const kb = (await readdir(join(dir, "img"))).length && (await sharp(archivo).toBuffer()).length / 1024;
+    assert.ok(kb < 150, `pesa ${kb.toFixed(0)} KB y el validador rechaza sobre 150`);
+  } finally {
+    await limpiar(dir);
+  }
+});
+
+test("el producto no se recorta: cabe entero, con fondo", async () => {
+  // Un producto recortado pierde el envase o el nombre. Se prefiere fondo.
+  const dir = await mkdtemp(join(tmpdir(), "producto-"));
+  try {
+    const origen = await fotoDePrueba(dir, 2000, 800); // muy apaisada
+    const archivo = await prepararProducto(origen, "alargado", join(dir, "img"));
+    const meta = await sharp(archivo).metadata();
+    assert.equal(meta.width, 600);
+    assert.equal(meta.height, 600);
+  } finally {
+    await limpiar(dir);
+  }
+});
+
+test("el lote prepara una carpeta entera y respeta los nombres", async () => {
+  const dir = await mkdtemp(join(tmpdir(), "lote-"));
+  try {
+    for (const n of ["crema.jpg", "shampoo.jpg"]) {
+      await fotoDePrueba(dir, 900, 900, { nombre: n });
+    }
+    const hechos = await prepararLote(dir, join(dir, "img"));
+    assert.equal(hechos.length, 2);
+    assert.deepEqual(hechos.map((a) => basename(a)).sort(), ["crema.webp", "shampoo.webp"]);
+  } finally {
+    await limpiar(dir);
+  }
 });
 
 // --- Red de seguridad -------------------------------------------------------

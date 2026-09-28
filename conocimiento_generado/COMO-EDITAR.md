@@ -88,8 +88,23 @@ Copiar un producto parecido del archivo y cambiarle los datos. Los campos obliga
 El `slug` es la dirección del producto en internet: tiene que ser **único**, en minúsculas,
 sin tildes y con guiones en vez de espacios.
 
-La foto debe estar guardada en `public/img/` con ese mismo nombre, o el sitio no se
-publica.
+**La foto hay que prepararla antes.** Una foto de celular pesa varios megas y haría lenta
+la página en datos móviles; el sitio no se publica si está sin preparar. Se hace así:
+
+```
+node tools/preparar-fotos.mjs --producto "C:\ruta\a\la\foto.jpg" nombre-del-producto
+```
+
+Deja un archivo `nombre-del-producto.webp` en `public/img/`, cuadrado y de unos 15 KB, y
+te dice cómo se escribe en el campo `imagenes`. El producto sale entero, sin recortar.
+
+**Si llegan muchas de un proveedor**, todas de una vez:
+
+```
+node tools/preparar-fotos.mjs --producto --lote "C:\ruta\a\la\carpeta"
+```
+
+Cada archivo conserva su nombre: `crema-manos.jpg` queda como `crema-manos.webp`.
 
 ---
 

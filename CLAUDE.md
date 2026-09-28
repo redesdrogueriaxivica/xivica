@@ -93,6 +93,14 @@ Un `var(--color)` mal escrito **no da ningún error**: el borde o el texto simpl
 dejan de verse y nadie se entera hasta que alguien mira la página con atención. Ya pasó
 una vez, con 31 usos de una variable que no existía.
 
+**Las fotos de producto se preparan antes de usarlas.** El validador no acepta una imagen
+que no esté en `.webp` o que pese más de 150 KB:
+
+```
+node tools/preparar-fotos.mjs --producto "ruta/a/la/foto.jpg" nombre-del-producto
+node tools/preparar-fotos.mjs --producto --lote "ruta/a/la/carpeta"
+```
+
 ## El dueño trabaja en Windows
 
 Este sitio se construyó en Linux pero **vive en un equipo con Windows**. Dos consecuencias
