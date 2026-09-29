@@ -195,6 +195,10 @@ a.pie-red:hover { border-color: var(--azul); }
 
 .pie-legal { border-top: 1px solid var(--borde); padding: 18px 0 26px; }
 .pie-aviso { font-size: .74rem; color: var(--text-muted); margin: 12px auto 0; max-width: 78ch; text-align: center; }
+/* Subrayado apenas visible: se nota que es un enlace, sin llamar la atención
+   como un botón. Este aviso es informativo, no un llamado a la acción. */
+.pie-aviso a { text-decoration: underline; text-underline-offset: 2px; }
+.pie-aviso a:hover { color: var(--azul); }
 /* Última línea del pie: derechos, enlaces legales y crédito, todo centrado. */
 .pie-ultima {
   display: flex; flex-wrap: wrap; align-items: baseline; justify-content: center;

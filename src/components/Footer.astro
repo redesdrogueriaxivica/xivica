@@ -76,12 +76,12 @@ const falta = (valor: string) => valor === "PENDIENTE";
   <div class="pie-legal">
     <div class="container">
       <p class="pie-aviso">
-        Habilitación sanitaria — {config.sedes.map((s) => `${s.nombre}: ${s.habilitacion_sanitaria}`).join(" · ")}.
-      </p>
-      <p class="pie-aviso">
         Los medicamentos que requieren fórmula médica se entregan únicamente con la fórmula
         vigente. Droguería Xivica no comercializa medicamentos de control especial. Este sitio
-        no reemplaza la consulta con un profesional de la salud.
+        no reemplaza la consulta con un profesional de la salud. Más información en la{" "}
+        <a href="https://www.saludcapital.gov.co" target="_blank" rel="noopener">
+          Secretaría de Salud de Bogotá
+        </a>. Comunicaciones: <a href={`mailto:${config.correo}`}>{config.correo}</a>.
       </p>
       <div class="pie-ultima">
         <span>

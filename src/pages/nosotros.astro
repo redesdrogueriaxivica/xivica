@@ -57,9 +57,6 @@ const falta = (v: string) => v === "PENDIENTE";
       <ul class="texto-lista">
         <li>Razón social: {config.negocio}</li>
         <li>NIT: {falta(config.legal.nit) ? <mark class="falta">Falta el NIT</mark> : config.legal.nit}</li>
-        {config.sedes.map((sede) => (
-          <li>Habilitación sanitaria {sede.nombre}: {sede.habilitacion_sanitaria}</li>
-        ))}
         <li>Regente de farmacia: no aplica. {config.legal.regente_nota}</li>
       </ul>
     </section>

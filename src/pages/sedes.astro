@@ -34,7 +34,6 @@ const falta = (v: string) => v === "PENDIENTE";
           <h2>{sede.nombre}</h2>
           <p class="sede-dato"><Icono nombre="ubicacion" tamano={17} /> {sede.direccion}</p>
           <p class="sede-dato"><Icono nombre="telefono" tamano={17} /> <a href={`tel:${sede.telefono}`}>{sede.telefono_visible}</a></p>
-          <p class="sede-dato"><Icono nombre="escudo" tamano={17} /> Habilitación sanitaria: {sede.habilitacion_sanitaria}</p>
           <p class="sede-dato sede-horario">
             <Icono nombre="reloj" tamano={17} />
             {falta(sede.horario_semana) ? (
@@ -56,7 +55,19 @@ const falta = (v: string) => v === "PENDIENTE";
       ))}
     </div>
 
-    <div id="mapaSedes" class="mapa" data-sedes={JSON.stringify(config.sedes)}>
+    <div
+      id="mapaSedes"
+      class="mapa"
+      data-sedes={JSON.stringify(
+        config.sedes.map((sede) => ({
+          id: sede.id,
+          nombre: sede.nombre,
+          direccion: sede.direccion,
+          lat: sede.lat,
+          lng: sede.lng,
+        }))
+      )}
+    >
       <p class="mapa-cargando">El mapa se carga al llegar aquí…</p>
     </div>
     <p class="mapa-nota">Mapa de OpenStreetMap. Si no carga, las direcciones están arriba.</p>
