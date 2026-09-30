@@ -37,6 +37,22 @@ const relacionados = productos
 
 const imagenPrincipal = `${base}img/${producto.imagenes[0]}`.replace(/\/{2,}/g, "/");
 
+// Ficha tecnica: solo se muestra si hay al menos un dato propio de la ficha
+// cargado (nombre y marca no cuentan: ya se ven arriba en la pagina). Se llena
+// de a poco, producto por producto, asi que no tiene sentido mostrar "falta"
+// en cada campo vacio de los 407 productos a la vez.
+const datosFichaTecnica = [
+  ["Registro INVIMA", producto.registro_invima],
+  ["Principio activo", producto.principio_activo],
+  ["Concentración", producto.concentracion],
+  ["Forma farmacéutica", producto.forma_farmaceutica],
+  ["Presentación comercial", producto.presentacion_comercial],
+].filter(([, valor]) => valor);
+
+const filasFichaTecnica = datosFichaTecnica.length > 0
+  ? [["Nombre y/o marca", [producto.titulo, producto.marca].filter(Boolean).join(" — ")], ...datosFichaTecnica]
+  : [];
+
 // Ficha del producto para Google: es lo que hace que el precio salga en el
 // resultado de busqueda en vez de solo el titulo.
 const fichaGoogle = {
@@ -188,6 +204,20 @@ const migas = {
           <section class="ficha-descripcion">
             <h2>Descripción</h2>
             <p>{producto.descripcion}</p>
+          </section>
+        )}
+
+        {filasFichaTecnica.length > 0 && (
+          <section class="ficha-tecnica">
+            <h2>Ficha técnica</h2>
+            <dl class="ficha-tecnica-tabla">
+              {filasFichaTecnica.map(([etiqueta, valor]) => (
+                <div class="ficha-tecnica-fila">
+                  <dt>{etiqueta}</dt>
+                  <dd>{valor}</dd>
+                </div>
+              ))}
+            </dl>
           </section>
         )}
 

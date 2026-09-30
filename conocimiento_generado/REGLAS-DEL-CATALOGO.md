@@ -212,3 +212,31 @@ npm run validar
 ```
 
 Dice exactamente qué producto está mal y por qué.
+
+---
+
+## 12. La ficha técnica es igual de sensible que `rx`, y se trata igual
+
+Cada producto puede tener una ficha técnica: Registro INVIMA, Principio activo,
+Concentración, Forma farmacéutica y Presentación comercial.
+
+**Ninguno de estos datos se deduce ni se inventa.** No se sacan del nombre del producto ni
+de una búsqueda: equivocarse en un registro INVIMA o en un principio activo no es un error
+de catálogo, es un dato de salud publicado mal.
+
+Por eso, igual que con `rx` (regla 3):
+
+- **Registro INVIMA, Principio activo, Concentración y Forma farmacéutica** los llena
+  **solo el regente de farmacia**, con el dato real del empaque, desde las columnas
+  NARANJA de `Catalogo-Drogueria-Xivica.xlsx`. Nunca en la conversación con el asistente.
+- **Presentación comercial** (por ejemplo "Caja x 20 tabletas") es un dato comercial, no
+  clínico: la puede llenar el dueño, en la columna AMARILLA correspondiente.
+
+**Hoy los 407 productos tienen estos cinco campos vacíos.** No es un olvido: se decidió no
+deducirlos, igual que con `rx`. La página del producto no muestra la sección "Ficha
+técnica" mientras esté vacía; en cuanto el regente carga el primer dato de un producto, la
+sección aparece con lo que haya (ver `SECCIONES.md` → Ficha de producto).
+
+*Dónde se cambia:* `Catalogo-Drogueria-Xivica.xlsx`, o directamente los campos
+`registro_invima`, `principio_activo`, `concentracion`, `forma_farmaceutica` y
+`presentacion_comercial` en `src/datos/productos.json`. Está anotado en `PENDIENTES.md`.

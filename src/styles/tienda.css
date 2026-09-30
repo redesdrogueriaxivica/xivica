@@ -628,6 +628,22 @@ a.pie-red:hover { border-color: var(--azul); }
 .ficha-descripcion h2 { font-size: 1rem; font-weight: 800; margin-bottom: 9px; }
 .ficha-descripcion p { font-size: .92rem; color: var(--text-soft); line-height: 1.65; }
 
+.ficha-tecnica { border-top: 1px solid var(--borde); padding-top: 20px; }
+.ficha-tecnica h2 { font-size: 1rem; font-weight: 800; margin-bottom: 9px; }
+.ficha-tecnica-tabla { margin: 0; }
+.ficha-tecnica-fila {
+  display: grid; grid-template-columns: 1fr; gap: 2px;
+  padding: 10px 0; border-bottom: 1px solid var(--borde);
+}
+.ficha-tecnica-fila:last-child { border-bottom: none; }
+.ficha-tecnica-fila dt { font-size: .78rem; color: var(--text-muted); font-weight: 700; }
+.ficha-tecnica-fila dd { margin: 0; font-size: .92rem; color: var(--text-soft); }
+
+/* Desde tableta hay espacio de sobra: etiqueta y dato en la misma linea. */
+@media (min-width: 560px) {
+  .ficha-tecnica-fila { grid-template-columns: 200px 1fr; gap: 12px; align-items: baseline; }
+}
+
 .ficha-legal {
   font-size: .76rem; color: var(--text-muted); line-height: 1.55;
   margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--borde);
@@ -878,6 +894,13 @@ a.pie-red:hover { border-color: var(--azul); }
 }
 .popup-flash-datos .ficha-precio { margin: 16px 0; }
 .popup-flash-descripcion { color: var(--text-soft); font-size: .92rem; line-height: 1.6; margin-bottom: 20px; }
+.popup-flash-condiciones { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+.popup-flash-vigencia, .popup-flash-donde {
+  display: inline-block; font-size: .78rem; font-weight: 700;
+  border-radius: 999px; padding: 4px 12px;
+}
+.popup-flash-vigencia { color: #a13d00; background: #fff0e0; }
+.popup-flash-donde { color: var(--azul); background: #e3f4ff; }
 .popup-flash-controles {
   display: flex;
   align-items: center;

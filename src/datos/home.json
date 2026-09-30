@@ -108,6 +108,7 @@
   "popup_oferta": {
     "_nota": "Textos fijos de la ventana emergente de promoción relámpago. Los productos salen del catálogo, solo los marcados con promo_flash en true. Si ningún producto tiene la marca, la ventana no aparece.",
     "etiqueta": "PROMOCIÓN RELÁMPAGO",
+    "vence_prefijo": "Válida hasta",
     "ver_detalle": "Ver detalle",
     "pedir": "Agregar",
     "cerrar": "Cerrar la oferta",

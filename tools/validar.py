@@ -23,6 +23,12 @@ from pathlib import Path
 OBLIGATORIOS = ("slug", "titulo", "precio", "categoria", "imagenes")
 SLUG_VALIDO = re.compile(r"^[a-z0-9-]+$")
 
+# La vigencia de la oferta relampago se guarda en hora de Bogota (-05:00 fijo,
+# sin horario de verano, asi que el desfase nunca cambia). Formato guardado en
+# el JSON: "2026-10-05T20:00:00-05:00". La planilla usa uno mas simple, ver
+# excel_catalogo.py.
+PROMO_VENCE_ISO = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:00-05:00$")
+
 # Tope de cordura. El producto mas caro del catalogo cuesta $240.000; un precio
 # por encima de esto casi siempre es un precio con ceros de mas. Si algun dia la
 # drogueria vende algo mas caro, se sube este numero.
@@ -182,6 +188,20 @@ def validar(productos, carpeta_imagenes=None, categorias=None):
                     f"({explicacion}); tiene {json.dumps(producto[campo], ensure_ascii=False)}"
                 )
 
+        # --- ficha tecnica: texto libre y opcional, se llena de a poco ---
+        # Sin formato obligatorio: los registros INVIMA no siguen un unico patron,
+        # y forzar uno rechazaria datos reales. Solo se revisa que, si esta, sea texto.
+        for campo in (
+            "registro_invima", "principio_activo", "concentracion",
+            "forma_farmaceutica", "presentacion_comercial",
+        ):
+            valor = producto.get(campo)
+            if valor is not None and (not isinstance(valor, str) or not valor.strip()):
+                errores.append(
+                    f"{quien}: '{campo}' debe ser texto o estar vacio (null); "
+                    f"tiene {json.dumps(valor, ensure_ascii=False)}"
+                )
+
         rx = producto.get("rx")
         if rx is not None and not isinstance(rx, bool):
             errores.append(
@@ -203,6 +223,36 @@ def validar(productos, carpeta_imagenes=None, categorias=None):
                 errores.append(
                     f"{quien}: 'promo_flash' no puede ser true porque el producto "
                     f"esta agotado; la ventana emergente solo muestra productos disponibles"
+                )
+
+        # --- vigencia de la oferta relampago: opcional, pero si esta, con formato exacto ---
+        vence = producto.get("promo_flash_vence")
+        if vence is not None:
+            if not isinstance(vence, str) or not PROMO_VENCE_ISO.match(vence):
+                errores.append(
+                    f"{quien}: 'promo_flash_vence' debe tener el formato "
+                    f"AAAA-MM-DDTHH:MM:00-05:00 (hora de Bogota) o estar vacio (null); "
+                    f"tiene {json.dumps(vence, ensure_ascii=False)}. Se edita desde la "
+                    f"planilla, columna de vigencia de la promocion."
+                )
+            elif producto.get("promo_flash") is not True:
+                errores.append(
+                    f"{quien}: tiene 'promo_flash_vence' pero 'promo_flash' no es true; "
+                    f"la vigencia no sirve de nada sin la promocion activa"
+                )
+
+        # --- donde aplica la oferta relampago: texto libre, opcional ---
+        donde = producto.get("promo_flash_donde")
+        if donde is not None:
+            if not isinstance(donde, str) or not donde.strip():
+                errores.append(
+                    f"{quien}: 'promo_flash_donde' debe ser texto o estar vacio (null); "
+                    f"tiene {json.dumps(donde, ensure_ascii=False)}"
+                )
+            elif producto.get("promo_flash") is not True:
+                errores.append(
+                    f"{quien}: tiene 'promo_flash_donde' pero 'promo_flash' no es true; "
+                    f"no sirve de nada decir donde aplica una promocion que no esta activa"
                 )
 
         # --- categoria ---

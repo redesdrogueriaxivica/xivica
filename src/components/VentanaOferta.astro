@@ -24,6 +24,8 @@ interface Producto {
   stock?: boolean | null;
   rx?: boolean | null;
   promo_flash?: boolean;
+  promo_flash_vence?: string | null;
+  promo_flash_donde?: string | null;
 }
 
 const base = import.meta.env.BASE_URL;
@@ -35,14 +37,39 @@ const resumen = (texto?: string | null) => {
   return limpio.length > 170 ? `${limpio.slice(0, 167).trimEnd()}…` : limpio;
 };
 
+// Formato legible de la vigencia, en hora de Bogota. Se calcula al publicar; si
+// el sitio queda varios dias sin reconstruirse, el script de abajo la sigue
+// ocultando por si sola cuando el reloj del visitante pasa la hora de vencimiento.
+const formatoVence = new Intl.DateTimeFormat("es-CO", {
+  timeZone: "America/Bogota", day: "numeric", month: "long", hour: "numeric", minute: "2-digit",
+});
+const vigenciaTexto = (iso?: string | null) => {
+  if (!iso) return null;
+  const fecha = new Date(iso);
+  if (Number.isNaN(fecha.getTime())) return null;
+  return `${textos.vence_prefijo ?? "Válida hasta"} ${formatoVence.format(fecha)}`;
+};
+
+const yaVencio = (iso?: string | null) => {
+  if (!iso) return false;
+  const fecha = new Date(iso);
+  return !Number.isNaN(fecha.getTime()) && fecha.getTime() <= Date.now();
+};
+
 const items = (productos as Producto[])
-  .filter((producto) => producto?.promo_flash === true && producto.rx !== true && producto.stock !== false)
+  .filter((producto) =>
+    producto?.promo_flash === true &&
+    producto.rx !== true &&
+    producto.stock !== false &&
+    !yaVencio(producto.promo_flash_vence)
+  )
   .map((producto) => ({
     ...producto,
     detalle: `${base}producto/${producto.slug}`.replace(/\/{2,}/g, "/"),
     foto: `${base}img/${producto.imagenes[0]}`.replace(/\/{2,}/g, "/"),
     ahorro: producto.precio_antes ? producto.precio_antes - producto.precio : null,
     resumen: resumen(producto.descripcion),
+    vigencia: vigenciaTexto(producto.promo_flash_vence),
   }));
 ---
 
@@ -61,6 +88,7 @@ const items = (productos as Producto[])
             <article
               class:list={["popup-flash-pieza", { activa: indice === 0 }]}
               data-flash-pieza={indice}
+              data-flash-vence={producto.promo_flash_vence ?? ""}
               role="group"
               aria-roledescription="promoción"
               aria-label={`${indice + 1} de ${items.length}`}
@@ -87,6 +115,10 @@ const items = (productos as Producto[])
                   {producto.ahorro && <span class="ficha-ahorro">Ahorras {pesos(producto.ahorro)}</span>}
                 </div>
                 {producto.resumen && <p class="popup-flash-descripcion">{producto.resumen}</p>}
+                <div class="popup-flash-condiciones">
+                  {producto.vigencia && <span class="popup-flash-vigencia">{producto.vigencia}</span>}
+                  {producto.promo_flash_donde && <span class="popup-flash-donde">{producto.promo_flash_donde}</span>}
+                </div>
                 <div class="ficha-acciones">
                   <a class="boton boton-borde" href={producto.detalle}>{textos.ver_detalle}</a>
                   <button
@@ -141,8 +173,8 @@ const items = (productos as Producto[])
     <script>
       const fondo = document.getElementById("popupOfertaFondo");
       const cerrar = document.getElementById("popupOfertaCerrar");
-      const piezas = [...document.querySelectorAll("[data-flash-pieza]")];
-      const puntos = [...document.querySelectorAll("[data-flash-punto]")];
+      let piezas = [...document.querySelectorAll("[data-flash-pieza]")];
+      let puntos = [...document.querySelectorAll("[data-flash-punto]")];
       const anterior = document.querySelector("[data-flash-anterior]");
       const siguiente = document.querySelector("[data-flash-siguiente]");
       const clave = "xivica-oferta-fecha";
@@ -175,6 +207,31 @@ const items = (productos as Producto[])
         temporizador = setInterval(() => mostrar(actual + 1), ROTAR_MS);
       };
 
+      // Quita del carrusel las piezas cuya vigencia ya paso, sin esperar a que
+      // se vuelva a publicar el sitio. Revisa cada 30 s: sobra para una oferta
+      // que vence en minutos u horas, y no vale la pena revisar mas seguido.
+      const quitarVencidas = () => {
+        const ahora = Date.now();
+        let cambio = false;
+        piezas = piezas.filter((pieza) => {
+          const vence = pieza.dataset.flashVence;
+          if (!vence || new Date(vence).getTime() > ahora) return true;
+          const indice = Number(pieza.dataset.flashPieza);
+          pieza.remove();
+          puntos[indice]?.remove();
+          cambio = true;
+          return false;
+        });
+        if (!cambio) return;
+        if (piezas.length === 0) {
+          cerrarVentana();
+          return;
+        }
+        puntos = [...document.querySelectorAll("[data-flash-punto]")];
+        mostrar(0);
+        arrancar();
+      };
+
       const HORA_EN_MS = 60 * 60 * 1000;
 
       const yaVistaEstaHora = () => {
@@ -195,10 +252,12 @@ const items = (productos as Producto[])
       };
 
       const abrir = () => {
-        if (yaVistaEstaHora()) return;
+        quitarVencidas();
+        if (piezas.length === 0 || yaVistaEstaHora()) return;
         marcarVista();
         fondo.style.display = "flex";
         arrancar();
+        setInterval(quitarVencidas, 30000);
       };
 
       const cerrarVentana = () => {

@@ -77,6 +77,16 @@ tachado ya está resuelto y queda como registro de cómo se resolvió.
   Aparece en las dos fotos de interior de Tejares que se usaron (se lee al ampliar). Confirmar
   que es la red a la que están afiliados y que no hay problema en que se vea en la web.
 
+## Ficha técnica de producto (agregada el 29/09/2026)
+
+- [ ] **Los 407 productos tienen la ficha técnica vacía.** Registro INVIMA, Principio
+      activo, Concentración y Forma farmacéutica los llena **solo el regente de
+      farmacia**, con el dato real del empaque, desde las columnas NARANJA de
+      `Catalogo-Drogueria-Xivica.xlsx`; Presentación comercial la puede llenar el dueño
+      (columna AMARILLA). Se puede hacer de a poco: la sección "Ficha técnica" no
+      aparece en la página del producto hasta que tenga algún dato. Ver
+      `REGLAS-DEL-CATALOGO.md` regla 12.
+
 ## Falta material
 
 - [ ] **Fotos de Verbenal** (fachada e interior). En Sedes sale como "Foto de la sede

@@ -58,6 +58,30 @@ Solo se usa para la ventana grande que aparece al abrir la página. Vale únicam
 en productos disponibles y que no requieran fórmula médica. Para apagarla, ponerlo
 en `false` o quitar la línea; si ningún producto tiene la marca, la ventana no sale.
 
+**Para que se apague sola a una hora exacta**, sin tener que acordarse de volver a
+tocar el catálogo, se agrega además:
+
+```json
+"promo_flash_vence": "2026-10-05T20:00:00-05:00"
+```
+
+(fecha y hora de Bogotá; el `-05:00` es siempre el mismo, Colombia no cambia de
+horario). Al llegar esa hora, el producto deja de salir en la ventana, aunque nadie
+edite nada. Desde la planilla del dueño es más simple: la columna "Vence la
+promoción" se escribe así, sin el `-05:00`: `2026-10-05 20:00`. Dejarla vacía
+significa que la oferta dura hasta que alguien la apague a mano.
+
+**Para aclarar dónde aplica** (solo en la web, en todas las sedes, o solo en una),
+se agrega:
+
+```json
+"promo_flash_donde": "Solo en la página web"
+```
+
+Es texto libre: se muestra exactamente como se escriba, en una etiqueta junto a la
+de vigencia. Desde la planilla es la columna "¿Dónde aplica la promoción?". Vacío
+significa que no se aclara nada en la ventana.
+
 ---
 
 ## Agregar un producto nuevo
@@ -132,6 +156,22 @@ llena solo el dueño (nunca el asistente, ni porque lo pida en la conversación)
 descuento siempre sale de los dos precios, y las fotos no van en el Excel. Para un producto nuevo, el dueño manda los datos y las fotos
 y lo creo yo; para quitar uno, me avisa y lo quito yo (el historial lo guarda
 todo, así que nada se pierde para siempre).
+
+---
+
+## Completar la ficha técnica de un producto
+
+La misma planilla trae cinco columnas más: Registro INVIMA, Principio activo,
+Concentración, Forma farmacéutica y Presentación comercial. Las cuatro primeras son
+NARANJA, igual que la de fórmula: **solo las llena el regente de farmacia**, con el
+dato real del empaque de cada producto, nunca a ojo ni porque se lo pidan en la
+conversación. Presentación comercial (por ejemplo "Caja x 20 tabletas") es amarilla:
+la llena el dueño.
+
+No hace falta llenar los 407 productos de una vez: se puede hacer de a poco. Un
+producto que aún no tiene ningún dato de la ficha simplemente no muestra esa sección
+en su página; en cuanto tenga el primero, la sección aparece con lo que haya. El
+flujo de revisar/aplicar es el mismo de arriba.
 
 ---
 

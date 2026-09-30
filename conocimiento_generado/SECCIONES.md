@@ -68,6 +68,17 @@ y cómo se agrega un elemento.
   productos marcados, rotan dentro de la ventana con flechas y puntos.
 - **Para activarla:** poner `"promo_flash": true` en el producto elegido. El
   propietario indica cuál; no inventar ofertas.
+- **Vigencia opcional:** el campo `promo_flash_vence` (fecha y hora, hora de Bogotá) hace
+  que la oferta se apague sola cuando llega esa hora, sin que nadie tenga que volver a
+  editar el catálogo. Si queda vacío, la oferta dura hasta que alguien la apague a mano.
+  Mientras está vigente, la ventana muestra una etiqueta con "Válida hasta…". Se edita
+  desde la planilla, columna "Vence la promoción".
+- **Dónde aplica (opcional):** el campo `promo_flash_donde` es un texto libre que se
+  muestra tal cual se escriba, en una segunda etiqueta junto a la de vigencia — por
+  ejemplo "Solo en la página web", "En todas las sedes" o "Solo en la sede Villa del
+  Prado". Si queda vacío, no sale ninguna etiqueta y no se aclara nada (se asume que
+  aplica donde el cliente esté comprando). Se edita desde la planilla, columna
+  "¿Dónde aplica la promoción?".
 - **Se cierra** con la X, tocando el fondo o con Escape.
 
 ---
@@ -127,9 +138,25 @@ y cómo se agrega un elemento.
 
 - **Dónde está:** `src/pages/producto/[slug].astro`. Se genera una por producto.
 - **Muestra:** galería, precio con ahorro, aviso de fórmula si aplica, botón de agregar,
-  ventajas, descripción y 5 relacionados de la misma categoría
+  ventajas, descripción, ficha técnica (si tiene datos) y 5 relacionados de la misma categoría
 - **Descripción:** hasta unos 400 caracteres se ve bien. Se edita en el campo `descripcion`
   del producto. **Nunca escribir indicaciones médicas ahí.**
+
+### Ficha técnica del producto
+
+- **Qué es:** una tabla con Registro INVIMA, Principio activo, Concentración, Forma
+  farmacéutica y Presentación comercial (el nombre y la marca ya salen arriba en la
+  página, así que se repiten dentro de la tabla solo cuando hay algún otro dato cargado).
+- **Se llena de a poco.** Un producto sin ningún dato de la ficha simplemente no muestra
+  la sección: no aparece un "falta" en cada uno de los 407 productos a la vez. En cuanto
+  se carga al menos un campo, la sección aparece con lo que haya.
+- **Quién la llena:** desde `Catalogo-Drogueria-Xivica.xlsx`. Registro INVIMA, Principio
+  activo, Concentración y Forma farmacéutica son columnas NARANJA: **solo las llena el
+  regente de farmacia**, con el dato real del empaque, nunca a ojo. Presentación comercial
+  (por ejemplo "Caja x 20 tabletas") es AMARILLA: la puede llenar el dueño.
+- **En el catálogo (JSON):** campos `registro_invima`, `principio_activo`,
+  `concentracion`, `forma_farmaceutica`, `presentacion_comercial`. Ver
+  `REGLAS-DEL-CATALOGO.md`.
 
 ---
 

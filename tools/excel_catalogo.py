@@ -14,6 +14,7 @@ misma cuenta del validador, así siempre cuadra. En la planilla hay una fórmula
 que lo muestra en vivo para orientar al dueño.
 """
 import json
+import re
 import sys
 from copy import copy
 from pathlib import Path
@@ -38,7 +39,9 @@ GRIS = PatternFill("solid", fgColor="EFEFEF")       # no tocar
 CALCULO = PatternFill("solid", fgColor="D9EAD3")    # se calcula solo
 
 # slug, titulo, marca, presentacion, categoria, subcategoria, precio,
-# precio_antes, descuento, stock, destacado, promo_flash, rx, imagenes, descripcion
+# precio_antes, descuento, stock, destacado, promo_flash, rx,
+# registro_invima, principio_activo, concentracion, forma_farmaceutica,
+# presentacion_comercial, imagenes, descripcion
 COLUMNAS = [
     ("slug", "Código (no tocar)", GRIS, 42, False),
     ("titulo", "Nombre", AMARILLO, 48, True),
@@ -52,12 +55,52 @@ COLUMNAS = [
     ("stock", "¿Hay existencias? (SI/NO)", AMARILLO, 16, True),
     ("destacado", "¿Destacado en portada? (SI/NO)", AMARILLO, 16, True),
     ("promo_flash", "¿Promoción relámpago? (SI/NO)", AMARILLO, 18, True),
+    ("promo_flash_vence", "Vence la promoción (AAAA-MM-DD HH:MM, hora Bogotá; vacío = no vence sola)", AMARILLO, 30, True),
+    ("promo_flash_donde", "¿Dónde aplica la promoción? (ej: solo en la web / en todas las sedes / solo Villa del Prado)", AMARILLO, 34, True),
     ("rx", "¿Requiere fórmula? (SI/NO/vacío, SOLO el regente)", NARANJA, 22, True),
+    ("registro_invima", "Registro INVIMA (SOLO el regente)", NARANJA, 26, True),
+    ("principio_activo", "Principio activo (SOLO el regente)", NARANJA, 26, True),
+    ("concentracion", "Concentración (SOLO el regente)", NARANJA, 20, True),
+    ("forma_farmaceutica", "Forma farmacéutica (SOLO el regente)", NARANJA, 22, True),
+    ("presentacion_comercial", "Presentación comercial (ej. Caja x 20 tabletas)", AMARILLO, 26, True),
     ("descripcion", "Descripción (sin indicaciones médicas)", AMARILLO, 60, True),
 ]
 
 SI = {"SI", "SÍ", "TRUE", "VERDADERO", "1"}
 NO = {"NO", "FALSE", "FALSO", "0"}
+
+# La planilla usa un formato simple ("2026-10-05 20:00") porque nadie deberia
+# escribir a mano el "-05:00" del huso horario. El JSON guarda el ISO completo
+# (ver PROMO_VENCE_ISO en validar.py); estas dos funciones convierten entre uno
+# y otro. Bogota no tiene horario de verano, asi que el desfase -05:00 es fijo.
+VENCE_PLANILLA = re.compile(r"^(\d{4}-\d{2}-\d{2}) (\d{2}):(\d{2})$")
+VENCE_ISO = re.compile(r"^(\d{4}-\d{2}-\d{2})T(\d{2}):(\d{2}):00-05:00$")
+
+
+def vence_a_planilla(valor):
+    if not valor:
+        return ""
+    coincide = VENCE_ISO.match(valor)
+    if not coincide:
+        return valor  # se deja tal cual para que revisar() lo señale
+    fecha, hora, minuto = coincide.groups()
+    return f"{fecha} {hora}:{minuto}"
+
+
+def vence_de_planilla(valor, quien, errores):
+    if valor is None or (isinstance(valor, str) and not valor.strip()):
+        return None, True
+    texto = str(valor).strip()
+    coincide = VENCE_PLANILLA.match(texto)
+    if not coincide:
+        errores.append(
+            f"{quien}: 'vence la promoción' debe escribirse AAAA-MM-DD HH:MM "
+            f"(por ejemplo 2026-10-05 20:00, hora de Bogotá) o quedar vacío; "
+            f"tiene '{valor}'"
+        )
+        return None, False
+    fecha, hora, minuto = coincide.groups()
+    return f"{fecha}T{hora}:{minuto}:00-05:00", True
 
 
 def a_si_no(valor):
@@ -131,7 +174,14 @@ def generar():
             "stock": a_si_no(p.get("stock")),
             "destacado": a_si_no(p.get("destacado")),
             "promo_flash": a_si_no(p.get("promo_flash")),
+            "promo_flash_vence": vence_a_planilla(p.get("promo_flash_vence")),
+            "promo_flash_donde": p.get("promo_flash_donde"),
             "rx": a_si_no(p.get("rx")),
+            "registro_invima": p.get("registro_invima"),
+            "principio_activo": p.get("principio_activo"),
+            "concentracion": p.get("concentracion"),
+            "forma_farmaceutica": p.get("forma_farmaceutica"),
+            "presentacion_comercial": p.get("presentacion_comercial"),
             "descripcion": p.get("descripcion"),
         }
         for col, (campo, _t, fondo, _a, _e) in enumerate(COLUMNAS, start=1):
@@ -177,7 +227,9 @@ def generar():
         "CÓMO USAR ESTA PLANILLA",
         "",
         "1. Edita solo las celdas en AMARILLO. Las grises (código y % descuento) no se tocan.",
-        "2. La columna NARANJA (¿Requiere fórmula?) la llena SOLO el regente de farmacia.",
+        "2. Las columnas NARANJA (¿Requiere fórmula?, Registro INVIMA, Principio activo,",
+        "   Concentración, Forma farmacéutica) las llena SOLO el regente de farmacia.",
+        "   Nunca se completan a ojo ni por internet: solo con el dato real del empaque.",
         "3. El precio se escribe como número entero, sin puntos ni signo $: 62900.",
         "4. El % descuento se calcula solo del precio anterior. Si no hay oferta, deja el precio anterior vacío.",
         "5. En SI/NO elige de la lista. La categoría también se elige de la lista.",
@@ -186,6 +238,19 @@ def generar():
         "   te digo qué producto, qué pasa y cómo se escribe bien. Nada se publica hasta corregirlo.",
         "8. La descripción puede mejorarse (presentación, contenido, marca), pero NUNCA lleva",
         "   para qué sirve el medicamento, dosis ni contraindicaciones: eso lo redacta el regente.",
+        "9. La ficha técnica (Registro INVIMA, Principio activo, Concentración, Forma",
+        "   farmacéutica, Presentación comercial) se llena de a poco, producto por producto:",
+        "   no hace falta completarla toda de una vez. Lo que quede vacío no sale en la",
+        "   página del producto hasta que se llene.",
+        "10. 'Vence la promoción' es opcional. Si se deja vacía, la promoción relámpago dura",
+        "    hasta que alguien la apague a mano. Si se escribe una fecha y hora (AAAA-MM-DD",
+        "    HH:MM, en hora de Bogotá), la ventana emergente deja de mostrar ese producto",
+        "    sola, sin que nadie tenga que volver a tocar el catálogo. Solo tiene efecto si",
+        "    '¿Promoción relámpago?' está en SI.",
+        "11. '¿Dónde aplica la promoción?' también es opcional y también solo tiene efecto",
+        "    con la promoción en SI. Es texto libre: por ejemplo 'Solo en la página web',",
+        "    'En todas las sedes' o 'Solo en la sede Villa del Prado'. Se muestra tal cual",
+        "    se escriba en la ventana emergente, así que se redacta como se quiere que se lea.",
     ]
     for i, linea in enumerate(lineas, start=1):
         celda = instrucciones.cell(row=i, column=1, value=linea)
@@ -229,7 +294,11 @@ def construir_productos(filas, base):
         original = por_slug[slug]
         p = dict(original)
 
-        for campo in ("titulo", "marca", "presentacion", "subcategoria", "descripcion"):
+        for campo in (
+            "titulo", "marca", "presentacion", "subcategoria", "descripcion",
+            "registro_invima", "principio_activo", "concentracion",
+            "forma_farmaceutica", "presentacion_comercial", "promo_flash_donde",
+        ):
             v = f[campo]
             p[campo] = None if v is None or (isinstance(v, str) and not v.strip()) else str(v).strip()
 
@@ -252,6 +321,7 @@ def construir_productos(filas, base):
                 del p[campo]
 
         p["rx"], _ok = de_rx(f["rx"], slug, errores)
+        p["promo_flash_vence"], _ok = vence_de_planilla(f["promo_flash_vence"], slug, errores)
 
         cat = f["categoria"]
         p["categoria"] = None if cat is None or not str(cat).strip() else str(cat).strip()

@@ -24,6 +24,9 @@ PRODUCTOS = [
         "presentacion": "30 Tabletas", "categoria": "medicamentos", "subcategoria": None,
         "precio": 10000, "precio_antes": None, "descuento": None,
         "stock": True, "destacado": False, "promo_flash": False, "rx": None,
+        "registro_invima": None, "principio_activo": None, "concentracion": None,
+        "forma_farmaceutica": None, "presentacion_comercial": None,
+        "promo_flash_vence": None, "promo_flash_donde": None,
         "imagenes": ["uno.webp"], "descripcion": "x", "origen": {"rx": "pendiente"},
     },
     {
@@ -31,6 +34,9 @@ PRODUCTOS = [
         "presentacion": None, "categoria": "cuidado-personal", "subcategoria": None,
         "precio": 8000, "precio_antes": 10000, "descuento": 20,
         "stock": True, "destacado": False, "promo_flash": False, "rx": None,
+        "registro_invima": None, "principio_activo": None, "concentracion": None,
+        "forma_farmaceutica": None, "presentacion_comercial": None,
+        "promo_flash_vence": None, "promo_flash_donde": None,
         "imagenes": ["dos.webp"], "descripcion": "y", "origen": {"rx": "pendiente"},
     },
 ]
@@ -106,6 +112,76 @@ class ExcelCatalogoTest(unittest.TestCase):
         libro.save(self.xlsx_path)
 
         self.assertEqual(ec.revisar(self.xlsx_path), 1)
+
+    def test_el_regente_llena_la_ficha_tecnica_y_queda_en_el_json(self):
+        ec.generar()
+
+        libro = ec.load_workbook(self.xlsx_path)
+        hoja = libro["Productos"]
+        columnas = {c: i + 1 for i, (c, *_r) in enumerate(ec.COLUMNAS)}
+        hoja.cell(row=2, column=columnas["registro_invima"], value="INVIMA 2020M-0012345")
+        hoja.cell(row=2, column=columnas["principio_activo"], value="Acetaminofén")
+        hoja.cell(row=2, column=columnas["concentracion"], value="500 mg")
+        hoja.cell(row=2, column=columnas["forma_farmaceutica"], value="Tableta")
+        hoja.cell(row=2, column=columnas["presentacion_comercial"], value="Caja x 20 tabletas")
+        libro.save(self.xlsx_path)
+
+        self.assertEqual(ec.aplicar(self.xlsx_path), 0)
+        productos = json.loads(self.json_path.read_text(encoding="utf-8"))
+        self.assertEqual(productos[0]["registro_invima"], "INVIMA 2020M-0012345")
+        self.assertEqual(productos[0]["principio_activo"], "Acetaminofén")
+        self.assertEqual(productos[0]["concentracion"], "500 mg")
+        self.assertEqual(productos[0]["forma_farmaceutica"], "Tableta")
+        self.assertEqual(productos[0]["presentacion_comercial"], "Caja x 20 tabletas")
+        # El otro producto, sin editar, sigue con la ficha tecnica vacia.
+        self.assertIsNone(productos[1]["registro_invima"])
+
+    def test_vigencia_de_la_promo_relampago_se_convierte_y_vuelve(self):
+        ec.generar()
+
+        libro = ec.load_workbook(self.xlsx_path)
+        hoja = libro["Productos"]
+        columnas = {c: i + 1 for i, (c, *_r) in enumerate(ec.COLUMNAS)}
+        hoja.cell(row=2, column=columnas["promo_flash"], value="SI")
+        hoja.cell(row=2, column=columnas["promo_flash_vence"], value="2026-10-05 20:00")
+        libro.save(self.xlsx_path)
+
+        self.assertEqual(ec.aplicar(self.xlsx_path), 0)
+        productos = json.loads(self.json_path.read_text(encoding="utf-8"))
+        self.assertEqual(productos[0]["promo_flash_vence"], "2026-10-05T20:00:00-05:00")
+
+        # Y al volver a generar la planilla desde ese JSON, se ve otra vez simple.
+        ec.generar()
+        filas = ec.leer_filas(self.xlsx_path)
+        self.assertEqual(filas[0]["promo_flash_vence"], "2026-10-05 20:00")
+
+    def test_vigencia_mal_escrita_no_se_aplica(self):
+        ec.generar()
+
+        libro = ec.load_workbook(self.xlsx_path)
+        hoja = libro["Productos"]
+        columnas = {c: i + 1 for i, (c, *_r) in enumerate(ec.COLUMNAS)}
+        hoja.cell(row=2, column=columnas["promo_flash"], value="SI")
+        hoja.cell(row=2, column=columnas["promo_flash_vence"], value="5 de octubre a las 8pm")
+        libro.save(self.xlsx_path)
+
+        self.assertEqual(ec.aplicar(self.xlsx_path), 1)
+        productos = json.loads(self.json_path.read_text(encoding="utf-8"))
+        self.assertIsNone(productos[0]["promo_flash_vence"])
+
+    def test_donde_aplica_la_promo_relampago_queda_en_el_json(self):
+        ec.generar()
+
+        libro = ec.load_workbook(self.xlsx_path)
+        hoja = libro["Productos"]
+        columnas = {c: i + 1 for i, (c, *_r) in enumerate(ec.COLUMNAS)}
+        hoja.cell(row=2, column=columnas["promo_flash"], value="SI")
+        hoja.cell(row=2, column=columnas["promo_flash_donde"], value="Solo en la página web")
+        libro.save(self.xlsx_path)
+
+        self.assertEqual(ec.aplicar(self.xlsx_path), 0)
+        productos = json.loads(self.json_path.read_text(encoding="utf-8"))
+        self.assertEqual(productos[0]["promo_flash_donde"], "Solo en la página web")
 
     def test_de_si_no_y_de_rx_no_dejan_pasar_cualquier_texto(self):
         errores = []

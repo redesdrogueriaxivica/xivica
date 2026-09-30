@@ -20,6 +20,61 @@ class ValidarTest(unittest.TestCase):
     def test_producto_correcto_no_da_errores(self):
         self.assertEqual(validar([BUENO]), [])
 
+    def test_ficha_tecnica_ausente_no_da_error(self):
+        self.assertEqual(validar([BUENO]), [])
+
+    def test_ficha_tecnica_con_texto_pasa(self):
+        p = {**BUENO, "registro_invima": "INVIMA 2020M-0012345", "concentracion": "500 mg"}
+        self.assertEqual(validar([p]), [])
+
+    def test_ficha_tecnica_vacia_como_texto_es_error(self):
+        p = {**BUENO, "principio_activo": "   "}
+        errores = validar([p])
+        self.assertEqual(len(errores), 1)
+        self.assertIn("principio_activo", errores[0])
+
+    def test_ficha_tecnica_con_numero_es_error(self):
+        p = {**BUENO, "concentracion": 500}
+        errores = validar([p])
+        self.assertEqual(len(errores), 1)
+        self.assertIn("concentracion", errores[0])
+
+    def test_vigencia_de_promo_flash_bien_escrita_pasa(self):
+        p = {**BUENO, "promo_flash": True, "promo_flash_vence": "2026-10-05T20:00:00-05:00"}
+        self.assertEqual(validar([p]), [])
+
+    def test_vigencia_de_promo_flash_ausente_pasa(self):
+        p = {**BUENO, "promo_flash": True}
+        self.assertEqual(validar([p]), [])
+
+    def test_vigencia_de_promo_flash_mal_escrita_es_error(self):
+        p = {**BUENO, "promo_flash": True, "promo_flash_vence": "05/10/2026 8pm"}
+        errores = validar([p])
+        self.assertEqual(len(errores), 1)
+        self.assertIn("promo_flash_vence", errores[0])
+
+    def test_vigencia_sin_promo_flash_activa_es_error(self):
+        p = {**BUENO, "promo_flash": False, "promo_flash_vence": "2026-10-05T20:00:00-05:00"}
+        errores = validar([p])
+        self.assertEqual(len(errores), 1)
+        self.assertIn("promo_flash_vence", errores[0])
+
+    def test_donde_aplica_la_promo_flash_con_texto_pasa(self):
+        p = {**BUENO, "promo_flash": True, "promo_flash_donde": "Solo en la página web"}
+        self.assertEqual(validar([p]), [])
+
+    def test_donde_aplica_la_promo_flash_sin_promo_activa_es_error(self):
+        p = {**BUENO, "promo_flash": False, "promo_flash_donde": "En todas las sedes"}
+        errores = validar([p])
+        self.assertEqual(len(errores), 1)
+        self.assertIn("promo_flash_donde", errores[0])
+
+    def test_donde_aplica_la_promo_flash_vacio_como_texto_es_error(self):
+        p = {**BUENO, "promo_flash": True, "promo_flash_donde": "   "}
+        errores = validar([p])
+        self.assertEqual(len(errores), 1)
+        self.assertIn("promo_flash_donde", errores[0])
+
     def test_precio_como_texto_es_error(self):
         malo = dict(BUENO, precio="$1.000")
         self.assertTrue(any("precio" in e for e in validar([malo])))

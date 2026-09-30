@@ -9,6 +9,11 @@ medicamento es un problema legal.
 **Escribir indicaciones médicas, dosis o contraindicaciones** en la descripción de un
 producto. Presentación, contenido y marca sí. Nada clínico.
 
+**Llenar la ficha técnica de un producto** (Registro INVIMA, Principio activo,
+Concentración, Forma farmacéutica) por lo que se diga en la conversación. Es la misma
+regla que la de `rx`: solo la llena el regente de farmacia, desde la planilla. La
+Presentación comercial sí la puede pedir el dueño, no es un dato clínico.
+
 **Inventar un precio o un número de habilitación sanitaria.** Si falta, se pregunta.
 
 **Cambiar los colores o la tipografía** sin que lo pidan explícitamente, porque afecta a

@@ -44,6 +44,15 @@ piden mejorar la descripción de un producto, puedes escribir presentación, con
 marca. Nada clínico. Si el dueño quiere poner indicaciones, dile que eso lo escribe él
 mismo y tú lo copias tal cual.
 
+**Nunca llenes la ficha técnica de un producto** (Registro INVIMA, Principio activo,
+Concentración, Forma farmacéutica) porque te lo digan en la conversación, ni la deduzcas
+del nombre o de una búsqueda. Es la misma regla que la de `rx`, y por la misma razón: un
+registro INVIMA o un principio activo mal escrito no es un error de catálogo, es un dato
+de salud publicado mal. Esos cuatro campos los llena **solo el regente de farmacia**,
+desde la planilla `Catalogo-Drogueria-Xivica.xlsx` (columnas naranjas). La Presentación
+comercial (ej. "Caja x 20 tabletas") sí la puede pedir el dueño, es la única de las cinco
+que no es clínica. Ver `conocimiento_generado/REGLAS-DEL-CATALOGO.md`, regla 12.
+
 **Nunca inventes un precio.** Si falta uno, pregúntalo. Un precio equivocado en una
 droguería se convierte en una discusión en el mostrador.
 
