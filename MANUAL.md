@@ -99,6 +99,19 @@ que conviene usarla poco: una ventana que sale siempre deja de verse.
 
 > *Quita la promoción relámpago*
 
+**Para que se apague sola**, sin que tengas que acordarte de quitarla:
+
+> *Pon el Oscillococcinum en promoción relámpago hasta el domingo a las 8 de la noche*
+
+Al llegar esa hora, desaparece de la ventana sola — aunque nadie vuelva a tocar la página.
+Si no le das una hora, dura hasta que tú mismo la quites.
+
+**Para aclarar dónde vale**, si no aplica en todas partes:
+
+> *Esa promoción es solo por la página web, no en las sedes*
+
+Se muestra tal cual una etiqueta junto al precio, para que nadie se confunda en el mostrador.
+
 ## Que el buscador entienda a la gente
 
 Si alguien busca algo con otro nombre y no lo encuentra, se le enseña:
@@ -121,6 +134,22 @@ Necesita: **nombre, precio, categoría y una foto.**
 proveedor, la que sea— y la deja del tamaño correcto. Si le mandas una carpeta con muchas,
 las prepara todas de una vez.
 
+## La ficha técnica de un producto
+
+En la página de cada producto puede salir una tabla con el Registro INVIMA, el Principio
+activo, la Concentración, la Forma farmacéutica y la Presentación comercial. Hoy está
+vacía en los 407 productos, y se llena de a poco: un producto sin esos datos simplemente
+no muestra la tabla, no aparece "falta esto" en cada uno de los 407 a la vez.
+
+**Registro INVIMA, Principio activo, Concentración y Forma farmacéutica los llena tu
+regente de farmacia**, con el dato real del empaque, desde la planilla de Excel — nunca
+el asistente, ni porque se lo pidas hablando. Es la misma regla que la de fórmula médica,
+y por la misma razón: un dato así mal escrito es un problema de salud publicado, no un
+error de catálogo cualquiera.
+
+**La Presentación comercial** (por ejemplo "Caja x 20 tabletas") sí se la puedes pedir tú
+al asistente o llenarla directamente en la planilla: no es un dato clínico.
+
 ---
 
 # 3 · La planilla de Excel
@@ -139,8 +168,8 @@ hojas de cálculo que uses.
 
 | Color | Qué significa |
 |---|---|
-| 🟡 **Amarillo** | **Aquí escribes tú.** Nombre, precios, categoría, existencias, destacado, promoción |
-| 🟠 **Naranja** | **Solo tú.** Es la columna de fórmula médica. El asistente no la toca nunca |
+| 🟡 **Amarillo** | **Aquí escribes tú.** Nombre, precios, categoría, existencias, destacado, promoción, presentación comercial |
+| 🟠 **Naranja** | **Solo tu regente de farmacia.** Fórmula médica, Registro INVIMA, Principio activo, Concentración y Forma farmacéutica. El asistente no las toca nunca |
 | 🟢 **Verde** | **No escribas nada.** El descuento se calcula solo con los dos precios |
 | ⬜ **Gris** | **No tocar.** Es el código interno del producto |
 
@@ -165,8 +194,9 @@ porcentaje sale solo.
 **1. No agregues ni borres filas.** Si quieres un producto nuevo, o sacar uno, se lo dices
 al asistente y él lo hace. La planilla es para cambiar lo que ya está.
 
-**2. La columna naranja la llenas solo tú.** Ni el asistente, ni nadie más — aunque se lo
-pidas en la conversación te va a decir que no. Es un tema legal, no de la página.
+**2. Las columnas naranjas las llena solo el regente de farmacia.** Ni el asistente, ni tú
+mismo si no lo eres — aunque se lo pidas en la conversación te va a decir que no. Es un
+tema legal y de salud, no un detalle de la página.
 
 **3. El descuento no se escribe.** Sale de los dos precios. Si escribes uno que no cuadra,
 la página no se publica.
@@ -224,6 +254,10 @@ las categorías existan, que cada foto exista de verdad y que no pese demasiado.
 poner esa información, la redactas tú y él la copia tal cual.
 
 **No marca qué productos requieren fórmula médica.** Eso lo defines tú, en la planilla.
+
+**No llena la ficha técnica de un producto** (Registro INVIMA, Principio activo,
+Concentración, Forma farmacéutica) por lo que se hable en la conversación. Esos datos los
+pone solo el regente de farmacia, desde la planilla.
 
 **No inventa precios ni datos.** Si no sabe uno, lo pregunta.
 
