@@ -5587,14 +5587,14 @@
  {
   "slug": "dolex-activegel-10-capsulas-liquidas",
   "titulo": "DOLEX ACTIVEGEL 10 CAPSULAS LIQUIDAS",
-  "precio": 127100,
+  "precio": 16900,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
   "subcategoria": "analgesicos",
   "marca": "Dolex",
   "presentacion": "10 Cápsulas",
-  "rx": null,
+  "rx": false,
   "stock": true,
   "destacado": false,
   "imagenes": [
@@ -5611,11 +5611,11 @@
    "concentracion": "pendiente",
    "forma_farmaceutica": "pendiente"
   },
-  "presentacion_comercial": null,
+  "presentacion_comercial": "Caja x 10 capsulas",
   "registro_invima": null,
-  "principio_activo": null,
-  "concentracion": null,
-  "forma_farmaceutica": null,
+  "principio_activo": "ACETAMINOFEN",
+  "concentracion": "500 mg",
+  "forma_farmaceutica": "Capsulas blandas",
   "promo_flash_vence": null,
   "promo_flash_donde": null
  },
