@@ -2,7 +2,7 @@
   "_comentario": "Datos del negocio. Todo lo que diga PENDIENTE se muestra marcado en el sitio para que no se publique por descuido. Ver PENDIENTES.md. Datos de sedes, horarios y habilitación sanitaria confirmados por el propietario (Eduardo) el 16/09/2026.",
   "negocio": "Droguería Xivica",
   "tagline": "Cerca cuando la necesitas.",
-  "descripcion_corta": "Droguería cercana y confiable en el norte de Bogotá. Medicamentos, cuidado personal y bienestar, con domicilio en 45 a 90 minutos.",
+  "descripcion_corta": "Droguería cercana y confiable en el norte de Bogotá. Medicamentos, cuidado personal y bienestar, con domicilio en 30 a 60 minutos.",
   "whatsapp": "573013665076",
   "whatsapp_visible": "301 366 5076",
   "correo": "ventas@drogueriaxivica.com",
@@ -10,8 +10,8 @@
   "envio": {
     "gratis_desde": 0,
     "_nota_gratis_desde": "En 0 a propósito: el domicilio es gratis en la zona de cobertura cercana SIN importar el valor del pedido (decisión del propietario, 16/09/2026). Fuera de esa zona se cobra y se informa antes de despachar. Ver src/datos/legal.json -> domicilios y la página /legal/domicilios.",
-    "minutos_min": 45,
-    "minutos_max": 90,
+    "minutos_min": 30,
+    "minutos_max": 60,
     "cobertura": "Bogotá y alrededores",
     "tyc": "Aplica TyC",
     "tyc_enlace": "legal/domicilios"

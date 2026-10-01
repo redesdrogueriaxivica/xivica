@@ -4,7 +4,7 @@
     {
       "etiqueta": "DROGUERÍA XIVICA",
       "titulo": "Cerca cuando la necesitas.",
-      "texto": "Medicamentos, cuidado personal y bienestar con atención humana. Te lo llevamos en 45 a 90 minutos.",
+      "texto": "Medicamentos, cuidado personal y bienestar con atención humana. Te lo llevamos en 30 a 60 minutos.",
       "boton": "Escríbenos",
       "enlace": "whatsapp",
       "foto": "fotos/atencion-mostrador",
@@ -72,7 +72,7 @@
   "garantias": [
     {
       "icono": "camion",
-      "titulo": "Domicilio 45–90 min",
+      "titulo": "Domicilio 30–60 min",
       "texto": "Gratis en la zona cercana",
       "nota_tyc": "Aplica TyC",
       "nota_tyc_enlace": "legal/domicilios"

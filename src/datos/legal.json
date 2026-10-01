@@ -1,7 +1,7 @@
 {
   "_comentario": "Textos legales. IMPORTANTE: son un punto de partida redactado según la Ley 1581 de 2012 y el Decreto 1074 de 2015, NO son asesoría jurídica. Antes de publicar en el dominio definitivo deberían ser revisados por un abogado. Está anotado en PENDIENTES.md.",
 
-  "actualizado": "2026-09-05",
+  "actualizado": "2026-10-01",
 
   "privacidad": {
     "titulo": "Política de privacidad",
@@ -61,7 +61,7 @@
     "entrada": "Cómo funciona el envío de tus pedidos a domicilio.",
     "secciones": [
       { "titulo": "Zona de cobertura",
-        "texto": "Repartimos en Bogotá y alrededores desde nuestras sedes, en 45 a 90 minutos según la zona y la hora del día." },
+        "texto": "Repartimos en Bogotá y alrededores desde nuestras sedes, en 30 a 60 minutos según la zona y la hora del día." },
       { "titulo": "Domicilio gratis",
         "texto": "En la zona cercana de cobertura el domicilio es gratis sin importar el valor del pedido, por pequeño que sea." },
       { "titulo": "Si pides desde más lejos",
