@@ -2,6 +2,8 @@
  * Selector de sede junto al logo: muestra las tres sedes y, al elegir una,
  * abre su WhatsApp. Recuerda la elección para ofrecerla primero en el pedido.
  */
+import { numeroWhatsApp } from "./pedido.js";
+
 export function montarSelectorSede() {
   const boton = document.getElementById("elegirSede");
   const menu = document.getElementById("menuSedes");
@@ -45,7 +47,7 @@ export function montarSelectorSede() {
     recordar(opcion.dataset.sedeId);
     if (etiqueta) etiqueta.textContent = opcion.dataset.sedeNombre;
     cerrar();
-    window.open(`https://wa.me/57${opcion.dataset.sedeTelefono}`, "_blank", "noopener");
+    window.open(`https://wa.me/${numeroWhatsApp(opcion.dataset.sedeTelefono)}`, "_blank", "noopener");
   });
 
   document.addEventListener("click", (evento) => {

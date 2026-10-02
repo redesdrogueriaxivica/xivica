@@ -118,7 +118,23 @@ export function armarMensaje(pedido, datos) {
   return partes.join("\n");
 }
 
+/**
+ * Deja el numero como lo entiende WhatsApp: solo digitos y con el pais (57).
+ *
+ * Sin esto el enlace llega como wa.me/3228636654 y WhatsApp no sabe de que
+ * pais es: abre la pagina de compartir en vez de abrir el chat de la sede, y
+ * el pedido se pierde. Con el 57 abre el chat correcto. Se decia "no esta en
+ * WhatsApp" cuando el problema era el enlace, no el numero.
+ *
+ * Acepta el numero como venga: con espacios, con guiones o ya con el 57.
+ */
+export function numeroWhatsApp(numero) {
+  const digitos = String(numero || "").replace(/\D/g, "");
+  if (!digitos) return "";
+  return digitos.startsWith("57") ? digitos : `57${digitos}`;
+}
+
 /** La direccion completa de WhatsApp con el pedido dentro. */
 export function enlaceWhatsApp(numero, mensaje) {
-  return `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`;
+  return `https://wa.me/${numeroWhatsApp(numero)}?text=${encodeURIComponent(mensaje)}`;
 }

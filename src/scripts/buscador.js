@@ -7,6 +7,7 @@
  */
 import { construirIndice, buscar } from "./busqueda.js";
 import { pesos } from "./formato.js";
+import { enlaceWhatsApp } from "./pedido.js";
 
 const RESULTADOS = 6;
 const ESPERA = 140; // ms tras la ultima tecla, para no buscar en cada letra
@@ -34,9 +35,8 @@ function pintarResultados(caja, productos, consulta, base) {
     caja.innerHTML = `
       <p class="sug-vacio">
         No encontramos <strong>${escapar(consulta)}</strong>.
-        <a href="https://wa.me/${caja.dataset.whatsapp}?text=${encodeURIComponent(
-          `Hola, ¿tienen ${consulta}?`
-        )}" target="_blank" rel="noopener">Pregúntanos por WhatsApp</a>
+        <a href="${enlaceWhatsApp(caja.dataset.whatsapp, `Hola, ¿tienen ${consulta}?`)}"
+          target="_blank" rel="noopener">Pregúntanos por WhatsApp</a>
       </p>`;
     return;
   }

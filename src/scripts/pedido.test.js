@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { crearPedido, armarMensaje } from "./pedido.js";
+import { crearPedido, armarMensaje, enlaceWhatsApp, numeroWhatsApp } from "./pedido.js";
 
 const A = { slug: "a", titulo: "ACETAMINOFEN 500 MG", precio: 5000, imagen: "a.webp" };
 const B = { slug: "b", titulo: "CREMA NIVEA", precio: 8200, imagen: "b.webp" };
@@ -113,4 +113,24 @@ test("sin vueltas el pago en efectivo sale solo", () => {
 test("un pedido vacío no se puede enviar", () => {
   const p = crearPedido();
   assert.throws(() => armarMensaje(p, { nombre: "Ana" }), /vacío/);
+});
+
+test("el numero de WhatsApp lleva el 57 del pais", () => {
+  // Sin el 57, wa.me no sabe de que pais es el numero y el pedido se pierde:
+  // abria la pagina de compartir en vez del chat de la sede.
+  assert.equal(numeroWhatsApp("3228636654"), "573228636654");
+  assert.equal(numeroWhatsApp("3013665076"), "573013665076");
+  assert.equal(numeroWhatsApp("3124293060"), "573124293060");
+});
+
+test("el numero no se daña si ya trae el 57 o separadores", () => {
+  assert.equal(numeroWhatsApp("573228636654"), "573228636654");
+  assert.equal(numeroWhatsApp("322 863 66 54"), "573228636654");
+  assert.equal(numeroWhatsApp("322-863-6654"), "573228636654");
+  assert.equal(numeroWhatsApp(""), "");
+});
+
+test("el enlace del pedido lleva el 57 y el texto del mensaje", () => {
+  const enlace = enlaceWhatsApp("3228636654", "Hola");
+  assert.match(enlace, /^https:\/\/wa\.me\/573228636654\?text=Hola$/);
 });
