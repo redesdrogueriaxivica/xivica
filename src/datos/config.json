@@ -56,7 +56,9 @@
       "_nota_ubicacion": "Coordenadas aproximadas del barrio Verbenal (no confirmadas con el pin exacto). Ver PENDIENTES.md.",
       "horario_semana": "Lunes a sábado: 7:30 a. m. – 9:30 p. m.",
       "horario_festivos": "Domingos y festivos: 9:00 a. m. – 9:00 p. m.",
-      "habilitacion_sanitaria": "MS00001129"
+      "habilitacion_sanitaria": "MS00001129",
+      "foto": "fotos/fachada-verbenal",
+      "foto_alt": "Fachada de la sede Verbenal: aviso azul de Droguería Xivica en la esquina de la tienda, en un local de ladrillo con la puerta de vidrio abierta"
     }
   ],
   "legal": {
