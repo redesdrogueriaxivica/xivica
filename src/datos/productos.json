@@ -75,7 +75,7 @@
  {
   "slug": "abrilar-jarabe-fco-x-100ml",
   "titulo": "ABRILAR JARABE FCO X 100ML",
-  "precio": 38900,
+  "precio": 45500,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -101,11 +101,11 @@
    "concentracion": "pendiente",
    "forma_farmaceutica": "pendiente"
   },
-  "presentacion_comercial": null,
+  "presentacion_comercial": "Frasco de 100ml",
   "registro_invima": null,
-  "principio_activo": null,
-  "concentracion": null,
-  "forma_farmaceutica": null,
+  "principio_activo": "Extracto seco de hojas de Hedera Helix (hiedra)",
+  "concentracion": "0,7 g/100 ml (35 mg/5 ml)",
+  "forma_farmaceutica": "Jarabe",
   "promo_flash_vence": null,
   "promo_flash_donde": null
  },
