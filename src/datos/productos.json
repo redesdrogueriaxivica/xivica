@@ -3282,7 +3282,7 @@
  {
   "slug": "ciruelax-jalea-300-gr",
   "titulo": "CIRUELAX JALEA 300 GR",
-  "precio": 46600,
+  "precio": 54000,
   "precio_antes": null,
   "descuento": null,
   "categoria": "bienestar-nutricion",
@@ -3317,7 +3317,7 @@
  {
   "slug": "ciruelax-minitabs-40-comprimidos",
   "titulo": "CIRUELAX MINITABS 40 COMPRIMIDOS",
-  "precio": 29500,
+  "precio": 40400,
   "precio_antes": null,
   "descuento": null,
   "categoria": "bienestar-nutricion",
@@ -4966,39 +4966,6 @@
   "origen": {
    "rx": "pendiente",
    "subcategoria": "inferido",
-   "registro_invima": "pendiente",
-   "principio_activo": "pendiente",
-   "concentracion": "pendiente",
-   "forma_farmaceutica": "pendiente"
-  },
-  "presentacion_comercial": null,
-  "registro_invima": null,
-  "principio_activo": null,
-  "concentracion": null,
-  "forma_farmaceutica": null,
-  "promo_flash_vence": null,
-  "promo_flash_donde": null
- },
- {
-  "slug": "trimebutina-simeticon-200-120mg-30tbs",
-  "titulo": "TRIMEBUTINA SIMETICON.200/120MG 30TBS",
-  "precio": 14500,
-  "precio_antes": null,
-  "descuento": null,
-  "categoria": "medicamentos",
-  "subcategoria": null,
-  "marca": null,
-  "presentacion": "120 mg · 30 unidades",
-  "rx": null,
-  "stock": true,
-  "destacado": false,
-  "imagenes": [
-   "7703153031251-7-600x600.webp"
-  ],
-  "descripcion": "TRIMEBUTINA SIMETICON.200/120MG 30TBS medicamento original. Consulta a tu farmacéutico. • Entrega 30-60 min • Original sellado.",
-  "origen": {
-   "rx": "pendiente",
-   "presentacion": "titulo",
    "registro_invima": "pendiente",
    "principio_activo": "pendiente",
    "concentracion": "pendiente",
@@ -11289,9 +11256,9 @@
  {
   "slug": "traumeel-heel-gotas-fco-x-30-ml",
   "titulo": "TRAUMEEL HEEL GOTAS  FCO X 30 ML",
-  "precio": 102000,
-  "precio_antes": 137700,
-  "descuento": 26,
+  "precio": 84000,
+  "precio_antes": 92000,
+  "descuento": 9,
   "categoria": "medicamentos",
   "subcategoria": null,
   "marca": null,
