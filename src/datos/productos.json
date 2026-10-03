@@ -35,42 +35,6 @@
   "promo_flash_donde": null
  },
  {
-  "slug": "shot-b-30-capsulas",
-  "titulo": "SHOT B 30 CAPSULAS",
-  "precio": 61000,
-  "precio_antes": null,
-  "descuento": null,
-  "categoria": "bienestar-nutricion",
-  "subcategoria": "vitaminas",
-  "marca": null,
-  "presentacion": "30 Cápsulas",
-  "rx": null,
-  "stock": true,
-  "destacado": false,
-  "imagenes": [
-   "650240032158-1-600x600.webp",
-   "650240032158-2-600x600.webp",
-   "650240032158-3-600x600.webp"
-  ],
-  "descripcion": "SHOT B 30 CAPSULAS complemento nutricional. • Entrega 30-60 min • Original sellado.",
-  "origen": {
-   "rx": "pendiente",
-   "presentacion": "titulo",
-   "subcategoria": "inferido",
-   "registro_invima": "pendiente",
-   "principio_activo": "pendiente",
-   "concentracion": "pendiente",
-   "forma_farmaceutica": "pendiente"
-  },
-  "presentacion_comercial": null,
-  "registro_invima": null,
-  "principio_activo": null,
-  "concentracion": null,
-  "forma_farmaceutica": null,
-  "promo_flash_vence": null,
-  "promo_flash_donde": null
- },
- {
   "slug": "abrilar-jarabe-fco-x-100ml",
   "titulo": "ABRILAR JARABE FCO X 100ML",
   "precio": 45500,
@@ -2151,7 +2115,7 @@
  {
   "slug": "calmidol-compuesto-48-grageas",
   "titulo": "CALMIDOL COMPUESTO 48 GRAGEAS",
-  "precio": 66900,
+  "precio": 84000,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -2185,8 +2149,8 @@
  },
  {
   "slug": "calmidol-max-grageas",
-  "titulo": "CALMIDOL MAX GRAGEAS",
-  "precio": 70200,
+  "titulo": "CALMIDOL MAX 48 GRAGEAS",
+  "precio": 88900,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -2221,7 +2185,7 @@
  {
   "slug": "candesartan-8-mg-14-tabletas",
   "titulo": "CANDESARTAN 8 MG 14 TABLETAS",
-  "precio": 6700,
+  "precio": 8600,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -2256,7 +2220,7 @@
  {
   "slug": "captopril-25-mg-tbs-cja-x-30",
   "titulo": "CAPTOPRIL 25 MG TBS CJA X 30",
-  "precio": 7700,
+  "precio": 11200,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -2289,7 +2253,7 @@
  {
   "slug": "captopril-50-mg-30-tabletas",
   "titulo": "CAPTOPRIL 50 MG 30 TABLETAS",
-  "precio": 6000,
+  "precio": 7600,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -2324,7 +2288,7 @@
  {
   "slug": "cardioaspirina-100-mg-30-tabletas",
   "titulo": "CARDIOASPIRINA 100 MG 30 TABLETAS",
-  "precio": 36500,
+  "precio": 65700,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -2361,7 +2325,7 @@
  {
   "slug": "carvedilol-12-5-mg-30-tbs",
   "titulo": "CARVEDILOL 12.5 MG 30 TBS",
-  "precio": 17300,
+  "precio": 19500,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -2394,8 +2358,8 @@
  },
  {
   "slug": "carvedilol-25-mg-30-tabletas",
-  "titulo": "CARVEDILOL 25 MG 30 TABLETAS",
-  "precio": 16300,
+  "titulo": "CARVEDILOL 25 MG 30 TABLETAS MK",
+  "precio": 37600,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -2429,7 +2393,7 @@
  },
  {
   "slug": "carvedilol-6-25-mg-30-tbs",
-  "titulo": "CARVEDILOL 6.25 MG 30 TBS",
+  "titulo": "CARVEDILOL 6.25 MG 30 TBS MK",
   "precio": 10500,
   "precio_antes": null,
   "descuento": null,
@@ -2465,7 +2429,7 @@
  {
   "slug": "cebion-masticable-fresa-100-tabletas",
   "titulo": "CEBION MASTICABLE FRESA 100 TABLETAS",
-  "precio": 80000,
+  "precio": 63900,
   "precio_antes": null,
   "descuento": null,
   "categoria": "bienestar-nutricion",
@@ -2500,7 +2464,7 @@
  {
   "slug": "cebion-gotas-30-ml",
   "titulo": "CEBION GOTAS 30 ML",
-  "precio": 22800,
+  "precio": 29600,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -2534,8 +2498,8 @@
  },
  {
   "slug": "cefalexina-250-mg-suspension-60-ml",
-  "titulo": "CEFALEXINA 250 MG SUSPENSION 60 ML",
-  "precio": 11300,
+  "titulo": "CEFALEXINA 250 MG SUSPENSION 60 ML GENFAR",
+  "precio": 12700,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -2571,7 +2535,7 @@
  {
   "slug": "cicatricure-anti-manchas-cr-dia-50gr",
   "titulo": "CICATRICURE ANTI MANCHAS CR.DIA 50GR",
-  "precio": 67300,
+  "precio": 73900,
   "precio_antes": null,
   "descuento": null,
   "categoria": "cuidado-personal",
@@ -2605,8 +2569,8 @@
  },
  {
   "slug": "cefradina-500-mg-24-capsulas",
-  "titulo": "CEFRADINA 500 MG 24 CAPSULAS",
-  "precio": 34500,
+  "titulo": "CEFRADINA 500 MG 24 CAPSULAS AG",
+  "precio": 41500,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -2640,7 +2604,7 @@
  {
   "slug": "celecoxib-200-mg-10-capsulas",
   "titulo": "CELECOXIB 200 MG 10 CAPSULAS",
-  "precio": 9800,
+  "precio": 10600,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -2675,9 +2639,9 @@
  {
   "slug": "centrum-silver-women-60",
   "titulo": "CENTRUM SILVER WOMEN 60",
-  "precio": 43900,
-  "precio_antes": 59265,
-  "descuento": 26,
+  "precio": 82500,
+  "precio_antes": 94600,
+  "descuento": 13,
   "categoria": "bienestar-nutricion",
   "subcategoria": "vitaminas",
   "marca": "Centrum",
@@ -2712,7 +2676,7 @@
  {
   "slug": "centrum-silver-men-50-30-tab",
   "titulo": "CENTRUM SILVER MEN 50 30 TAB",
-  "precio": 27500,
+  "precio": 54300,
   "precio_antes": null,
   "descuento": null,
   "categoria": "bienestar-nutricion",
@@ -2749,7 +2713,7 @@
  {
   "slug": "centrum-silver-women-50-30-tab",
   "titulo": "CENTRUM SILVER WOMEN 50 30 TAB",
-  "precio": 27100,
+  "precio": 54300,
   "precio_antes": null,
   "descuento": null,
   "categoria": "bienestar-nutricion",
@@ -2821,7 +2785,7 @@
  {
   "slug": "cep-colgate-triple-accion-medio",
   "titulo": "CEP.COLGATE TRIPLE ACCION MEDIO",
-  "precio": 7100,
+  "precio": 7600,
   "precio_antes": null,
   "descuento": null,
   "categoria": "cuidado-personal",
@@ -2894,7 +2858,7 @@
  {
   "slug": "cetaphil-crema-humect-453-gr-3-pae",
   "titulo": "CETAPHIL CREMA HUMECT. 453 GR(3%+)(PAE",
-  "precio": 81900,
+  "precio": 124900,
   "precio_antes": null,
   "descuento": null,
   "categoria": "dermocosmeticos",
@@ -2929,8 +2893,8 @@
  },
  {
   "slug": "cetirizina-10-mg-10-tabletas",
-  "titulo": "CETIRIZINA 10 MG 10 TABLETAS",
-  "precio": 4900,
+  "titulo": "CETIRIZINA 10 MG 10 TABLETAS AG",
+  "precio": 5000,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -3002,7 +2966,7 @@
  {
   "slug": "cha-babaria-ninos-manzanilla-600-ml",
   "titulo": "CHA.BABARIA NINOS MANZANILLA 600 ML",
-  "precio": 13500,
+  "precio": 16500,
   "precio_antes": null,
   "descuento": null,
   "categoria": "bebe-maternidad",
@@ -3070,7 +3034,7 @@
  {
   "slug": "cha-savital-multivitaminas-550-ml",
   "titulo": "CHA.SAVITAL MULTIVITAMINAS 550 ML",
-  "precio": 18500,
+  "precio": 19300,
   "precio_antes": null,
   "descuento": null,
   "categoria": "cuidado-personal",
@@ -3103,8 +3067,8 @@
  },
  {
   "slug": "cha-sedal-rizos-def-infusion-act-400ml",
-  "titulo": "CHA SEDAL RIZOS DEF. INFUSION ACT. 400ML",
-  "precio": 18300,
+  "titulo": "CHA SEDAL RIZOS DEF 340 ML",
+  "precio": 17700,
   "precio_antes": null,
   "descuento": null,
   "categoria": "cuidado-personal",
@@ -3140,7 +3104,7 @@
  {
   "slug": "cha-tio-nacho-herbolaria-milen-415ml",
   "titulo": "CHA TIO NACHO HERBOLARIA MILEN 415ML",
-  "precio": 32000,
+  "precio": 35500,
   "precio_antes": null,
   "descuento": null,
   "categoria": "cuidado-personal",
@@ -3177,9 +3141,9 @@
  {
   "slug": "redoxon-total-efer-20-tbs-econopack",
   "titulo": "REDOXON TOTAL EFER.20 TBS ECONOPACK",
-  "precio": 31300,
+  "precio": 37600,
   "precio_antes": 42255,
-  "descuento": 26,
+  "descuento": 11,
   "categoria": "bienestar-nutricion",
   "subcategoria": "vitaminas",
   "marca": "Redoxon",
@@ -3250,7 +3214,7 @@
  {
   "slug": "cialis-20-mg-tbs-cja-x-1-und",
   "titulo": "CIALIS 20 MG TBS  CJA X 1 UND",
-  "precio": 41000,
+  "precio": 53800,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -4410,41 +4374,6 @@
   "promo_flash_donde": null
  },
  {
-  "slug": "crema-ponds-rejuveness-fps30-45-gr-2",
-  "titulo": "CREMA PONDS REJUVENESS FPS30 45 GR",
-  "precio": 15300,
-  "precio_antes": null,
-  "descuento": null,
-  "categoria": "cuidado-personal",
-  "subcategoria": "cuidado-piel",
-  "marca": "Ponds",
-  "presentacion": "45 g · Crema",
-  "rx": null,
-  "stock": true,
-  "destacado": false,
-  "imagenes": [
-   "200042622_2-600x600.webp"
-  ],
-  "descripcion": "CREMA PONDS REJUVENESS FPS30 45 GR cuidado diario. • Entrega 30-60 min • Original sellado.",
-  "origen": {
-   "rx": "pendiente",
-   "presentacion": "titulo",
-   "marca": "titulo",
-   "subcategoria": "inferido",
-   "registro_invima": "pendiente",
-   "principio_activo": "pendiente",
-   "concentracion": "pendiente",
-   "forma_farmaceutica": "pendiente"
-  },
-  "presentacion_comercial": null,
-  "registro_invima": null,
-  "principio_activo": null,
-  "concentracion": null,
-  "forma_farmaceutica": null,
-  "promo_flash_vence": null,
-  "promo_flash_donde": null
- },
- {
   "slug": "lubriderm-extra-humectante",
   "titulo": "LUBRIDERM EXTRA HUMECTANTE",
   "precio": 21700,
@@ -5201,39 +5130,6 @@
    "100026555_7-600x600.webp"
   ],
   "descripcion": "RAVAD COLON PEG 4 SOBRES complemento nutricional. • Entrega 30-60 min • Original sellado.",
-  "origen": {
-   "rx": "pendiente",
-   "presentacion": "titulo",
-   "registro_invima": "pendiente",
-   "principio_activo": "pendiente",
-   "concentracion": "pendiente",
-   "forma_farmaceutica": "pendiente"
-  },
-  "presentacion_comercial": null,
-  "registro_invima": null,
-  "principio_activo": null,
-  "concentracion": null,
-  "forma_farmaceutica": null,
-  "promo_flash_vence": null,
-  "promo_flash_donde": null
- },
- {
-  "slug": "traumeel-gotas-30-mililitros-3",
-  "titulo": "TRAUMEEL GOTAS 30 MILILITROS(3%+)",
-  "precio": 44500,
-  "precio_antes": null,
-  "descuento": null,
-  "categoria": "medicamentos",
-  "subcategoria": null,
-  "marca": null,
-  "presentacion": "Gotas",
-  "rx": null,
-  "stock": true,
-  "destacado": false,
-  "imagenes": [
-   "7707336721748-1-600x600.webp"
-  ],
-  "descripcion": "TRAUMEEL GOTAS 30 MILILITROS(3%+) medicamento original. Consulta a tu farmacéutico. • Entrega 30-60 min • Original sellado.",
   "origen": {
    "rx": "pendiente",
    "presentacion": "titulo",
@@ -6355,39 +6251,6 @@
    "rx": "pendiente",
    "presentacion": "titulo",
    "subcategoria": "inferido",
-   "registro_invima": "pendiente",
-   "principio_activo": "pendiente",
-   "concentracion": "pendiente",
-   "forma_farmaceutica": "pendiente"
-  },
-  "presentacion_comercial": null,
-  "registro_invima": null,
-  "principio_activo": null,
-  "concentracion": null,
-  "forma_farmaceutica": null,
-  "promo_flash_vence": null,
-  "promo_flash_donde": null
- },
- {
-  "slug": "systane-gotas-15-ml",
-  "titulo": "SYSTANE GOTAS 15 ML",
-  "precio": 12900,
-  "precio_antes": null,
-  "descuento": null,
-  "categoria": "medicamentos",
-  "subcategoria": null,
-  "marca": null,
-  "presentacion": "15 ml · Gotas",
-  "rx": null,
-  "stock": true,
-  "destacado": false,
-  "imagenes": [
-   "300650429092-1-600x600.webp"
-  ],
-  "descripcion": "SYSTANE GOTAS 15 ML medicamento original. Consulta a tu farmacéutico. • Entrega 30-60 min • Original sellado.",
-  "origen": {
-   "rx": "pendiente",
-   "presentacion": "titulo",
    "registro_invima": "pendiente",
    "principio_activo": "pendiente",
    "concentracion": "pendiente",
@@ -8779,39 +8642,6 @@
   "promo_flash_donde": null
  },
  {
-  "slug": "systane-gotas-15-ml-2",
-  "titulo": "SYSTANE GOTAS 15 ML",
-  "precio": 54500,
-  "precio_antes": null,
-  "descuento": null,
-  "categoria": "medicamentos",
-  "subcategoria": null,
-  "marca": null,
-  "presentacion": "15 ml · Gotas",
-  "rx": null,
-  "stock": true,
-  "destacado": false,
-  "imagenes": [
-   "300650429092-7-600x600.webp"
-  ],
-  "descripcion": "SYSTANE GOTAS 15 ML medicamento original. Consulta a tu farmacéutico. • Entrega 30-60 min • Original sellado.",
-  "origen": {
-   "rx": "pendiente",
-   "presentacion": "titulo",
-   "registro_invima": "pendiente",
-   "principio_activo": "pendiente",
-   "concentracion": "pendiente",
-   "forma_farmaceutica": "pendiente"
-  },
-  "presentacion_comercial": null,
-  "registro_invima": null,
-  "principio_activo": null,
-  "concentracion": null,
-  "forma_farmaceutica": null,
-  "promo_flash_vence": null,
-  "promo_flash_donde": null
- },
- {
   "slug": "diclofenaco-50-mg-30-tabletas",
   "titulo": "DICLOFENACO 50 MG 30 TABLETAS",
   "precio": 5900,
@@ -11019,9 +10849,9 @@
  {
   "slug": "vigadexa-gotas-fco-x-5-ml",
   "titulo": "VIGADEXA GOTAS FCO X 5 ML",
-  "precio": 107000,
-  "precio_antes": 144450,
-  "descuento": 26,
+  "precio": 84000,
+  "precio_antes": 91800,
+  "descuento": 8,
   "categoria": "medicamentos",
   "subcategoria": null,
   "marca": null,
@@ -11358,7 +11188,7 @@
  {
   "slug": "trimebutina-simeticona-200-120mg-pc-cja-x-30",
   "titulo": "TRIMEBUTINA SIMETICONA 200/120MG PC CJA X 30",
-  "precio": 68500,
+  "precio": 103300,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -12699,39 +12529,6 @@
    "100018875_1-300x300.webp"
   ],
   "descripcion": "SIMILAC TOTAL COMFORT 1  X 360 GR cuidado suave bebé. • Entrega 30-60 min • Original sellado.",
-  "origen": {
-   "rx": "pendiente",
-   "presentacion": "titulo",
-   "registro_invima": "pendiente",
-   "principio_activo": "pendiente",
-   "concentracion": "pendiente",
-   "forma_farmaceutica": "pendiente"
-  },
-  "presentacion_comercial": null,
-  "registro_invima": null,
-  "principio_activo": null,
-  "concentracion": null,
-  "forma_farmaceutica": null,
-  "promo_flash_vence": null,
-  "promo_flash_donde": null
- },
- {
-  "slug": "siligas-gotas-30-ml-2",
-  "titulo": "SILIGAS GOTAS  30 ML",
-  "precio": 20400,
-  "precio_antes": null,
-  "descuento": null,
-  "categoria": "medicamentos",
-  "subcategoria": null,
-  "marca": null,
-  "presentacion": "30 ml · Gotas",
-  "rx": null,
-  "stock": true,
-  "destacado": false,
-  "imagenes": [
-   "SILIGAS-GOTAS_F-600x600.webp"
-  ],
-  "descripcion": "SILIGAS GOTAS  30 ML medicamento original. Consulta a tu farmacéutico. • Entrega 30-60 min • Original sellado.",
   "origen": {
    "rx": "pendiente",
    "presentacion": "titulo",
