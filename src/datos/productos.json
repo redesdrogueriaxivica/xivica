@@ -2,9 +2,9 @@
  {
   "slug": "oscillococcinum",
   "titulo": "OSCILLOCOCCINUM",
-  "precio": 62900,
+  "precio": 75500,
   "precio_antes": 84915,
-  "descuento": 26,
+  "descuento": 11,
   "categoria": "medicamentos",
   "subcategoria": "antigripales",
   "marca": "Oscillococcinum",
@@ -112,7 +112,7 @@
  {
   "slug": "aceite-jj-baby-original-50-ml",
   "titulo": "ACEITE JJ BABY ORIGINAL 50 ML",
-  "precio": 6200,
+  "precio": 7700,
   "precio_antes": null,
   "descuento": null,
   "categoria": "bebe-maternidad",
@@ -148,7 +148,7 @@
  {
   "slug": "aceite-jj-baby-original-100-ml",
   "titulo": "ACEITE JJ BABY ORIGINAL 100 ML",
-  "precio": 13000,
+  "precio": 15200,
   "precio_antes": null,
   "descuento": null,
   "categoria": "bebe-maternidad",
@@ -184,7 +184,7 @@
  {
   "slug": "acetaminofen-codeina-325-30mg-30-tbs-gf",
   "titulo": "ACETAMINOFEN+CODEINA 325/30MG 30 TBS GF",
-  "precio": 38500,
+  "precio": 39500,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -256,7 +256,7 @@
  {
   "slug": "acetaminofen-160mg-5ml-jarabe-90ml-mk",
   "titulo": "ACETAMINOFEN 160MG/5ML JARABE 90ML MK",
-  "precio": 12300,
+  "precio": 16400,
   "precio_antes": null,
   "descuento": null,
   "categoria": "bebe-maternidad",
@@ -292,7 +292,7 @@
  {
   "slug": "acetaminofen-codeina-325-8mg-20-tbs-mk",
   "titulo": "ACETAMINOFEN+CODEINA 325/8MG 20 TBS MK",
-  "precio": 19800,
+  "precio": 24800,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -336,7 +336,7 @@
   "marca": null,
   "presentacion": "90 ml · Jarabe",
   "rx": null,
-  "stock": true,
+  "stock": false,
   "destacado": false,
   "imagenes": [
    "100024015_2-600x600.webp",
