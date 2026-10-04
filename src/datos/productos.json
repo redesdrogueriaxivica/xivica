@@ -7872,39 +7872,6 @@
   "promo_flash_donde": null
  },
  {
-  "slug": "klim-1-2000-gr-bolsa",
-  "titulo": "KLIM 1+ 2000 GR BOLSA",
-  "precio": 240000,
-  "precio_antes": null,
-  "descuento": null,
-  "categoria": "bebe-maternidad",
-  "subcategoria": null,
-  "marca": null,
-  "presentacion": "2000 g",
-  "rx": null,
-  "stock": true,
-  "destacado": false,
-  "imagenes": [
-   "200037422_1-600x600.webp"
-  ],
-  "descripcion": "KLIM 1+ 2000 GR BOLSA cuidado suave bebé. • Entrega 30-60 min • Original sellado.",
-  "origen": {
-   "rx": "pendiente",
-   "presentacion": "titulo",
-   "registro_invima": "pendiente",
-   "principio_activo": "pendiente",
-   "concentracion": "pendiente",
-   "forma_farmaceutica": "pendiente"
-  },
-  "presentacion_comercial": null,
-  "registro_invima": null,
-  "principio_activo": null,
-  "concentracion": null,
-  "forma_farmaceutica": null,
-  "promo_flash_vence": null,
-  "promo_flash_donde": null
- },
- {
   "slug": "klim-3-500-gr-bolsa",
   "titulo": "KLIM 3+ 500 GR BOLSA",
   "precio": 96300,
@@ -11018,9 +10985,9 @@
  {
   "slug": "unesia-crema-antimicotico",
   "titulo": "UNESIA CREMA ANTIMICOTICO",
-  "precio": 31000,
-  "precio_antes": 41850,
-  "descuento": 26,
+  "precio": 35000,
+  "precio_antes": 39000,
+  "descuento": 10,
   "categoria": "medicamentos",
   "subcategoria": "dermatologicos",
   "marca": "Unesia",
