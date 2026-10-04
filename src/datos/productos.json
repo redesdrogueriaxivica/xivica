@@ -2820,9 +2820,9 @@
  {
   "slug": "cerebrit-330-gr-cerebrit-50-gr-p-e",
   "titulo": "CEREBRIT 330 GR+CEREBRIT 50 GR P.E",
-  "precio": 16700,
-  "precio_antes": 22545,
-  "descuento": 26,
+  "precio": 22700,
+  "precio_antes": 26500,
+  "descuento": 14,
   "categoria": "bienestar-nutricion",
   "subcategoria": "vitaminas",
   "marca": "Cerebrit",
@@ -5523,7 +5523,7 @@
  {
   "slug": "enterogermina-5-ml-10-amp-bebibles",
   "titulo": "ENTEROGERMINA 5 ML 10 AMP BEBIBLES",
-  "precio": 66500,
+  "precio": 84000,
   "precio_antes": null,
   "descuento": null,
   "categoria": "bienestar-nutricion",
@@ -5558,7 +5558,7 @@
  {
   "slug": "enterogermina-plus-5-ampollas-bebibles",
   "titulo": "ENTEROGERMINA PLUS 5 AMPOLLAS BEBIBLES",
-  "precio": 68500,
+  "precio": 86000,
   "precio_antes": null,
   "descuento": null,
   "categoria": "bienestar-nutricion",
@@ -6165,7 +6165,7 @@
  {
   "slug": "electrolit-hidratante-mora-azul-625-ml",
   "titulo": "ELECTROLIT HIDRATANTE MORA AZUL 625 ML",
-  "precio": 7500,
+  "precio": 8500,
   "precio_antes": null,
   "descuento": null,
   "categoria": "bienestar-nutricion",
@@ -6200,7 +6200,7 @@
  {
   "slug": "hidraplus-75-zinc-uva-400-ml-suero",
   "titulo": "HIDRAPLUS 75 ZINC UVA 400 ML SUERO",
-  "precio": 9800,
+  "precio": 11000,
   "precio_antes": null,
   "descuento": null,
   "categoria": "bienestar-nutricion",
@@ -7774,7 +7774,7 @@
  {
   "slug": "ketoprofeno-gel-2-5-50-gr",
   "titulo": "KETOPROFENO GEL 2.5% 50 GR",
-  "precio": 3500,
+  "precio": 23300,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -8108,7 +8108,7 @@
  {
   "slug": "lidoprocto-10-supositorios-3",
   "titulo": "LIDOPROCTO 10 SUPOSITORIOS(3%+)",
-  "precio": 21300,
+  "precio": 113500,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -8678,8 +8678,8 @@
  },
  {
   "slug": "diclofenaco-retard-100-mg-20-capsulas",
-  "titulo": "DICLOFENACO RETARD 100 MG 20 CAPSULAS",
-  "precio": 14500,
+  "titulo": "DICLOFENACO RETARD 100 MG 20 CAPSULAS AG",
+  "precio": 16300,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -8812,7 +8812,7 @@
  {
   "slug": "digesta-250-mg-20-tbs",
   "titulo": "DIGESTA 250 MG 20 TBS",
-  "precio": 19000,
+  "precio": 28500,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -8912,7 +8912,7 @@
  {
   "slug": "diovan-160-mg-28-tabletas",
   "titulo": "DIOVAN 160 MG 28 TABLETAS",
-  "precio": 41000,
+  "precio": 44500,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -9145,7 +9145,7 @@
  {
   "slug": "monuril-sobre-adultos-3-gr",
   "titulo": "MONURIL SOBRE ADULTOS 3 GR",
-  "precio": 19900,
+  "precio": 21000,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -9591,7 +9591,7 @@
  {
   "slug": "neumolex-jarabe-120-ml",
   "titulo": "NEUMOLEX JARABE 120 ML",
-  "precio": 33700,
+  "precio": 37900,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -9657,7 +9657,7 @@
  {
   "slug": "neurexan-frasco-50-tabletas",
   "titulo": "NEUREXAN FRASCO 50 TABLETAS",
-  "precio": 50500,
+  "precio": 69700,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -10884,7 +10884,7 @@
  {
   "slug": "viagra-50-mg-tbs-pf-cja-x-2",
   "titulo": "VIAGRA 50 MG TBS PF  CJA X 2",
-  "precio": 30500,
+  "precio": 31500,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -11072,39 +11072,6 @@
    "presentacion": "titulo",
    "marca": "titulo",
    "subcategoria": "inferido",
-   "registro_invima": "pendiente",
-   "principio_activo": "pendiente",
-   "concentracion": "pendiente",
-   "forma_farmaceutica": "pendiente"
-  },
-  "presentacion_comercial": null,
-  "registro_invima": null,
-  "principio_activo": null,
-  "concentracion": null,
-  "forma_farmaceutica": null,
-  "promo_flash_vence": null,
-  "promo_flash_donde": null
- },
- {
-  "slug": "tukhelix-propoleo-adulto-expect-fco-x-120-ml",
-  "titulo": "TUKHELIX PROPOLEO ADULTO EXPECT FCO X 120 ML",
-  "precio": 36400,
-  "precio_antes": 49140,
-  "descuento": 26,
-  "categoria": "medicamentos",
-  "subcategoria": null,
-  "marca": null,
-  "presentacion": "120 ml · 120 unidades",
-  "rx": null,
-  "stock": true,
-  "destacado": false,
-  "imagenes": [
-   "TUKHELIX-PROPOLEO-ADULTO-EXPECT-FCO-X-120-ML-600x600.webp"
-  ],
-  "descripcion": "TUKHELIX PROPOLEO ADULTO EXPECT FCO X 120 ML medicamento original. Consulta a tu farmacéutico. • Entrega 30-60 min • Original sellado.",
-  "origen": {
-   "rx": "pendiente",
-   "presentacion": "titulo",
    "registro_invima": "pendiente",
    "principio_activo": "pendiente",
    "concentracion": "pendiente",
@@ -12378,7 +12345,7 @@
  {
   "slug": "slinda-drospirenona-4mg",
   "titulo": "SLINDA DROSPIRENONA 4MG",
-  "precio": 55500,
+  "precio": 40000,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
