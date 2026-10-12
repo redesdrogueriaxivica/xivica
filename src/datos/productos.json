@@ -9996,9 +9996,9 @@
  {
   "slug": "sunface-gel-spf50-x-70gr",
   "titulo": "SUNFACE GEL SPF50 X 70GR",
-  "precio": 95000,
-  "precio_antes": 128250,
-  "descuento": 26,
+  "precio": 115600,
+  "precio_antes": 128500,
+  "descuento": 10,
   "categoria": "cuidado-personal",
   "subcategoria": "cuidado-piel",
   "marca": null,
@@ -10334,7 +10334,7 @@
  {
   "slug": "winny-ult-trim-act-sec-et-5-paq-x-50",
   "titulo": "WINNY ULT/TRIM ACT-SEC ET.5 PAQ X 50",
-  "precio": 69000,
+  "precio": 79900,
   "precio_antes": null,
   "descuento": null,
   "categoria": "bebe-maternidad",
@@ -10369,9 +10369,9 @@
  {
   "slug": "winny-ult-sec-et-5-xxg-paq-x-30",
   "titulo": "WINNY ULT/SEC ET.5 XXG  PAQ X 30",
-  "precio": 45100,
+  "precio": 49600,
   "precio_antes": 60885,
-  "descuento": 26,
+  "descuento": 19,
   "categoria": "bebe-maternidad",
   "subcategoria": "adulto-mayor",
   "marca": "Winny",
@@ -10404,7 +10404,7 @@
  {
   "slug": "winny-ult-sec-et-3-paq-x-30",
   "titulo": "WINNY ULT/SEC ET.3  PAQ X 30",
-  "precio": 31500,
+  "precio": 38900,
   "precio_antes": null,
   "descuento": null,
   "categoria": "bebe-maternidad",
@@ -10439,7 +10439,7 @@
  {
   "slug": "winny-ul-trim-sec-et-2-m-paq-x-30",
   "titulo": "WINNY UL/TRIM-SEC ET.2 M  PAQ X 30",
-  "precio": 29500,
+  "precio": 49900,
   "precio_antes": null,
   "descuento": null,
   "categoria": "bebe-maternidad",
