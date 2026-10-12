@@ -47,12 +47,20 @@ jobs:
       - name: Compilar
         run: npm run build
 
-      - name: Comprobar que se generaron las 407 fichas
+      # No se compara contra un número fijo: el catálogo cambia de tamaño con
+      # el tiempo (se borran productos descontinuados, se agregan otros). Lo
+      # que de verdad importa es que cada producto del catálogo tenga su
+      # propia página; si dos comparten el mismo slug, Astro genera una sola
+      # página para los dos y el número de fichas queda por debajo del
+      # catálogo.
+      - name: Comprobar que cada producto tiene su propia ficha
         run: |
+          productos=$(python3 -c "import json; print(len(json.load(open('src/datos/productos.json', encoding='utf-8'))))")
           fichas=$(ls dist/producto | wc -l)
+          echo "Productos en el catálogo: $productos"
           echo "Fichas generadas: $fichas"
-          if [ "$fichas" -lt 400 ]; then
-            echo "Se esperaban ~407 páginas de producto y solo hay $fichas."
+          if [ "$fichas" -ne "$productos" ]; then
+            echo "Hay $productos productos en el catálogo pero se generaron $fichas fichas."
             echo "Suele significar que dos productos comparten el mismo slug."
             exit 1
           fi
