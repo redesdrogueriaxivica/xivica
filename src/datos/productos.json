@@ -1686,11 +1686,11 @@
    "concentracion": "pendiente",
    "forma_farmaceutica": "pendiente"
   },
-  "presentacion_comercial": null,
-  "registro_invima": null,
-  "principio_activo": null,
-  "concentracion": null,
-  "forma_farmaceutica": null,
+  "presentacion_comercial": "Caja x 28 Tab",
+  "registro_invima": "2014M-0015240",
+  "principio_activo": "Dienogest + Etinilestradiol",
+  "concentracion": "2mg/20mcg",
+  "forma_farmaceutica": "Tableta",
   "promo_flash_vence": null,
   "promo_flash_donde": null
  },
@@ -1719,11 +1719,11 @@
    "concentracion": "pendiente",
    "forma_farmaceutica": "pendiente"
   },
-  "presentacion_comercial": null,
-  "registro_invima": null,
-  "principio_activo": null,
-  "concentracion": null,
-  "forma_farmaceutica": null,
+  "presentacion_comercial": "Caja x 28 Tab",
+  "registro_invima": "2019M-0018900",
+  "principio_activo": "Estradiol Hemidrato + Dienogest",
+  "concentracion": "1.5mg/2mg",
+  "forma_farmaceutica": "Tableta",
   "promo_flash_vence": null,
   "promo_flash_donde": null
  },
@@ -3669,7 +3669,7 @@
  {
   "slug": "colchimedio-40-tabletas",
   "titulo": "COLCHIMEDIO 40 TABLETAS",
-  "precio": 49500,
+  "precio": 57500,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -3704,7 +3704,7 @@
  {
   "slug": "colloplus-solucion-10-ml",
   "titulo": "COLLOPLUS SOLUCION 10 ML",
-  "precio": 27500,
+  "precio": 34500,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -3879,7 +3879,7 @@
  {
   "slug": "corasan-crema-20-gr",
   "titulo": "CORASAN CREMA 20 GR",
-  "precio": 19500,
+  "precio": 22000,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -3915,7 +3915,7 @@
  {
   "slug": "corbis-bisoprolol-2-5-mg-30-tbs",
   "titulo": "CORBIS BISOPROLOL 2.5 MG 30 TBS",
-  "precio": 9500,
+  "precio": 9800,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -3948,7 +3948,7 @@
  {
   "slug": "coricidin-gotas-pediatricas-30-ml",
   "titulo": "CORICIDIN GOTAS PEDIATRICAS 30 ML",
-  "precio": 39500,
+  "precio": 50300,
   "precio_antes": null,
   "descuento": null,
   "categoria": "bebe-maternidad",
@@ -3985,7 +3985,7 @@
  {
   "slug": "crema-corega-3d-ultra-sin-sabor-20-gr",
   "titulo": "CREMA COREGA 3D.ULTRA SIN SABOR 20 GR",
-  "precio": 16200,
+  "precio": 25800,
   "precio_antes": null,
   "descuento": null,
   "categoria": "cuidado-personal",
@@ -4019,9 +4019,9 @@
  {
   "slug": "crema-ponds-clarant-b3-n-seca-50-gr",
   "titulo": "CREMA PONDS CLARANT B3 N.SECA 50 GR",
-  "precio": 14900,
+  "precio": 19500,
   "precio_antes": 20115,
-  "descuento": 26,
+  "descuento": 3,
   "categoria": "cuidado-personal",
   "subcategoria": "cuidado-piel",
   "marca": "Ponds",
@@ -4055,7 +4055,7 @@
  {
   "slug": "crema-jj-baby-avena-200-ml",
   "titulo": "CREMA JJ BABY AVENA 200 ML",
-  "precio": 14900,
+  "precio": 19300,
   "precio_antes": null,
   "descuento": null,
   "categoria": "bebe-maternidad",
@@ -4091,7 +4091,7 @@
  {
   "slug": "lubriderm-locion-extrahumectante-200-ml",
   "titulo": "LUBRIDERM LOCION EXTRAHUMECTANTE 200 ML",
-  "precio": 19900,
+  "precio": 25500,
   "precio_antes": null,
   "descuento": null,
   "categoria": "cuidado-personal",
@@ -4128,7 +4128,7 @@
  {
   "slug": "lubriderm-locion-piel-sensible-120-ml",
   "titulo": "LUBRIDERM LOCION PIEL SENSIBLE 120 ML",
-  "precio": 13200,
+  "precio": 16900,
   "precio_antes": null,
   "descuento": null,
   "categoria": "cuidado-personal",
@@ -4164,9 +4164,9 @@
  {
   "slug": "crema-nivea-body-milk-almendras-125-ml",
   "titulo": "CREMA NIVEA BODY MILK ALMENDRAS 125 ML",
-  "precio": 8200,
-  "precio_antes": 11070,
-  "descuento": 26,
+  "precio": 14500,
+  "precio_antes": 17500,
+  "descuento": 17,
   "categoria": "cuidado-personal",
   "subcategoria": "cuidado-piel",
   "marca": "Nivea",
@@ -4848,9 +4848,9 @@
  {
   "slug": "urovital-cramberry-blister-60-capsulas",
   "titulo": "UROVITAL CRAMBERRY BLISTER 60 CAPSULAS",
-  "precio": 39000,
-  "precio_antes": 52650,
-  "descuento": 26,
+  "precio": 39600,
+  "precio_antes": 44500,
+  "descuento": 11,
   "categoria": "bienestar-nutricion",
   "subcategoria": null,
   "marca": null,
@@ -5064,39 +5064,6 @@
    "100013676_7-600x600.webp"
   ],
   "descripcion": "TRAZIDEX OFTENO 5 ML medicamento original. Consulta a tu farmacéutico. • Entrega 30-60 min • Original sellado.",
-  "origen": {
-   "rx": "pendiente",
-   "presentacion": "titulo",
-   "registro_invima": "pendiente",
-   "principio_activo": "pendiente",
-   "concentracion": "pendiente",
-   "forma_farmaceutica": "pendiente"
-  },
-  "presentacion_comercial": null,
-  "registro_invima": null,
-  "principio_activo": null,
-  "concentracion": null,
-  "forma_farmaceutica": null,
-  "promo_flash_vence": null,
-  "promo_flash_donde": null
- },
- {
-  "slug": "ravad-colon-peg-4-sobres",
-  "titulo": "RAVAD COLON PEG 4 SOBRES",
-  "precio": 48900,
-  "precio_antes": null,
-  "descuento": null,
-  "categoria": "bienestar-nutricion",
-  "subcategoria": null,
-  "marca": null,
-  "presentacion": "4 Sobres",
-  "rx": null,
-  "stock": true,
-  "destacado": false,
-  "imagenes": [
-   "100026555_7-600x600.webp"
-  ],
-  "descripcion": "RAVAD COLON PEG 4 SOBRES complemento nutricional. • Entrega 30-60 min • Original sellado.",
   "origen": {
    "rx": "pendiente",
    "presentacion": "titulo",
@@ -6116,39 +6083,6 @@
    "presentacion": "titulo",
    "marca": "titulo",
    "subcategoria": "inferido",
-   "registro_invima": "pendiente",
-   "principio_activo": "pendiente",
-   "concentracion": "pendiente",
-   "forma_farmaceutica": "pendiente"
-  },
-  "presentacion_comercial": null,
-  "registro_invima": null,
-  "principio_activo": null,
-  "concentracion": null,
-  "forma_farmaceutica": null,
-  "promo_flash_vence": null,
-  "promo_flash_donde": null
- },
- {
-  "slug": "stamyl-forte-20-tabletas",
-  "titulo": "STAMYL FORTE 20 TABLETAS",
-  "precio": 9300,
-  "precio_antes": null,
-  "descuento": null,
-  "categoria": "medicamentos",
-  "subcategoria": null,
-  "marca": null,
-  "presentacion": "20 Tabletas",
-  "rx": null,
-  "stock": true,
-  "destacado": false,
-  "imagenes": [
-   "7703454122993-1-600x600.webp"
-  ],
-  "descripcion": "STAMYL FORTE 20 TABLETAS medicamento original. Consulta a tu farmacéutico. • Entrega 30-60 min • Original sellado.",
-  "origen": {
-   "rx": "pendiente",
-   "presentacion": "titulo",
    "registro_invima": "pendiente",
    "principio_activo": "pendiente",
    "concentracion": "pendiente",
@@ -8945,7 +8879,7 @@
  {
   "slug": "micardis-80-mg-28-tbs",
   "titulo": "MICARDIS 80 MG 28 TBS",
-  "precio": 31000,
+  "precio": 32600,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -9045,7 +8979,7 @@
  {
   "slug": "mieltertos-ninos-180-ml",
   "titulo": "MIELTERTOS NINOS 180 ML",
-  "precio": 21000,
+  "precio": 22700,
   "precio_antes": null,
   "descuento": null,
   "categoria": "bebe-maternidad",
@@ -9146,7 +9080,7 @@
  {
   "slug": "mucosina-gotas-30-ml",
   "titulo": "MUCOSINA GOTAS 30 ML",
-  "precio": 15500,
+  "precio": 21500,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -9180,7 +9114,7 @@
  {
   "slug": "mucosina-suspension-120-ml",
   "titulo": "MUCOSINA SUSPENSION 120 ML",
-  "precio": 28400,
+  "precio": 36900,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -9214,7 +9148,7 @@
  {
   "slug": "mylanta-dos-fresa-240-ml",
   "titulo": "MYLANTA DOS FRESA 240 ML",
-  "precio": 48800,
+  "precio": 63500,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -11223,7 +11157,7 @@
  {
   "slug": "travad-colonpeg-cereza-cja-x-4-sobres",
   "titulo": "TRAVAD COLONPEG CEREZA  CJA X 4 SOBRES",
-  "precio": 83500,
+  "precio": 89600,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -11597,7 +11531,7 @@
  {
   "slug": "tiroxin-88-mcg-tbs-sie-cja-x-50",
   "titulo": "TIROXIN 88 MCG TBS SIE CJA X 50",
-  "precio": 49500,
+  "precio": 69500,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -11630,7 +11564,7 @@
  {
   "slug": "tiocolfen-400-mg-tbs-cja-x-15",
   "titulo": "TIOCOLFEN 400 MG TBS  CJA X 15",
-  "precio": 62500,
+  "precio": 79600,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -11663,7 +11597,7 @@
  {
   "slug": "tinte-coloris-635-rub-osc",
   "titulo": "TINTE COLORIS 635 RUB/OSC",
-  "precio": 9900,
+  "precio": 12000,
   "precio_antes": null,
   "descuento": null,
   "categoria": "belleza",
@@ -11696,9 +11630,9 @@
  {
   "slug": "tinte-bigen-n-58-negr-int",
   "titulo": "TINTE BIGEN N.58 NEGR/INT",
-  "precio": 20500,
+  "precio": 23300,
   "precio_antes": 27675,
-  "descuento": 26,
+  "descuento": 16,
   "categoria": "belleza",
   "subcategoria": "cuidado-capilar",
   "marca": null,
@@ -12178,7 +12112,7 @@
  {
   "slug": "suero-electrolit-oral-mora-azul-fco-x-625ml",
   "titulo": "SUERO ELECTROLIT ORAL MORA AZUL  FCO X 625ML",
-  "precio": 6500,
+  "precio": 8500,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -12213,7 +12147,7 @@
  {
   "slug": "stamyl-tabletas-cja-x-20",
   "titulo": "STAMYL TABLETAS  CJA X 20",
-  "precio": 50500,
+  "precio": 68600,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -12246,7 +12180,7 @@
  {
   "slug": "stamyl-forte-tbs-cja-x-20",
   "titulo": "STAMYL FORTE TBS  CJA X 20",
-  "precio": 55500,
+  "precio": 76600,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
