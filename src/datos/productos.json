@@ -3421,7 +3421,7 @@
  {
   "slug": "clavulin-1-gr-14-tabletas-3-a-pae",
   "titulo": "CLAVULIN 1 GR 14 TABLETAS (3%+)(A)(PAE)",
-  "precio": 89800,
+  "precio": 122000,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -3458,7 +3458,7 @@
  {
   "slug": "clobezan-crema-25-gr",
   "titulo": "CLOBEZAN CREMA 25 GR",
-  "precio": 35500,
+  "precio": 44300,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -3564,7 +3564,7 @@
  {
   "slug": "clotrimazol-100mg-10-ovulos-vaginales",
   "titulo": "CLOTRIMAZOL 100MG 10 OVULOS VAGINALES",
-  "precio": 13500,
+  "precio": 23500,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -3599,7 +3599,7 @@
  {
   "slug": "clotrimazol-1-crema-topica-40-gr",
   "titulo": "CLOTRIMAZOL 1% CREMA TOPICA 40 GR",
-  "precio": 9500,
+  "precio": 11600,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -3739,7 +3739,7 @@
  {
   "slug": "complejo-b-10-ml-ampolla",
   "titulo": "COMPLEJO B 10 ML AMPOLLA",
-  "precio": 10500,
+  "precio": 13000,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -5214,7 +5214,7 @@
  {
   "slug": "dolex-500-mg-200-tabletas",
   "titulo": "DOLEX 500 MG 200 TABLETAS",
-  "precio": 139300,
+  "precio": 166000,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -5284,7 +5284,7 @@
  {
   "slug": "dolex-avanzado-500-mg-100-tabletas-recub",
   "titulo": "DOLEX AVANZADO 500 MG 100 TABLETAS RECUB",
-  "precio": 71900,
+  "precio": 94000,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -5354,7 +5354,7 @@
  {
   "slug": "dolex-bebes-60-ml-jarabe",
   "titulo": "DOLEX BEBES 60 ML JARABE",
-  "precio": 11900,
+  "precio": 14700,
   "precio_antes": null,
   "descuento": null,
   "categoria": "bebe-maternidad",
@@ -5963,7 +5963,7 @@
  {
   "slug": "siligas-gotas-30-ml",
   "titulo": "SILIGAS GOTAS 30 ML",
-  "precio": 5500,
+  "precio": 20500,
   "precio_antes": null,
   "descuento": null,
   "categoria": "bebe-maternidad",
@@ -5996,7 +5996,7 @@
  {
   "slug": "sinutab-plus-12-tabletas",
   "titulo": "SINUTAB PLUS 12 TABLETAS",
-  "precio": 16000,
+  "precio": 21500,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -12215,7 +12215,7 @@
  {
   "slug": "sinutab-plus-tbs-cja-x-12",
   "titulo": "SINUTAB PLUS TBS  CJA X 12",
-  "precio": 16000,
+  "precio": 21500,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -12317,9 +12317,9 @@
  {
   "slug": "sildenafil-50-mg-tbs-mk-cja-x-4-und",
   "titulo": "SILDENAFIL 50 MG TBS MK CJA X 4 UND",
-  "precio": 13800,
-  "precio_antes": 18630,
-  "descuento": 26,
+  "precio": 18200,
+  "precio_antes": null,
+  "descuento": null,
   "categoria": "medicamentos",
   "subcategoria": "salud-sexual",
   "marca": null,
@@ -12517,7 +12517,7 @@
  {
   "slug": "sacrusyt-100-mcg-spr-inhalador",
   "titulo": "SACRUSYT 100 MCG SPR.INHALADOR",
-  "precio": 11500,
+  "precio": 17500,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -12551,7 +12551,7 @@
  {
   "slug": "roxicaina-spray-83ml",
   "titulo": "ROXICAINA SPRAY 83ML",
-  "precio": 69900,
+  "precio": 75500,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -12584,7 +12584,7 @@
  {
   "slug": "roxicaina-pomada-10gr",
   "titulo": "ROXICAINA POMADA  10GR",
-  "precio": 23500,
+  "precio": 29000,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -12617,9 +12617,9 @@
  {
   "slug": "roxicaina-jalea-30-gr",
   "titulo": "ROXICAINA JALEA  30 GR",
-  "precio": 22200,
-  "precio_antes": 29970,
-  "descuento": 26,
+  "precio": 26500,
+  "precio_antes": null,
+  "descuento": null,
   "categoria": "medicamentos",
   "subcategoria": null,
   "marca": null,
@@ -13281,9 +13281,9 @@
  {
   "slug": "pila-duracell-alkalina-aaa-dis-x-2",
   "titulo": "PILA DURACELL ALKALINA AAA DIS X 2",
-  "precio": 8000,
-  "precio_antes": 10800,
-  "descuento": 26,
+  "precio": 5500,
+  "precio_antes": null,
+  "descuento": null,
   "categoria": "varios",
   "subcategoria": null,
   "marca": null,
@@ -13315,7 +13315,7 @@
  {
   "slug": "pila-duracell-alkalina-aa-dis-x-2",
   "titulo": "PILA DURACELL ALKALINA AA  DIS X 2",
-  "precio": 8000,
+  "precio": 5500,
   "precio_antes": null,
   "descuento": null,
   "categoria": "varios",
@@ -13350,9 +13350,9 @@
  {
   "slug": "pepsamar-tabletas-cja-x-100",
   "titulo": "PEPSAMAR TABLETAS  CJA X 100",
-  "precio": 32000,
+  "precio": 33000,
   "precio_antes": 43200,
-  "descuento": 26,
+  "descuento": 24,
   "categoria": "medicamentos",
   "subcategoria": null,
   "marca": null,
@@ -13383,9 +13383,9 @@
  {
   "slug": "peg-polietilenglicol-sobres-cja-x-12",
   "titulo": "PEG POLIETILENGLICOL SOBRES  CJA X 12",
-  "precio": 86500,
-  "precio_antes": 116775,
-  "descuento": 26,
+  "precio": 95500,
+  "precio_antes": 103000,
+  "descuento": 7,
   "categoria": "medicamentos",
   "subcategoria": null,
   "marca": null,
