@@ -4408,39 +4408,6 @@
   "promo_flash_donde": null
  },
  {
-  "slug": "zopiclona-7-5-mg-30-tabletas",
-  "titulo": "ZOPICLONA 7.5 MG 30 TABLETAS",
-  "precio": 26500,
-  "precio_antes": null,
-  "descuento": null,
-  "categoria": "medicamentos",
-  "subcategoria": null,
-  "marca": null,
-  "presentacion": "7.5 mg · 30 Tabletas",
-  "rx": null,
-  "stock": true,
-  "destacado": false,
-  "imagenes": [
-   "100019767_1-600x600.webp"
-  ],
-  "descripcion": "ZOPICLONA 7.5 MG 30 TABLETAS medicamento original. Consulta a tu farmacéutico. • Entrega 30-60 min • Original sellado.",
-  "origen": {
-   "rx": "pendiente",
-   "presentacion": "titulo",
-   "registro_invima": "pendiente",
-   "principio_activo": "pendiente",
-   "concentracion": "pendiente",
-   "forma_farmaceutica": "pendiente"
-  },
-  "presentacion_comercial": null,
-  "registro_invima": null,
-  "principio_activo": null,
-  "concentracion": null,
-  "forma_farmaceutica": null,
-  "promo_flash_vence": null,
-  "promo_flash_donde": null
- },
- {
   "slug": "yasminiq-28-compr-p-24900-sc-sf-pdb",
   "titulo": "YASMINIQ 28 COMPR.(P)24900(SC)(SF)(PDB)",
   "precio": 29500,
@@ -10221,39 +10188,6 @@
    "rx": "pendiente",
    "presentacion": "titulo",
    "subcategoria": "inferido",
-   "registro_invima": "pendiente",
-   "principio_activo": "pendiente",
-   "concentracion": "pendiente",
-   "forma_farmaceutica": "pendiente"
-  },
-  "presentacion_comercial": null,
-  "registro_invima": null,
-  "principio_activo": null,
-  "concentracion": null,
-  "forma_farmaceutica": null,
-  "promo_flash_vence": null,
-  "promo_flash_donde": null
- },
- {
-  "slug": "zopiclona-7-5-mg-tbs-colmed-cja-x-30",
-  "titulo": "ZOPICLONA 7.5 MG TBS COLMED CJA X 30",
-  "precio": 25900,
-  "precio_antes": 34965,
-  "descuento": 26,
-  "categoria": "medicamentos",
-  "subcategoria": null,
-  "marca": null,
-  "presentacion": "7.5 mg · 30 Tabletas",
-  "rx": null,
-  "stock": true,
-  "destacado": false,
-  "imagenes": [
-   "ZOPICLONA-7.5-MG-TBS-COLMED-CJA-X-30-600x600.webp"
-  ],
-  "descripcion": "ZOPICLONA 7.5 MG TBS COLMED CJA X 30 medicamento original. Consulta a tu farmacéutico. • Entrega 30-60 min • Original sellado.",
-  "origen": {
-   "rx": "pendiente",
-   "presentacion": "titulo",
    "registro_invima": "pendiente",
    "principio_activo": "pendiente",
    "concentracion": "pendiente",
