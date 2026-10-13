@@ -6027,41 +6027,6 @@
   "promo_flash_donde": null
  },
  {
-  "slug": "slinda-drospirenona-4mg-28-tabletas",
-  "titulo": "SLINDA DROSPIRENONA 4MG 28 TABLETAS",
-  "precio": 16000,
-  "precio_antes": null,
-  "descuento": null,
-  "categoria": "medicamentos",
-  "subcategoria": "anticonceptivos",
-  "marca": "Slinda",
-  "presentacion": "4 mg · 28 Tabletas",
-  "rx": null,
-  "stock": true,
-  "destacado": false,
-  "imagenes": [
-   "8437019299583-12-600x600.webp"
-  ],
-  "descripcion": "SLINDA DROSPIRENONA 4MG 28 TABLETAS medicamento original. Consulta a tu farmacéutico. • Entrega 30-60 min • Original sellado.",
-  "origen": {
-   "rx": "pendiente",
-   "presentacion": "titulo",
-   "marca": "titulo",
-   "subcategoria": "inferido",
-   "registro_invima": "pendiente",
-   "principio_activo": "pendiente",
-   "concentracion": "pendiente",
-   "forma_farmaceutica": "pendiente"
-  },
-  "presentacion_comercial": null,
-  "registro_invima": null,
-  "principio_activo": null,
-  "concentracion": null,
-  "forma_farmaceutica": null,
-  "promo_flash_vence": null,
-  "promo_flash_donde": null
- },
- {
   "slug": "electrolit-hidratante-mora-azul-625-ml",
   "titulo": "ELECTROLIT HIDRATANTE MORA AZUL 625 ML",
   "precio": 8500,
