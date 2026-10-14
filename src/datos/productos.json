@@ -4018,8 +4018,8 @@
   "slug": "crema-ponds-clarant-b3-n-seca-50-gr",
   "titulo": "CREMA PONDS CLARANT B3 N.SECA 50 GR",
   "precio": 19500,
-  "precio_antes": 20115,
-  "descuento": 3,
+  "precio_antes": 21000,
+  "descuento": 7,
   "categoria": "cuidado-personal",
   "subcategoria": "cuidado-piel",
   "marca": "Ponds",
@@ -4424,40 +4424,6 @@
   "descripcion": "YASMINIQ 28 COMPR.(P)24900(SC)(SF)(PDB) medicamento original. Consulta a tu farmacéutico. • Entrega 30-60 min • Original sellado.",
   "origen": {
    "rx": "pendiente",
-   "registro_invima": "pendiente",
-   "principio_activo": "pendiente",
-   "concentracion": "pendiente",
-   "forma_farmaceutica": "pendiente"
-  },
-  "presentacion_comercial": null,
-  "registro_invima": null,
-  "principio_activo": null,
-  "concentracion": null,
-  "forma_farmaceutica": null,
-  "promo_flash_vence": null,
-  "promo_flash_donde": null
- },
- {
-  "slug": "yael-21-tabletas-m-12698",
-  "titulo": "YAEL 21 TABLETAS (M)12698",
-  "precio": 67300,
-  "precio_antes": null,
-  "descuento": null,
-  "categoria": "medicamentos",
-  "subcategoria": "anticonceptivos",
-  "marca": null,
-  "presentacion": "21 Tabletas",
-  "rx": null,
-  "stock": true,
-  "destacado": false,
-  "imagenes": [
-   "7703153025618-1-600x600.webp"
-  ],
-  "descripcion": "YAEL 21 TABLETAS (M)12698 medicamento original. Consulta a tu farmacéutico. • Entrega 30-60 min • Original sellado.",
-  "origen": {
-   "rx": "pendiente",
-   "presentacion": "titulo",
-   "subcategoria": "inferido",
    "registro_invima": "pendiente",
    "principio_activo": "pendiente",
    "concentracion": "pendiente",
@@ -4980,7 +4946,7 @@
  {
   "slug": "trigentax-crema-40-gr",
   "titulo": "TRIGENTAX CREMA 40 GR",
-  "precio": 35900,
+  "precio": 44700,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -6098,7 +6064,7 @@
  {
   "slug": "eutirox-100-mcg-50-tbs",
   "titulo": "EUTIROX 100 MCG 50 TBS",
-  "precio": 32000,
+  "precio": 72200,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -6132,7 +6098,7 @@
  {
   "slug": "eutirox-112-mcg-50-tbs-3",
   "titulo": "EUTIROX 112 MCG 50 TBS(3%+)",
-  "precio": 63900,
+  "precio": 77200,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -6166,7 +6132,7 @@
  {
   "slug": "eutirox-50-mcg-50-tbs",
   "titulo": "EUTIROX 50 MCG 50 TBS",
-  "precio": 61500,
+  "precio": 53500,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -6200,7 +6166,7 @@
  {
   "slug": "eutirox-75-mcg-50-tbs",
   "titulo": "EUTIROX 75 MCG 50 TBS",
-  "precio": 45000,
+  "precio": 63800,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -6234,7 +6200,7 @@
  {
   "slug": "evinet-0-75-mg-4-tabletas",
   "titulo": "EVINET 0.75 MG 4 TABLETAS",
-  "precio": 51900,
+  "precio": 12500,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -6532,7 +6498,7 @@
  {
   "slug": "fencafen-100-mg-20-tabletas",
   "titulo": "FENCAFEN 100 MG 20 TABLETAS",
-  "precio": 26000,
+  "precio": 77300,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -6632,7 +6598,7 @@
  {
   "slug": "fitostimoline-crema-15-gramos",
   "titulo": "FITOSTIMOLINE CREMA 15 GRAMOS",
-  "precio": 17900,
+  "precio": 39900,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -6666,7 +6632,7 @@
  {
   "slug": "fitostimoline-gel-15-gr",
   "titulo": "FITOSTIMOLINE GEL 15 GR",
-  "precio": 38900,
+  "precio": 54900,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -10199,7 +10165,7 @@
  {
   "slug": "yael-tbs-cja-x-21",
   "titulo": "YAEL TBS  CJA X 21",
-  "precio": 15500,
+  "precio": 17500,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -10985,9 +10951,9 @@
  {
   "slug": "trigentax-crema-20-gr",
   "titulo": "TRIGENTAX CREMA  20 GR",
-  "precio": 26200,
-  "precio_antes": 35370,
-  "descuento": 26,
+  "precio": 29000,
+  "precio_antes": null,
+  "descuento": null,
   "categoria": "medicamentos",
   "subcategoria": "dermatologicos",
   "marca": "Trigentax",
