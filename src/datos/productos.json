@@ -4505,44 +4505,9 @@
   "promo_flash_donde": null
  },
  {
-  "slug": "voltaren-50-mg-3-blister-10-grageas-3",
-  "titulo": "VOLTAREN 50 MG 3 BLISTER 10 GRAGEAS(3%+)",
-  "precio": 68400,
-  "precio_antes": null,
-  "descuento": null,
-  "categoria": "medicamentos",
-  "subcategoria": "analgesicos",
-  "marca": "Voltaren",
-  "presentacion": "50 mg · 10 Grageas",
-  "rx": null,
-  "stock": true,
-  "destacado": false,
-  "imagenes": [
-   "7702635122029-1-600x600.webp"
-  ],
-  "descripcion": "VOLTAREN 50 MG 3 BLISTER 10 GRAGEAS(3%+) medicamento original. Consulta a tu farmacéutico. • Entrega 30-60 min • Original sellado.",
-  "origen": {
-   "rx": "pendiente",
-   "presentacion": "titulo",
-   "marca": "titulo",
-   "subcategoria": "inferido",
-   "registro_invima": "pendiente",
-   "principio_activo": "pendiente",
-   "concentracion": "pendiente",
-   "forma_farmaceutica": "pendiente"
-  },
-  "presentacion_comercial": null,
-  "registro_invima": null,
-  "principio_activo": null,
-  "concentracion": null,
-  "forma_farmaceutica": null,
-  "promo_flash_vence": null,
-  "promo_flash_donde": null
- },
- {
   "slug": "voltaren-emulgel-tubo-100-gr",
   "titulo": "VOLTAREN EMULGEL TUBO 100 GR",
-  "precio": 29900,
+  "precio": 86500,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -6300,9 +6265,9 @@
  {
   "slug": "gaviscon-doble-accion-susp-10ml",
   "titulo": "GAVISCON DOBLE ACCION SUSP. 10ML",
-  "precio": 66500,
-  "precio_antes": null,
-  "descuento": null,
+  "precio": 37500,
+  "precio_antes": 41000,
+  "descuento": 9,
   "categoria": "bienestar-nutricion",
   "subcategoria": null,
   "marca": null,
@@ -6333,9 +6298,9 @@
  {
   "slug": "gaviscon-doble-accion-suspension-300-ml",
   "titulo": "GAVISCON DOBLE ACCION SUSPENSION 300 ML",
-  "precio": 25000,
-  "precio_antes": 33750,
-  "descuento": 26,
+  "precio": 78600,
+  "precio_antes": null,
+  "descuento": null,
   "categoria": "bienestar-nutricion",
   "subcategoria": null,
   "marca": null,
@@ -10405,7 +10370,7 @@
  {
   "slug": "voltaren-50-mg-grageas-cja-x-30",
   "titulo": "VOLTAREN 50 MG GRAGEAS CJA X 30",
-  "precio": 67900,
+  "precio": 79500,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -10440,7 +10405,7 @@
  {
   "slug": "voltaren-1-emulgel-tbo-x-30-gr",
   "titulo": "VOLTAREN 1% EMULGEL TBO X 30 GR",
-  "precio": 31000,
+  "precio": 39000,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -12939,7 +12904,7 @@
  {
   "slug": "procto-glyvenol-supositorios-cja-x-5",
   "titulo": "PROCTO GLYVENOL SUPOSITORIOS  CJA X 5",
-  "precio": 61000,
+  "precio": 63500,
   "precio_antes": null,
   "descuento": null,
   "categoria": "varios",
