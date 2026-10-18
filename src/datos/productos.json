@@ -4305,9 +4305,9 @@
  {
   "slug": "crema-depilex-corporal-vello-grueso-200g",
   "titulo": "CREMA DEPILEX CORPORAL VELLO GRUESO 200G",
-  "precio": 30000,
-  "precio_antes": 40500,
-  "descuento": 26,
+  "precio": 28800,
+  "precio_antes": null,
+  "descuento": null,
   "categoria": "cuidado-personal",
   "subcategoria": null,
   "marca": null,
@@ -5556,7 +5556,7 @@
  {
   "slug": "esomeprazol-20-mg-30-tabletas",
   "titulo": "ESOMEPRAZOL 20 MG 30 TABLETAS",
-  "precio": 18000,
+  "precio": 44500,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -7031,7 +7031,7 @@
  {
   "slug": "gripp-heel-50-tabletas",
   "titulo": "GRIPP HEEL 50 TABLETAS",
-  "precio": 51000,
+  "precio": 64700,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -7297,7 +7297,7 @@
  {
   "slug": "noraver-gripa-fast-total-6-capsulas",
   "titulo": "NORAVER GRIPA FAST TOTAL 6 CAPSULAS",
-  "precio": 10500,
+  "precio": 16300,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -7331,9 +7331,9 @@
  {
   "slug": "izinova-2-frascos-6-onzas-a-3",
   "titulo": "IZINOVA 2 FRASCOS 6 ONZAS (A)(3%+)",
-  "precio": 27500,
-  "precio_antes": null,
-  "descuento": null,
+  "precio": 109500,
+  "precio_antes": 133500,
+  "descuento": 18,
   "categoria": "medicamentos",
   "subcategoria": null,
   "marca": null,
@@ -8073,7 +8073,7 @@
  {
   "slug": "mareol-tabletas-pague-72-lleve-84",
   "titulo": "MAREOL TABLETAS PAGUE 72 LLEVE 84",
-  "precio": 11800,
+  "precio": 52600,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
