@@ -9516,39 +9516,6 @@
   "promo_flash_donde": null
  },
  {
-  "slug": "nimesulida-100-mg-30-capsulas-blandas",
-  "titulo": "NIMESULIDA 100 MG 30 CAPSULAS BLANDAS",
-  "precio": 19500,
-  "precio_antes": null,
-  "descuento": null,
-  "categoria": "medicamentos",
-  "subcategoria": null,
-  "marca": null,
-  "presentacion": "100 mg · 30 Cápsulas",
-  "rx": null,
-  "stock": true,
-  "destacado": false,
-  "imagenes": [
-   "7703153036119-7-600x600.webp"
-  ],
-  "descripcion": "NIMESULIDA 100 MG 30 CAPSULAS BLANDAS medicamento original. Consulta a tu farmacéutico. • Entrega 30-60 min • Original sellado.",
-  "origen": {
-   "rx": "pendiente",
-   "presentacion": "titulo",
-   "registro_invima": "pendiente",
-   "principio_activo": "pendiente",
-   "concentracion": "pendiente",
-   "forma_farmaceutica": "pendiente"
-  },
-  "presentacion_comercial": null,
-  "registro_invima": null,
-  "principio_activo": null,
-  "concentracion": null,
-  "forma_farmaceutica": null,
-  "promo_flash_vence": null,
-  "promo_flash_donde": null
- },
- {
   "slug": "nitrofurantoina-100-mg-40-capsulas",
   "titulo": "NITROFURANTOINA 100 MG 40 CAPSULAS",
   "precio": 33600,
