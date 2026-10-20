@@ -13338,5 +13338,73 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "wassertrol-suspension-oftalmica-5-ml",
+  "titulo": "WASSERTROL SUSPENSION OFTALMICA 5 ML",
+  "precio": 21500,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "salud-visual",
+  "marca": "Wassertrol",
+  "presentacion": "5 ml",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "wassertrol-suspension-oftalmica-5-ml.webp"
+  ],
+  "descripcion": "WASSERTROL SUSPENSION OFTALMICA 5 ML medicamento original. Consulta a tu farmaceuta. • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "subcategoria": "inferido",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": "Frasco de 5 mL",
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "wassertrol-unguento-oftalmico-5-gr",
+  "titulo": "WASSERTROL UNGUENTO OFTALMICO 5 GR",
+  "precio": 32000,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "salud-visual",
+  "marca": "Wassertrol",
+  "presentacion": "5 g",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "wassertrol-unguento-oftalmico-5-gr.webp"
+  ],
+  "descripcion": "WASSERTROL UNGUENTO OFTALMICO 5 GR medicamento original. Consulta a tu farmaceuta. • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "subcategoria": "inferido",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": "Tubo de 5 g",
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
