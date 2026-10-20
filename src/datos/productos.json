@@ -1664,7 +1664,7 @@
  {
   "slug": "bellaface-suave-28-tbs",
   "titulo": "BELLAFACE SUAVE 28 TBS",
-  "precio": 29300,
+  "precio": 17500,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -1697,7 +1697,7 @@
  {
   "slug": "bellanew-1-5mg-2-0mg-28-tabletas",
   "titulo": "BELLANEW 1.5MG/2.0MG 28 TABLETAS",
-  "precio": 49800,
+  "precio": 37500,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -9652,7 +9652,7 @@
  {
   "slug": "omeprazol-20-mg-10-capsulas",
   "titulo": "OMEPRAZOL 20 MG 10 CAPSULAS",
-  "precio": 3200,
+  "precio": 4200,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -12550,7 +12550,7 @@
   "marca": null,
   "presentacion": "30 g · Gel",
   "rx": null,
-  "stock": true,
+  "stock": false,
   "destacado": false,
   "imagenes": [
    "Reparil-Gel-N-600x600.webp"
@@ -13401,6 +13401,40 @@
    "forma_farmaceutica": "pendiente"
   },
   "presentacion_comercial": "Paquete x 21 unidades, talla M",
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "diovan-hct-80-12-5-mg-28-tbs",
+  "titulo": "DIOVAN HCT 80/12.5 MG 28 TBS",
+  "precio": 33500,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "cardiovascular",
+  "marca": "Diovan",
+  "presentacion": "80/12.5 mg · 28 Tabletas",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "diovan-hct-80-12-5-mg-28-tbs.webp"
+  ],
+  "descripcion": "DIOVAN HCT 80/12.5 MG 28 TBS medicamento original. Consulta a tu farmaceuta. • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "subcategoria": "inferido",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": "Caja x 28 comprimidos",
   "registro_invima": null,
   "principio_activo": null,
   "concentracion": null,
