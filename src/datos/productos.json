@@ -6394,39 +6394,6 @@
   "promo_flash_donde": null
  },
  {
-  "slug": "femelin-0-5-ml-1-ampolla",
-  "titulo": "FEMELIN 0.5 ML 1 AMPOLLA",
-  "precio": 10500,
-  "precio_antes": null,
-  "descuento": null,
-  "categoria": "medicamentos",
-  "subcategoria": null,
-  "marca": null,
-  "presentacion": "0.5 ml · Ampollas",
-  "rx": null,
-  "stock": true,
-  "destacado": false,
-  "imagenes": [
-   "20190722_170704-600x600.webp"
-  ],
-  "descripcion": "FEMELIN 0.5 ML 1 AMPOLLA medicamento original. Consulta a tu farmacéutico. • Entrega 30-60 min • Original sellado.",
-  "origen": {
-   "rx": "pendiente",
-   "presentacion": "titulo",
-   "registro_invima": "pendiente",
-   "principio_activo": "pendiente",
-   "concentracion": "pendiente",
-   "forma_farmaceutica": "pendiente"
-  },
-  "presentacion_comercial": null,
-  "registro_invima": null,
-  "principio_activo": null,
-  "concentracion": null,
-  "forma_farmaceutica": null,
-  "promo_flash_vence": null,
-  "promo_flash_donde": null
- },
- {
   "slug": "femelle-20-cd-28-tbs",
   "titulo": "FEMELLE 20 CD 28 TBS",
   "precio": 23000,
