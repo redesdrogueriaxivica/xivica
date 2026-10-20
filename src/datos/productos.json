@@ -5109,7 +5109,7 @@
  {
   "slug": "diovan-80-mg-28-tabletas",
   "titulo": "DIOVAN 80 MG 28 TABLETAS",
-  "precio": 21000,
+  "precio": 23800,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -7098,7 +7098,7 @@
  {
   "slug": "ibuprofeno-800-mg-30-capsulas-blandas",
   "titulo": "IBUPROFENO 800 MG 30 CAPSULAS BLANDAS",
-  "precio": 58000,
+  "precio": 45300,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -7231,7 +7231,7 @@
  {
   "slug": "isbela-21-tabletas",
   "titulo": "ISBELA 21 TABLETAS",
-  "precio": 19300,
+  "precio": 11000,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -7298,9 +7298,9 @@
  {
   "slug": "izinova-2-frascos-6-onzas-a-3",
   "titulo": "IZINOVA 2 FRASCOS 6 ONZAS (A)(3%+)",
-  "precio": 109500,
-  "precio_antes": 133500,
-  "descuento": 18,
+  "precio": 133500,
+  "precio_antes": null,
+  "descuento": null,
   "categoria": "medicamentos",
   "subcategoria": null,
   "marca": null,
@@ -7568,7 +7568,7 @@
  {
   "slug": "ketotifeno-1-mg-jarabe-100-ml",
   "titulo": "KETOTIFENO 1 MG JARABE 100 ML",
-  "precio": 16500,
+  "precio": 13700,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -8373,7 +8373,7 @@
  {
   "slug": "diclofenaco-75-mg-10-ampollas",
   "titulo": "DICLOFENACO 75 MG 10 AMPOLLAS",
-  "precio": 17500,
+  "precio": 35000,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -9584,7 +9584,7 @@
  {
   "slug": "noraver-pastillas-cereza-12-tbs",
   "titulo": "NORAVER PASTILLAS CEREZA 12 TBS",
-  "precio": 149300,
+  "precio": 23500,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -9686,9 +9686,9 @@
  {
   "slug": "shampoo-sedal-400-ml-acondicionador-340-ml",
   "titulo": "SHAMPOO SEDAL 400 ML + ACONDICIONADOR 340 ML",
-  "precio": 43200,
-  "precio_antes": 58320,
-  "descuento": 26,
+  "precio": 32200,
+  "precio_antes": null,
+  "descuento": null,
   "categoria": "cuidado-personal",
   "subcategoria": "cuidado-capilar",
   "marca": "Sedal",
@@ -11839,7 +11839,7 @@
  {
   "slug": "systane-gotas-15-ml-3",
   "titulo": "SYSTANE GOTAS  15 ML",
-  "precio": 57500,
+  "precio": 75000,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -12076,7 +12076,7 @@
  {
   "slug": "sinovul-tbs-cja-x-21",
   "titulo": "SINOVUL TBS  CJA X 21",
-  "precio": 13800,
+  "precio": 7500,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -12608,9 +12608,9 @@
  {
   "slug": "qlaira-tbs-x-28",
   "titulo": "QLAIRA TBS  X 28",
-  "precio": 34500,
-  "precio_antes": 46575,
-  "descuento": 26,
+  "precio": 38500,
+  "precio_antes": null,
+  "descuento": null,
   "categoria": "medicamentos",
   "subcategoria": null,
   "marca": null,
@@ -12619,7 +12619,7 @@
   "stock": true,
   "destacado": false,
   "imagenes": [
-   "descarga.webp"
+   "qlaira-28-tbs.webp"
   ],
   "descripcion": "QLAIRA TBS  X 28 medicamento original. Consulta a tu farmacéutico. • Entrega 30-60 min • Original sellado.",
   "origen": {
@@ -12871,7 +12871,7 @@
  {
   "slug": "procicar-nf-crema-60-ml",
   "titulo": "PROCICAR-NF CREMA  60 ML",
-  "precio": 43900,
+  "precio": 62300,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
