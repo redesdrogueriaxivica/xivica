@@ -13543,5 +13543,141 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "pedialyte-max-zinc-60-uva-500-ml",
+  "titulo": "PEDIALYTE MAX ZINC 60 UVA 500 ML",
+  "precio": 10000,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "bienestar-nutricion",
+  "subcategoria": "gastrointestinal",
+  "marca": "Pedialyte",
+  "presentacion": "500 ml",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "pedialyte-max-zinc-60-uva-500-ml.webp"
+  ],
+  "descripcion": "PEDIALYTE MAX ZINC 60 UVA 500 ML complemento nutricional. • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "subcategoria": "inferido",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": "Frasco de 500 ml",
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "pedialyte-max-zinc-60-fresa-500-ml",
+  "titulo": "PEDIALYTE MAX ZINC 60 FRESA 500 ML",
+  "precio": 10000,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "bienestar-nutricion",
+  "subcategoria": "gastrointestinal",
+  "marca": "Pedialyte",
+  "presentacion": "500 ml",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "pedialyte-max-zinc-60-fresa-500-ml.webp"
+  ],
+  "descripcion": "PEDIALYTE MAX ZINC 60 FRESA 500 ML complemento nutricional. • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "subcategoria": "inferido",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": "Frasco de 500 ml",
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "pedialyte-max-zinc-60-coco-500-ml",
+  "titulo": "PEDIALYTE MAX ZINC 60 COCO 500 ML",
+  "precio": 10000,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "bienestar-nutricion",
+  "subcategoria": "gastrointestinal",
+  "marca": "Pedialyte",
+  "presentacion": "500 ml",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "pedialyte-max-zinc-60-coco-500-ml.webp"
+  ],
+  "descripcion": "PEDIALYTE MAX ZINC 60 COCO 500 ML complemento nutricional. • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "subcategoria": "inferido",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": "Frasco de 500 ml",
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "pedialyte-max-zinc-60-manzana-500-ml",
+  "titulo": "PEDIALYTE MAX ZINC 60 MANZANA 500 ML",
+  "precio": 10000,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "bienestar-nutricion",
+  "subcategoria": "gastrointestinal",
+  "marca": "Pedialyte",
+  "presentacion": "500 ml",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "pedialyte-max-zinc-60-manzana-500-ml.webp"
+  ],
+  "descripcion": "PEDIALYTE MAX ZINC 60 MANZANA 500 ML complemento nutricional. • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "subcategoria": "inferido",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": "Frasco de 500 ml",
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
