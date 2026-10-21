@@ -5970,7 +5970,7 @@
   "stock": true,
   "destacado": false,
   "imagenes": [
-   "100026941_1-600x600.webp"
+   "7501125184277_1_ELECTROLIT-SOLUCION-ORAL-MORA-AZUL-X-625ML-1-600x600.webp"
   ],
   "descripcion": "ELECTROLIT HIDRATANTE MORA AZUL 625 ML complemento nutricional. • Entrega 30-60 min • Original sellado.",
   "origen": {
@@ -11856,41 +11856,6 @@
   "origen": {
    "rx": "pendiente",
    "presentacion": "titulo",
-   "registro_invima": "pendiente",
-   "principio_activo": "pendiente",
-   "concentracion": "pendiente",
-   "forma_farmaceutica": "pendiente"
-  },
-  "presentacion_comercial": null,
-  "registro_invima": null,
-  "principio_activo": null,
-  "concentracion": null,
-  "forma_farmaceutica": null,
-  "promo_flash_vence": null,
-  "promo_flash_donde": null
- },
- {
-  "slug": "suero-electrolit-oral-mora-azul-fco-x-625ml",
-  "titulo": "SUERO ELECTROLIT ORAL MORA AZUL  FCO X 625ML",
-  "precio": 8500,
-  "precio_antes": null,
-  "descuento": null,
-  "categoria": "medicamentos",
-  "subcategoria": "gastrointestinal",
-  "marca": "Electrolit",
-  "presentacion": "625 ml",
-  "rx": null,
-  "stock": true,
-  "destacado": false,
-  "imagenes": [
-   "7501125184277_1_ELECTROLIT-SOLUCION-ORAL-MORA-AZUL-X-625ML-1-600x600.webp"
-  ],
-  "descripcion": "SUERO ELECTROLIT ORAL MORA AZUL  FCO X 625ML medicamento original. Consulta a tu farmacéutico. • Entrega 30-60 min • Original sellado.",
-  "origen": {
-   "rx": "pendiente",
-   "presentacion": "titulo",
-   "marca": "titulo",
-   "subcategoria": "inferido",
    "registro_invima": "pendiente",
    "principio_activo": "pendiente",
    "concentracion": "pendiente",
