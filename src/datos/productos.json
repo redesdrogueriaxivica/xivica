@@ -5074,39 +5074,6 @@
   "promo_flash_donde": null
  },
  {
-  "slug": "tobraoftal-0-3-gotas",
-  "titulo": "TOBRAOFTAL 0.3 % GOTAS",
-  "precio": 11500,
-  "precio_antes": null,
-  "descuento": null,
-  "categoria": "medicamentos",
-  "subcategoria": null,
-  "marca": null,
-  "presentacion": "Gotas",
-  "rx": null,
-  "stock": true,
-  "destacado": false,
-  "imagenes": [
-   "7702057077280-1-600x600.webp"
-  ],
-  "descripcion": "TOBRAOFTAL 0.3 % GOTAS medicamento original. Consulta a tu farmacéutico. • Entrega 30-60 min • Original sellado.",
-  "origen": {
-   "rx": "pendiente",
-   "presentacion": "titulo",
-   "registro_invima": "pendiente",
-   "principio_activo": "pendiente",
-   "concentracion": "pendiente",
-   "forma_farmaceutica": "pendiente"
-  },
-  "presentacion_comercial": null,
-  "registro_invima": null,
-  "principio_activo": null,
-  "concentracion": null,
-  "forma_farmaceutica": null,
-  "promo_flash_vence": null,
-  "promo_flash_donde": null
- },
- {
   "slug": "diovan-80-mg-28-tabletas",
   "titulo": "DIOVAN 80 MG 28 TABLETAS",
   "precio": 23800,
@@ -5857,7 +5824,7 @@
  {
   "slug": "sildenafil-50-mg-2-tabletas",
   "titulo": "SILDENAFIL 50 MG 2 TABLETAS",
-  "precio": 33600,
+  "precio": 7500,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -6462,7 +6429,7 @@
  {
   "slug": "fexofenadina-30mg-5ml-jarabe-150-ml",
   "titulo": "FEXOFENADINA 30Mg/5ML JARABE 150 ML",
-  "precio": 10700,
+  "precio": 49900,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -6495,7 +6462,7 @@
  {
   "slug": "fisiomax-lubricante-intimo-gel-50-gr",
   "titulo": "FISIOMAX LUBRICANTE INTIMO GEL 50 GR",
-  "precio": 44900,
+  "precio": 26900,
   "precio_antes": null,
   "descuento": null,
   "categoria": "cuidado-personal",
@@ -6832,7 +6799,7 @@
  {
   "slug": "gel-ego-for-men-attraction-pote-110-ml",
   "titulo": "GEL EGO FOR MEN ATTRACTION POTE 110 ML",
-  "precio": 32500,
+  "precio": 3500,
   "precio_antes": null,
   "descuento": null,
   "categoria": "cuidado-personal",
@@ -7330,7 +7297,7 @@
  {
   "slug": "jabon-protex-avena-110-gr",
   "titulo": "JABON PROTEX AVENA 110 GR",
-  "precio": 15700,
+  "precio": 4300,
   "precio_antes": null,
   "descuento": null,
   "categoria": "cuidado-personal",
@@ -7869,7 +7836,7 @@
  {
   "slug": "lomecan-clotrimazol-200mg-3-ovu-vag",
   "titulo": "LOMECAN CLOTRIMAZOL 200MG 3 OVU.VAG",
-  "precio": 81900,
+  "precio": 55000,
   "precio_antes": null,
   "descuento": null,
   "categoria": "cuidado-personal",
@@ -7904,7 +7871,7 @@
  {
   "slug": "lomecan-v-cre-vagin-2-20gr-3apl-sf-dto",
   "titulo": "LOMECAN V CRE.VAGIN.2% 20GR+3APL(SF) DTO",
-  "precio": 33500,
+  "precio": 42400,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
