@@ -13715,5 +13715,73 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "pleniv-capsulas-blandas-cja-x-30",
+  "titulo": "PLENIV CAPSULAS BLANDAS CJA X 30",
+  "precio": 49600,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "gastrointestinal",
+  "marca": "Pleniv",
+  "presentacion": "30 Cápsulas",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "pleniv-30-capsulas-blandas.webp"
+  ],
+  "descripcion": "PLENIV CAPSULAS BLANDAS CJA X 30 medicamento original. Consulta a tu farmaceuta. • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "subcategoria": "inferido",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": "Caja x 30 cápsulas blandas",
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "pleniv-capsulas-blandas-cja-x-60",
+  "titulo": "PLENIV CAPSULAS BLANDAS CJA X 60",
+  "precio": 96500,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "gastrointestinal",
+  "marca": "Pleniv",
+  "presentacion": "60 Cápsulas",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "pleniv-60-capsulas-blandas.webp"
+  ],
+  "descripcion": "PLENIV CAPSULAS BLANDAS CJA X 60 medicamento original. Consulta a tu farmaceuta. • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "subcategoria": "inferido",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": "Caja x 60 cápsulas blandas",
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
