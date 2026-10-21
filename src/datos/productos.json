@@ -13613,5 +13613,73 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "leche-klim-deslactosada-semidescremada-360-gr",
+  "titulo": "LECHE KLIM DESLACTOSADA SEMIDESCREMADA 360 GR",
+  "precio": 24100,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "bebe-maternidad",
+  "subcategoria": null,
+  "marca": "Klim",
+  "presentacion": "360 g",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "leche-klim-deslactosada-semidescremada-360-gr.webp"
+  ],
+  "descripcion": "LECHE KLIM DESLACTOSADA SEMIDESCREMADA 360 GR cuidado suave bebé. • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "subcategoria": "inferido",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": "Bolsa x 360 g",
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "leche-klim-deslactosada-semidescremada-840-gr",
+  "titulo": "LECHE KLIM DESLACTOSADA SEMIDESCREMADA 840 GR",
+  "precio": 47600,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "bebe-maternidad",
+  "subcategoria": null,
+  "marca": "Klim",
+  "presentacion": "840 g",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "leche-klim-deslactosada-semidescremada-840-gr.webp"
+  ],
+  "descripcion": "LECHE KLIM DESLACTOSADA SEMIDESCREMADA 840 GR cuidado suave bebé. • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "subcategoria": "inferido",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": "Bolsa x 840 g",
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
