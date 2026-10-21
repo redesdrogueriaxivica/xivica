@@ -13681,5 +13681,39 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "minoxidil-tripack-forte-5-mk-3x60-ml",
+  "titulo": "MINOXIDIL FORTE 5% TRIPACK MK 3 X 60 ML",
+  "precio": 154600,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": null,
+  "marca": "Minoxidil",
+  "presentacion": "3 x 60 ml",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "minoxidil-tripack-forte-5-mk-3x60-ml.webp"
+  ],
+  "descripcion": "MINOXIDIL FORTE 5% TRIPACK MK 3 X 60 ML medicamento original. Consulta a tu farmaceuta. • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "subcategoria": "inferido",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": "Caja x 3 frascos de 60 ml",
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
