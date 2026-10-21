@@ -12107,40 +12107,6 @@
   "promo_flash_donde": null
  },
  {
-  "slug": "sildenafil-50-mg-tbs-gf-cja-x-2",
-  "titulo": "SILDENAFIL 50 MG TBS GF  CJA X 2",
-  "precio": 4900,
-  "precio_antes": null,
-  "descuento": null,
-  "categoria": "medicamentos",
-  "subcategoria": "salud-sexual",
-  "marca": null,
-  "presentacion": "50 mg · 2 Tabletas",
-  "rx": null,
-  "stock": true,
-  "destacado": false,
-  "imagenes": [
-   "unnamed.webp"
-  ],
-  "descripcion": "SILDENAFIL 50 MG TBS GF  CJA X 2 medicamento original. Consulta a tu farmacéutico. • Entrega 30-60 min • Original sellado.",
-  "origen": {
-   "rx": "pendiente",
-   "presentacion": "titulo",
-   "subcategoria": "inferido",
-   "registro_invima": "pendiente",
-   "principio_activo": "pendiente",
-   "concentracion": "pendiente",
-   "forma_farmaceutica": "pendiente"
-  },
-  "presentacion_comercial": null,
-  "registro_invima": null,
-  "principio_activo": null,
-  "concentracion": null,
-  "forma_farmaceutica": null,
-  "promo_flash_vence": null,
-  "promo_flash_donde": null
- },
- {
   "slug": "shot-b-capsulas-cja-x-30-oferta-x-2-und",
   "titulo": "SHOT B CAPSULAS  CJA X 30  OFERTA X 2 UND",
   "precio": 60500,
