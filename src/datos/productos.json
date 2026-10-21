@@ -4450,7 +4450,7 @@
   "stock": true,
   "destacado": false,
   "imagenes": [
-   "200042080_1-600x600.webp"
+   "X-RAY-GEL-30GR-600x600.webp"
   ],
   "descripcion": "X RAY GEL (DICLOFENACO 1%) 30 GR medicamento original. Consulta a tu farmacéutico. • Entrega 30-60 min • Original sellado.",
   "origen": {
@@ -7330,7 +7330,7 @@
  {
   "slug": "abon-asepxia-carbon-detox-100-gr",
   "titulo": "ABON ASEPXIA CARBON DETOX 100 GR",
-  "precio": 11000,
+  "precio": 16700,
   "precio_antes": null,
   "descuento": null,
   "categoria": "cuidado-personal",
@@ -7363,7 +7363,7 @@
  {
   "slug": "abon-dove-baby-humectaci-sensible-75-gr",
   "titulo": "ABON DOVE BABY HUMECTACI.SENSIBLE 75 GR",
-  "precio": 13900,
+  "precio": 7500,
   "precio_antes": null,
   "descuento": null,
   "categoria": "cuidado-personal",
@@ -7398,7 +7398,7 @@
  {
   "slug": "jabon-dove-blanco-90-gr",
   "titulo": "JABON DOVE BLANCO 90 GR",
-  "precio": 13700,
+  "precio": 7500,
   "precio_antes": null,
   "descuento": null,
   "categoria": "cuidado-personal",
@@ -10048,72 +10048,6 @@
    "rx": "pendiente",
    "presentacion": "titulo",
    "subcategoria": "inferido",
-   "registro_invima": "pendiente",
-   "principio_activo": "pendiente",
-   "concentracion": "pendiente",
-   "forma_farmaceutica": "pendiente"
-  },
-  "presentacion_comercial": null,
-  "registro_invima": null,
-  "principio_activo": null,
-  "concentracion": null,
-  "forma_farmaceutica": null,
-  "promo_flash_vence": null,
-  "promo_flash_donde": null
- },
- {
-  "slug": "x-ray-gel-30gr",
-  "titulo": "X RAY GEL  30GR",
-  "precio": 27200,
-  "precio_antes": null,
-  "descuento": null,
-  "categoria": "medicamentos",
-  "subcategoria": null,
-  "marca": null,
-  "presentacion": "30 g · Gel",
-  "rx": null,
-  "stock": true,
-  "destacado": false,
-  "imagenes": [
-   "X-RAY-GEL-30GR-600x600.webp"
-  ],
-  "descripcion": "X RAY GEL  30GR medicamento original. Consulta a tu farmacéutico. • Entrega 30-60 min • Original sellado.",
-  "origen": {
-   "rx": "pendiente",
-   "presentacion": "titulo",
-   "registro_invima": "pendiente",
-   "principio_activo": "pendiente",
-   "concentracion": "pendiente",
-   "forma_farmaceutica": "pendiente"
-  },
-  "presentacion_comercial": null,
-  "registro_invima": null,
-  "principio_activo": null,
-  "concentracion": null,
-  "forma_farmaceutica": null,
-  "promo_flash_vence": null,
-  "promo_flash_donde": null
- },
- {
-  "slug": "x-ray-dol-tabletas-cja-x-48",
-  "titulo": "X-RAY DOL TABLETAS CJA X 48",
-  "precio": 67900,
-  "precio_antes": null,
-  "descuento": null,
-  "categoria": "medicamentos",
-  "subcategoria": null,
-  "marca": null,
-  "presentacion": "48 Tabletas",
-  "rx": null,
-  "stock": true,
-  "destacado": false,
-  "imagenes": [
-   "X-RAY-DOL-TABLETAS-CJA-X-48-600x600.webp"
-  ],
-  "descripcion": "X-RAY DOL TABLETAS CJA X 48 medicamento original. Consulta a tu farmacéutico. • Entrega 30-60 min • Original sellado.",
-  "origen": {
-   "rx": "pendiente",
-   "presentacion": "titulo",
    "registro_invima": "pendiente",
    "principio_activo": "pendiente",
    "concentracion": "pendiente",
@@ -12870,7 +12804,7 @@
  {
   "slug": "preserv-durex-real-feel-cja-x-3",
   "titulo": "PRESERV. DUREX REAL FEEL CJA X 3",
-  "precio": 16160,
+  "precio": 20600,
   "precio_antes": null,
   "descuento": null,
   "categoria": "cuidado-personal",
