@@ -13817,5 +13817,73 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "panotil-beta-gotas-8-ml",
+  "titulo": "PANOTIL BETA GOTAS 8 ML",
+  "precio": 23600,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "antigripales",
+  "marca": "Panotil",
+  "presentacion": "8 ml",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "panotil-beta-gotas-8-ml.webp"
+  ],
+  "descripcion": "PANOTIL BETA GOTAS 8 ML medicamento original. Consulta a tu farmaceuta. • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "subcategoria": "inferido",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "gastricumeel-60-mg-50-comprimidos",
+  "titulo": "GASTRICUMEEL 60 MG 50 COMPRIMIDOS",
+  "precio": 79500,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "gastrointestinal",
+  "marca": "Gastricumeel",
+  "presentacion": "50 Comprimidos",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "gastricumeel-60-mg-50-comprimidos.webp"
+  ],
+  "descripcion": "GASTRICUMEEL 60 MG 50 COMPRIMIDOS medicamento original. Consulta a tu farmaceuta. • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "subcategoria": "inferido",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
