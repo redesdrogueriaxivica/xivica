@@ -13783,5 +13783,39 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "engystol-50-tabletas",
+  "titulo": "ENGYSTOL 50 TABLETAS",
+  "precio": 79000,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": null,
+  "marca": "Heel",
+  "presentacion": "50 Tabletas",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "engystol-50-tabletas.webp"
+  ],
+  "descripcion": "ENGYSTOL 50 TABLETAS medicamento original. Consulta a tu farmaceuta. • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "subcategoria": "inferido",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
