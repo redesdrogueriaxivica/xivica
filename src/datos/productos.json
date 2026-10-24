@@ -13885,5 +13885,73 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "abrilar-jarabe-200-ml",
+  "titulo": "ABRILAR JARABE 200 ML",
+  "precio": 68200,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "antigripales",
+  "marca": "Abrilar",
+  "presentacion": "200 ml",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "abrilar-jarabe-200-ml.webp"
+  ],
+  "descripcion": "ABRILAR JARABE 200 ML medicamento original. Consulta a tu farmaceuta. • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "subcategoria": "inferido",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "abrilar-jarabe-mentol-100-ml",
+  "titulo": "ABRILAR JARABE MENTOL 100 ML",
+  "precio": 47900,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "antigripales",
+  "marca": "Abrilar",
+  "presentacion": "100 ml",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "abrilar-jarabe-mentol-100-ml.webp"
+  ],
+  "descripcion": "ABRILAR JARABE MENTOL 100 ML medicamento original. Consulta a tu farmaceuta. • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "subcategoria": "inferido",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
