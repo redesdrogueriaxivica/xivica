@@ -12634,39 +12634,6 @@
   "promo_flash_donde": null
  },
  {
-  "slug": "prot-carefree-regu-cja-x-60",
-  "titulo": "PROT.CAREFREE REGU. CJA X 60",
-  "precio": 8500,
-  "precio_antes": null,
-  "descuento": null,
-  "categoria": "cuidado-personal",
-  "subcategoria": null,
-  "marca": null,
-  "presentacion": "60 unidades",
-  "rx": null,
-  "stock": true,
-  "destacado": false,
-  "imagenes": [
-   "PROT.CAREFREE-REGU.-CJA-X-60-600x600.webp"
-  ],
-  "descripcion": "PROT.CAREFREE REGU. CJA X 60 cuidado diario. • Entrega 30-60 min • Original sellado.",
-  "origen": {
-   "rx": "pendiente",
-   "presentacion": "titulo",
-   "registro_invima": "pendiente",
-   "principio_activo": "pendiente",
-   "concentracion": "pendiente",
-   "forma_farmaceutica": "pendiente"
-  },
-  "presentacion_comercial": null,
-  "registro_invima": null,
-  "principio_activo": null,
-  "concentracion": null,
-  "forma_farmaceutica": null,
-  "promo_flash_vence": null,
-  "promo_flash_donde": null
- },
- {
   "slug": "procto-glyvenol-supositorios-cja-x-5",
   "titulo": "PROCTO GLYVENOL SUPOSITORIOS  CJA X 5",
   "precio": 63500,
