@@ -14090,5 +14090,71 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "prot-carefree-original-100-und",
+  "titulo": "PROT.CAREFREE ORIGINAL 100 UND",
+  "precio": 13500,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "cuidado-personal",
+  "subcategoria": null,
+  "marca": null,
+  "presentacion": "100 unidades",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "prot-carefree-original-100-und.webp"
+  ],
+  "descripcion": "PROT.CAREFREE ORIGINAL 100 UND con perfume. • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "prot-carefree-todos-los-dias-100-und-sin-perfume",
+  "titulo": "PROT.CAREFREE TODOS LOS DIAS 100 UND S.P.",
+  "precio": 13500,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "cuidado-personal",
+  "subcategoria": null,
+  "marca": null,
+  "presentacion": "100 unidades",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "prot-carefree-todos-los-dias-100-und-sin-perfume.webp"
+  ],
+  "descripcion": "PROT.CAREFREE TODOS LOS DIAS 100 UND S.P. sin perfume. • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
