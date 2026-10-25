@@ -4572,39 +4572,6 @@
   "promo_flash_donde": null
  },
  {
-  "slug": "itacerebrina-jarabe-cereza-180-ml",
-  "titulo": "ITACEREBRINA JARABE CEREZA 180 ML",
-  "precio": 26500,
-  "precio_antes": null,
-  "descuento": null,
-  "categoria": "bienestar-nutricion",
-  "subcategoria": null,
-  "marca": null,
-  "presentacion": "180 ml · Jarabe",
-  "rx": null,
-  "stock": true,
-  "destacado": false,
-  "imagenes": [
-   "100018875_1-600x600.webp"
-  ],
-  "descripcion": "ITACEREBRINA JARABE CEREZA 180 ML complemento nutricional. • Entrega 30-60 min • Original sellado.",
-  "origen": {
-   "rx": "pendiente",
-   "presentacion": "titulo",
-   "registro_invima": "pendiente",
-   "principio_activo": "pendiente",
-   "concentracion": "pendiente",
-   "forma_farmaceutica": "pendiente"
-  },
-  "presentacion_comercial": null,
-  "registro_invima": null,
-  "principio_activo": null,
-  "concentracion": null,
-  "forma_farmaceutica": null,
-  "promo_flash_vence": null,
-  "promo_flash_donde": null
- },
- {
   "slug": "vick-44-exp-ninos-adultos-jbe-120-ml",
   "titulo": "VICK 44 EXP NINOS ADULTOS JBE 120 ML",
   "precio": 27000,
