@@ -14288,5 +14288,71 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "ensure-advance-vainilla-liquido-220-ml",
+  "titulo": "ENSURE ADVANCE VAINILLA LIQUIDO 220 ML",
+  "precio": 13300,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "bienestar-nutricion",
+  "subcategoria": "suplementos",
+  "marca": "Ensure",
+  "presentacion": "220 ml",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "ensure-advance-vainilla-liquido-220-ml.webp"
+  ],
+  "descripcion": "ENSURE ADVANCE VAINILLA LIQUIDO 220 ML complemento nutricional. • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "ensure-vainilla-liquido-220-ml",
+  "titulo": "ENSURE VAINILLA LIQUIDO 220 ML",
+  "precio": 12700,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "bienestar-nutricion",
+  "subcategoria": "suplementos",
+  "marca": "Ensure",
+  "presentacion": "220 ml",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "ensure-vainilla-liquido-220-ml.webp"
+  ],
+  "descripcion": "ENSURE VAINILLA LIQUIDO 220 ML complemento nutricional. • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
