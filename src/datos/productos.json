@@ -14354,5 +14354,104 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "agua-brisa-sin-gas-280-ml",
+  "titulo": "AGUA BRISA SIN GAS 280 ML",
+  "precio": 1000,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "varios",
+  "subcategoria": null,
+  "marca": "Brisa",
+  "presentacion": "280 ml",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "agua-brisa-sin-gas-280-ml.webp"
+  ],
+  "descripcion": "AGUA BRISA SIN GAS 280 ML. • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "agua-brisa-sin-gas-600-ml",
+  "titulo": "AGUA BRISA SIN GAS 600 ML",
+  "precio": 2000,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "varios",
+  "subcategoria": null,
+  "marca": "Brisa",
+  "presentacion": "600 ml",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "agua-brisa-sin-gas-600-ml.webp"
+  ],
+  "descripcion": "AGUA BRISA SIN GAS 600 ML. • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "agua-brisa-sin-gas-1000-ml",
+  "titulo": "AGUA BRISA SIN GAS 1000 ML",
+  "precio": 2500,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "varios",
+  "subcategoria": null,
+  "marca": "Brisa",
+  "presentacion": "1 L",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "agua-brisa-sin-gas-1000-ml.webp"
+  ],
+  "descripcion": "AGUA BRISA SIN GAS 1000 ML. • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
