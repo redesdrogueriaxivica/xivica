@@ -6965,7 +6965,7 @@
  {
   "slug": "hidrocortisona-1-crema-15-gr",
   "titulo": "HIDROCORTISONA 1% CREMA 15 GR",
-  "precio": 26400,
+  "precio": 8300,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -8106,7 +8106,7 @@
  {
   "slug": "metformina-850-mg-30-tabletas",
   "titulo": "METFORMINA 850 MG 30 TABLETAS",
-  "precio": 10500,
+  "precio": 21200,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -9551,7 +9551,7 @@
  {
   "slug": "noxpirin-junior-f-jbe-120-ml",
   "titulo": "NOXPIRIN JUNIOR F JBE 120 ML",
-  "precio": 11800,
+  "precio": 14900,
   "precio_antes": null,
   "descuento": null,
   "categoria": "bebe-maternidad",
@@ -14141,6 +14141,72 @@
    "tensiometro-digital-db-life-tensiocare-plus.webp"
   ],
   "descripcion": "TENSIOMETRO DIGITAL DB LIFE TENSIOCARE PLUS. • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "ensure-advance-vainilla-850-gr",
+  "titulo": "ENSURE ADVANCE VAINILLA 850 GR",
+  "precio": 165900,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "bienestar-nutricion",
+  "subcategoria": "suplementos",
+  "marca": "Ensure",
+  "presentacion": "850 g",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "ensure-advance-vainilla-850-gr.webp"
+  ],
+  "descripcion": "ENSURE ADVANCE VAINILLA 850 GR complemento nutricional. • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "ensure-advance-vainilla-400-gr",
+  "titulo": "ENSURE ADVANCE VAINILLA 400 GR",
+  "precio": 83900,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "bienestar-nutricion",
+  "subcategoria": "suplementos",
+  "marca": "Ensure",
+  "presentacion": "400 g",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "ensure-advance-vainilla-400-gr.webp"
+  ],
+  "descripcion": "ENSURE ADVANCE VAINILLA 400 GR complemento nutricional. • Entrega 30-60 min • Original sellado.",
   "origen": {
    "rx": "pendiente",
    "presentacion": "titulo",
