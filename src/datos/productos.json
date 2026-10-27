@@ -14255,5 +14255,38 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "dayamineral-fe-jarabe-240-ml",
+  "titulo": "DAYAMINERAL FE JARABE 240 ML",
+  "precio": 62200,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "bienestar-nutricion",
+  "subcategoria": "vitaminas",
+  "marca": "Dayamineral",
+  "presentacion": "240 ml",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "dayamineral-fe-jarabe-240-ml.webp"
+  ],
+  "descripcion": "DAYAMINERAL FE JARABE 240 ML complemento nutricional. • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
