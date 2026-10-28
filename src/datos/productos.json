@@ -14552,5 +14552,71 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "zeel-t-50-tabletas",
+  "titulo": "ZEEL T 50 TABLETAS",
+  "precio": 88300,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": null,
+  "marca": "Zeel",
+  "presentacion": "50 tabletas",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "zeel-t-50-tabletas.webp"
+  ],
+  "descripcion": "ZEEL T 50 TABLETAS. • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "zeel-t-5-ampollas",
+  "titulo": "ZEEL T 5 AMPOLLAS",
+  "precio": 123600,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": null,
+  "marca": "Zeel",
+  "presentacion": "5 ampollas de 2 ml",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "zeel-t-5-ampollas.webp"
+  ],
+  "descripcion": "ZEEL T 5 AMPOLLAS. • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
