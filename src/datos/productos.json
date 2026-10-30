@@ -15014,5 +15014,38 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "coca-cola-3-l",
+  "titulo": "COCA COLA 3 LTS",
+  "precio": 10000,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "varios",
+  "subcategoria": null,
+  "marca": "Coca-Cola",
+  "presentacion": "3 L",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "coca-cola-3-l.webp"
+  ],
+  "descripcion": "COCA COLA 3 LTS sabor original. • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
