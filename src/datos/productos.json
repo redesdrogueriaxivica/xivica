@@ -7100,9 +7100,9 @@
  {
   "slug": "igora-brillance-d-t-901-rub-ext-cla-cen",
   "titulo": "IGORA BRILLANCE D.T 901 RUB.EXT.CLA.CEN.",
-  "precio": 11000,
-  "precio_antes": 14850,
-  "descuento": 26,
+  "precio": 37000,
+  "precio_antes": null,
+  "descuento": null,
   "categoria": "cuidado-personal",
   "subcategoria": null,
   "marca": null,
@@ -9828,9 +9828,9 @@
  {
   "slug": "pantoprazol-40mg-x-28-tab-momenta",
   "titulo": "PANTOPRAZOL 40MG X 28 TAB MOMENTA",
-  "precio": 31000,
-  "precio_antes": 41850,
-  "descuento": 26,
+  "precio": 62500,
+  "precio_antes": null,
+  "descuento": null,
   "categoria": "medicamentos",
   "subcategoria": "gastrointestinal",
   "marca": null,
@@ -9839,7 +9839,7 @@
   "stock": true,
   "destacado": false,
   "imagenes": [
-   "PANTOPRAZOL-40MG-X-28-TAB-MOMENTA.webp"
+   "pantoprazol-40mg-x-28-tab-momenta-v2.webp"
   ],
   "descripcion": "PANTOPRAZOL 40MG X 28 TAB MOMENTA medicamento original. Consulta a tu farmacéutico. • Entrega 30-60 min • Original sellado.",
   "origen": {
