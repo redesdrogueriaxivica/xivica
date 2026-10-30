@@ -14948,5 +14948,71 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "berodual-solucion-para-inhalar-20-ml",
+  "titulo": "BERODUAL SOLUCION PARA INHALAR 20 ML",
+  "precio": 31900,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "respiratorio",
+  "marca": "Berodual",
+  "presentacion": "20 ml • Solución para inhalar",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "berodual-solucion-para-inhalar-20-ml.webp"
+  ],
+  "descripcion": "BERODUAL SOLUCION PARA INHALAR 20 ML. • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "berodual-hfa-aerosol-10-ml",
+  "titulo": "BERODUAL HFA AEROSOL 10 ML",
+  "precio": 32500,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "respiratorio",
+  "marca": "Berodual",
+  "presentacion": "10 ml • Aerosol dosificador 200 dosis",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "berodual-hfa-aerosol-10-ml.webp"
+  ],
+  "descripcion": "BERODUAL HFA AEROSOL 10 ML. • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
