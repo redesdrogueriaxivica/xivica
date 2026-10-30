@@ -14750,5 +14750,38 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "crema-colgate-triple-accion-150-ml",
+  "titulo": "CREMA COLGATE TRIPLE ACCION 150 ML",
+  "precio": 10900,
+  "precio_antes": 14600,
+  "descuento": 25,
+  "categoria": "cuidado-personal",
+  "subcategoria": "cuidado-bucal",
+  "marca": "Colgate",
+  "presentacion": "150 ml",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "crema-colgate-triple-accion-150-ml.webp"
+  ],
+  "descripcion": "CREMA COLGATE TRIPLE ACCION 150 ML menta original. • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
