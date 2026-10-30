@@ -14882,5 +14882,71 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "agua-micelar-garnier-todo-en-1-400-ml",
+  "titulo": "AGUA MICELAR GARNIER TODO EN 1 400 ML",
+  "precio": 19800,
+  "precio_antes": 29500,
+  "descuento": 33,
+  "categoria": "belleza",
+  "subcategoria": "cuidado-piel",
+  "marca": "Garnier",
+  "presentacion": "400 ml",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "agua-micelar-garnier-todo-en-1-400-ml.webp"
+  ],
+  "descripcion": "AGUA MICELAR GARNIER TODO EN 1 400 ML. • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "protector-solar-sun-pro-facial-spf-90-50-ml",
+  "titulo": "PROTECTOR SOLAR SUN PRO FACIAL SPF 90 50 ML",
+  "precio": 34300,
+  "precio_antes": 47900,
+  "descuento": 28,
+  "categoria": "cuidado-personal",
+  "subcategoria": "cuidado-piel",
+  "marca": "Sun Pro",
+  "presentacion": "50 ml",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "protector-solar-sun-pro-facial-spf-90-50-ml.webp"
+  ],
+  "descripcion": "PROTECTOR SOLAR SUN PRO FACIAL SPF 90 50 ML. • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
