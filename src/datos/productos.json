@@ -14618,5 +14618,137 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "traumeel-gel-50-g",
+  "titulo": "TRAUMEEL GEL 50 G",
+  "precio": 67200,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": null,
+  "marca": "Traumeel",
+  "presentacion": "50 g",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "traumeel-gel-50-g.webp"
+  ],
+  "descripcion": "TRAUMEEL GEL 50 G. • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "traumeel-s-pomada-50-g",
+  "titulo": "TRAUMEEL S POMADA 50 G",
+  "precio": 58500,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": null,
+  "marca": "Traumeel",
+  "presentacion": "50 g (pomada)",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "traumeel-s-pomada-50-g.webp"
+  ],
+  "descripcion": "TRAUMEEL S POMADA 50 G. • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "traumeel-s-crema-100-g",
+  "titulo": "TRAUMEEL S CREMA 100 G",
+  "precio": 80500,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": null,
+  "marca": "Traumeel",
+  "presentacion": "100 g (crema)",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "traumeel-s-crema-100-g.webp"
+  ],
+  "descripcion": "TRAUMEEL S CREMA 100 G. • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "traumeel-s-ampollas-5-x-2-2-ml",
+  "titulo": "TRAUMEEL S AMPOLLAS 5 X 2.2 ML",
+  "precio": 98000,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": null,
+  "marca": "Traumeel",
+  "presentacion": "5 ampollas de 2.2 ml",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "traumeel-s-ampollas-5-x-2-2-ml.webp"
+  ],
+  "descripcion": "TRAUMEEL S AMPOLLAS 5 X 2.2 ML. • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
