@@ -3176,42 +3176,6 @@
   "promo_flash_donde": null
  },
  {
-  "slug": "cha-tio-nacho-herbolaria-acon-415-ml",
-  "titulo": "CHA.TIO NACHO HERBOLARIA+ACON.415 ML",
-  "precio": 32000,
-  "precio_antes": null,
-  "descuento": null,
-  "categoria": "cuidado-personal",
-  "subcategoria": "cuidado-capilar",
-  "marca": "Tio Nacho",
-  "presentacion": "415 ml · Shampoo",
-  "rx": null,
-  "stock": true,
-  "destacado": false,
-  "imagenes": [
-   "CHAMPU-TIO-NACHO-HERBOLARIA-MILENARIA-415-mL-600x600.webp",
-   "7702006202930-1-300x300.webp"
-  ],
-  "descripcion": "CHA.TIO NACHO HERBOLARIA+ACON.415 ML cuidado diario. • Entrega 30-60 min • Original sellado.",
-  "origen": {
-   "rx": "pendiente",
-   "presentacion": "titulo",
-   "marca": "titulo",
-   "subcategoria": "inferido",
-   "registro_invima": "pendiente",
-   "principio_activo": "pendiente",
-   "concentracion": "pendiente",
-   "forma_farmaceutica": "pendiente"
-  },
-  "presentacion_comercial": null,
-  "registro_invima": null,
-  "principio_activo": null,
-  "concentracion": null,
-  "forma_farmaceutica": null,
-  "promo_flash_vence": null,
-  "promo_flash_donde": null
- },
- {
   "slug": "cialis-20-mg-tbs-cja-x-1-und",
   "titulo": "CIALIS 20 MG TBS  CJA X 1 UND",
   "precio": 53800,
@@ -15065,6 +15029,39 @@
    "nofertyl-50-mg-5-mg-ampolla-1-ml.webp"
   ],
   "descripcion": "NOFERTYL 50 MG/5 MG • Ampollas de 1 ml • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "bellaface-2-mg-0-03-mg-21-tabletas",
+  "titulo": "BELLAFACE 2 MG/0,03 MG 21 TBS",
+  "precio": 17500,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "anticonceptivos",
+  "marca": "Bellaface",
+  "presentacion": "21 tabletas recubiertas",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "bellaface-2-mg-0-03-mg-21-tabletas.webp"
+  ],
+  "descripcion": "BELLAFACE 2 MG/0,03 MG • 21 tabletas recubiertas • Entrega 30-60 min • Original sellado.",
   "origen": {
    "rx": "pendiente",
    "presentacion": "titulo",
