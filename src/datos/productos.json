@@ -15242,5 +15242,71 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "farmalax-peg-3350-15-sobres",
+  "titulo": "FARMALAX PEG 3350 15 SOBRES",
+  "precio": 81900,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "gastrointestinal",
+  "marca": "Farmalax",
+  "presentacion": "15 sobres de 17 g",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "farmalax-peg-3350-15-sobres.webp"
+  ],
+  "descripcion": "FARMALAX PEG 3350 • Caja x 15 sobres de 17 g • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "farmalax-peg-3350-frasco-160-g",
+  "titulo": "FARMALAX PEG 3350 FRASCO 160 G",
+  "precio": 51900,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "gastrointestinal",
+  "marca": "Farmalax",
+  "presentacion": "160 g • Polvo para reconstituir",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "farmalax-peg-3350-frasco-160-g.webp"
+  ],
+  "descripcion": "FARMALAX PEG 3350 • Frasco de 160 g • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
