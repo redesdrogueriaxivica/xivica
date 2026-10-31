@@ -15077,5 +15077,71 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "fexofenadina-120-mg-ecar-10-tab",
+  "titulo": "FEXOFENADINA 120 MG ECAR 10 TAB",
+  "precio": 32000,
+  "precio_antes": 41500,
+  "descuento": 23,
+  "categoria": "medicamentos",
+  "subcategoria": "antialergicos",
+  "marca": "Ecar",
+  "presentacion": "10 tabletas recubiertas",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "fexofenadina-120-mg-ecar-10-tab.webp"
+  ],
+  "descripcion": "FEXOFENADINA 120 MG ECAR • 10 tabletas recubiertas • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "fexofenadina-180-mg-ecar-10-tab",
+  "titulo": "FEXOFENADINA 180 MG ECAR 10 TAB",
+  "precio": 56500,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "antialergicos",
+  "marca": "Ecar",
+  "presentacion": "10 tabletas recubiertas",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "fexofenadina-180-mg-ecar-10-tab.webp"
+  ],
+  "descripcion": "FEXOFENADINA 180 MG ECAR • 10 tabletas recubiertas • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
