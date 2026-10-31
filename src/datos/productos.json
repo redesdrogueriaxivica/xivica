@@ -6863,7 +6863,7 @@
  {
   "slug": "ginkgo-biloba-40-mg-80-tabletas",
   "titulo": "GINKGO BILOBA 40 MG 80 TABLETAS",
-  "precio": 75900,
+  "precio": 49000,
   "precio_antes": null,
   "descuento": null,
   "categoria": "bienestar-nutricion",
@@ -7399,7 +7399,7 @@
  {
   "slug": "jabon-palmolive-sandia-y-lychee-110-gr",
   "titulo": "JABON PALMOLIVE SANDIA Y LYCHEE 110 GR",
-  "precio": 13200,
+  "precio": 3900,
   "precio_antes": null,
   "descuento": null,
   "categoria": "cuidado-personal",
@@ -15128,6 +15128,105 @@
    "fexofenadina-180-mg-ecar-10-tab.webp"
   ],
   "descripcion": "FEXOFENADINA 180 MG ECAR • 10 tabletas recubiertas • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "jardiance-10-mg-30-tabletas",
+  "titulo": "JARDIANCE 10 MG 30 TABLETAS",
+  "precio": 78500,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "diabetes",
+  "marca": "Boehringer Ingelheim",
+  "presentacion": "30 tabletas recubiertas",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "jardiance-10-mg-30-tabletas.webp"
+  ],
+  "descripcion": "JARDIANCE 10 MG • 30 tabletas recubiertas • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "fexofenadina-120-mg-colmed-10-tab",
+  "titulo": "FEXOFENADINA 120 MG COLMED 10 TAB",
+  "precio": 36500,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "antialergicos",
+  "marca": "Colmed International",
+  "presentacion": "10 tabletas recubiertas",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "fexofenadina-120-mg-colmed-10-tab.webp"
+  ],
+  "descripcion": "FEXOFENADINA CLORHIDRATO 120 MG COLMED • 10 tabletas recubiertas • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "losartan-50-mg-mk-30-tabletas",
+  "titulo": "LOSARTAN 50 MG MK 30 TABLETAS",
+  "precio": 32300,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "cardiovascular",
+  "marca": "MK",
+  "presentacion": "30 tabletas recubiertas",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "losartan-50-mg-mk-30-tabletas.webp"
+  ],
+  "descripcion": "LOSARTAN 50 MG MK • 30 tabletas recubiertas • Entrega 30-60 min • Original sellado.",
   "origen": {
    "rx": "pendiente",
    "presentacion": "titulo",
