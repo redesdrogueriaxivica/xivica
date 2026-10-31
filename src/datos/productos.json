@@ -15047,5 +15047,38 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "nofertyl-50-mg-5-mg-ampolla-1-ml",
+  "titulo": "NOFERTYL 50 MG/5 MG AMPOLLA 1 ML",
+  "precio": 10500,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "anticonceptivos",
+  "marca": "Nofertyl",
+  "presentacion": "1 ampolla de 1 ml • Solución inyectable",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "nofertyl-50-mg-5-mg-ampolla-1-ml.webp"
+  ],
+  "descripcion": "NOFERTYL 50 MG/5 MG • Ampollas de 1 ml • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
