@@ -15703,5 +15703,71 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "coca-cola-sin-azucar-400-ml",
+  "titulo": "COCA COLA SIN AZUCAR 400 ML",
+  "precio": 3000,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "varios",
+  "subcategoria": null,
+  "marca": "Coca-Cola",
+  "presentacion": "Botella 400 ml",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "coca-cola-sin-azucar-400-ml.webp"
+  ],
+  "descripcion": "COCA COLA SIN AZUCAR • Gaseosa sin azúcar, sin calorías • Botella 400 ml • Entrega 30-60 min.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "coca-cola-sin-azucar-1-5-lts",
+  "titulo": "COCA COLA SIN AZUCAR 1.5 LTS",
+  "precio": 6600,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "varios",
+  "subcategoria": null,
+  "marca": "Coca-Cola",
+  "presentacion": "Botella 1.5 litros",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "coca-cola-sin-azucar-1-5-lts.webp"
+  ],
+  "descripcion": "COCA COLA SIN AZUCAR • Gaseosa sin azúcar, sin calorías • Botella 1.5 litros • Entrega 30-60 min.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
