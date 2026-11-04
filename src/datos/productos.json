@@ -15934,5 +15934,137 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "gynocanesten-crema-vaginal-20-gr",
+  "titulo": "GYNOCANESTEN CREMA VAGINAL 20 GR",
+  "precio": 43300,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": null,
+  "marca": "Bayer",
+  "presentacion": "Tubo 20 g • 1 tubo",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "gynocanesten-crema-vaginal-20-gr.webp"
+  ],
+  "descripcion": "GYNOCANESTEN CREMA VAGINAL • Tubo x 20 g • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "gynocanesten-ovulo-blando-500-mg-x-1",
+  "titulo": "GYNOCANESTEN OVULO BLANDO 500 MG X 1",
+  "precio": 59200,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": null,
+  "marca": "Bayer",
+  "presentacion": "Caja x 1 óvulo blando",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "gynocanesten-ovulo-blando-500-mg-x-1.webp"
+  ],
+  "descripcion": "GYNOCANESTEN OVULO BLANDO • Caja x 1 óvulo • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "gynocanesten-ovulos-blandos-200-mg-x-3",
+  "titulo": "GYNOCANESTEN OVULOS BLANDOS 200 MG X 3",
+  "precio": 57600,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": null,
+  "marca": "Bayer",
+  "presentacion": "Caja x 3 óvulos blandos",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "gynocanesten-ovulos-blandos-200-mg-x-3.webp"
+  ],
+  "descripcion": "GYNOCANESTEN OVULOS BLANDOS • Caja x 3 óvulos blandos • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "gynocanesten-balance-gel-vaginal-7-x-5-ml",
+  "titulo": "GYNOCANESTEN BALANCE GEL VAGINAL 7 X 5 ML",
+  "precio": 74900,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": null,
+  "marca": "Bayer",
+  "presentacion": "Caja x 7 aplicadores de 5 ml (PAE)",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "gynocanesten-balance-gel-vaginal-7-x-5-ml.webp"
+  ],
+  "descripcion": "GYNOCANESTEN BALANCE • Gel vaginal • Caja x 7 aplicadores de 5 ml • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
