@@ -15439,5 +15439,170 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "fixomull-transparent-5-cm-x-10-mts",
+  "titulo": "FIXOMULL TRANSPARENT 5 CM X 10 MTS",
+  "precio": 87300,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "varios",
+  "subcategoria": null,
+  "marca": "Leukoplast",
+  "presentacion": "1 rollo • 5 cm x 10 m",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "fixomull-transparent-5-cm-x-10-mts.webp"
+  ],
+  "descripcion": "FIXOMULL TRANSPARENT • Película transparente en rollo, impermeable al agua • Rollo de 5 cm x 10 m • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "fixomull-transparent-10-cm-x-2-mts",
+  "titulo": "FIXOMULL TRANSPARENT 10 CM X 2 MTS",
+  "precio": 41700,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "varios",
+  "subcategoria": null,
+  "marca": "Leukoplast",
+  "presentacion": "1 rollo • 10 cm x 2 m",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "fixomull-transparent-10-cm-x-2-mts.webp"
+  ],
+  "descripcion": "FIXOMULL TRANSPARENT • Película transparente en rollo, impermeable al agua • Rollo de 10 cm x 2 m • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "fixomull-transparent-15-cm-x-10-mts",
+  "titulo": "FIXOMULL TRANSPARENT 15 CM X 10 MTS",
+  "precio": 190200,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "varios",
+  "subcategoria": null,
+  "marca": "Leukoplast",
+  "presentacion": "1 rollo • 15 cm x 10 m",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "fixomull-transparent-15-cm-x-10-mts.webp"
+  ],
+  "descripcion": "FIXOMULL TRANSPARENT • Película transparente en rollo, impermeable al agua • Rollo de 15 cm x 10 m • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "fixomull-stretch-5-cm-x-10-mts",
+  "titulo": "FIXOMULL STRETCH 5 CM X 10 MTS",
+  "precio": 73800,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "varios",
+  "subcategoria": null,
+  "marca": "Leukoplast",
+  "presentacion": "1 rollo • 5 cm x 10 m",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "fixomull-stretch-5-cm-x-10-mts.webp"
+  ],
+  "descripcion": "FIXOMULL STRETCH • Gasa autoadhesiva en tejido sin tejer • Rollo de 5 cm x 10 m • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "fixomull-stretch-10-cm-x-2-mts",
+  "titulo": "FIXOMULL STRETCH 10 CM X 2 MTS",
+  "precio": 38700,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "varios",
+  "subcategoria": null,
+  "marca": "Leukoplast",
+  "presentacion": "1 rollo • 10 cm x 2 m",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "fixomull-stretch-10-cm-x-2-mts.webp"
+  ],
+  "descripcion": "FIXOMULL STRETCH • Gasa autoadhesiva en tejido sin tejer • Rollo de 10 cm x 2 m • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
