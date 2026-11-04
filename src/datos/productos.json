@@ -15604,5 +15604,104 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "jugo-hit-mango-1-5-lts",
+  "titulo": "JUGO HIT MANGO 1.5 LTS",
+  "precio": 5500,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "varios",
+  "subcategoria": null,
+  "marca": "Hit",
+  "presentacion": "Botella 1.5 litros",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "jugo-hit-mango-1-5-lts.webp"
+  ],
+  "descripcion": "JUGO HIT MANGO • Bebida de jugo sabor mango • Botella 1.5 litros • Entrega 30-60 min.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "coca-cola-1-5-lts",
+  "titulo": "COCA COLA 1.5 LTS",
+  "precio": 6600,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "varios",
+  "subcategoria": null,
+  "marca": "Coca-Cola",
+  "presentacion": "Botella 1.5 litros",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "coca-cola-1-5-lts.webp"
+  ],
+  "descripcion": "COCA COLA • Sabor original • Botella 1.5 litros • Entrega 30-60 min.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "coca-cola-400-ml",
+  "titulo": "COCA COLA 400 ML",
+  "precio": 3200,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "varios",
+  "subcategoria": null,
+  "marca": "Coca-Cola",
+  "presentacion": "Botella 400 ml",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "coca-cola-400-ml.webp"
+  ],
+  "descripcion": "COCA COLA • Sabor original • Botella 400 ml • Entrega 30-60 min.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
