@@ -15769,5 +15769,38 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "tampon-nosotras-regular-c-a-x-8",
+  "titulo": "TAMPON NOSOTRAS REGULAR C/A X 8",
+  "precio": 14500,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "cuidado-personal",
+  "subcategoria": "higiene-femenina",
+  "marca": "Nosotras",
+  "presentacion": "8 tampones con aplicador • Flujo regular",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "tampon-nosotras-regular-c-a-x-8.webp"
+  ],
+  "descripcion": "TAMPONES NOSOTRAS COMODIDAD-V REGULAR • Con aplicador suave • Caja x 8 unidades • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
