@@ -12669,18 +12669,18 @@
  {
   "slug": "preserv-today-punto-g-cja-x-3",
   "titulo": "PRESERV.TODAY PUNTO G  CJA X 3",
-  "precio": 17000,
+  "precio": 17900,
   "precio_antes": null,
   "descuento": null,
   "categoria": "cuidado-personal",
-  "subcategoria": null,
-  "marca": null,
+  "subcategoria": "anticonceptivos",
+  "marca": "Today",
   "presentacion": "3 unidades",
   "rx": null,
   "stock": true,
   "destacado": false,
   "imagenes": [
-   "PRESERV.TODAY-PUNTO-G-CJA-X-3-600x600.webp"
+   "preserv-today-punto-g-cja-x-3-v2.webp"
   ],
   "descripcion": "PRESERV.TODAY PUNTO G  CJA X 3 cuidado diario. • Entrega 30-60 min • Original sellado.",
   "origen": {
@@ -15293,6 +15293,105 @@
    "farmalax-peg-3350-frasco-160-g.webp"
   ],
   "descripcion": "FARMALAX PEG 3350 • Frasco de 160 g • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "preserv-today-lubricado-cja-x-3",
+  "titulo": "PRESERV.TODAY LUBRICADO CJA X 3",
+  "precio": 14900,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "cuidado-personal",
+  "subcategoria": "anticonceptivos",
+  "marca": "Today",
+  "presentacion": "3 unidades",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "preserv-today-lubricado-cja-x-3.webp"
+  ],
+  "descripcion": "PRESERV.TODAY LUBRICADO CJA X 3 • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "preserv-today-long-action-cja-x-3",
+  "titulo": "PRESERV.TODAY LONG ACTION CJA X 3",
+  "precio": 17900,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "cuidado-personal",
+  "subcategoria": "anticonceptivos",
+  "marca": "Today",
+  "presentacion": "3 unidades",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "preserv-today-long-action-cja-x-3.webp"
+  ],
+  "descripcion": "PRESERV.TODAY LONG ACTION CJA X 3 • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "preserv-today-real-sensation-cja-x-3",
+  "titulo": "PRESERV.TODAY REAL SENSATION CJA X 3",
+  "precio": 17900,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "cuidado-personal",
+  "subcategoria": "anticonceptivos",
+  "marca": "Today",
+  "presentacion": "3 unidades",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "preserv-today-real-sensation-cja-x-3.webp"
+  ],
+  "descripcion": "PRESERV.TODAY REAL SENSATION CJA X 3 • Entrega 30-60 min • Original sellado.",
   "origen": {
    "rx": "pendiente",
    "presentacion": "titulo",
