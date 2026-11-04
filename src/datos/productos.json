@@ -15406,5 +15406,38 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "fixomull-stretch-10-cm-x-10-mts",
+  "titulo": "FIXOMULL STRETCH 10 CM X 10 MTS",
+  "precio": 123600,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "varios",
+  "subcategoria": null,
+  "marca": "Leukoplast",
+  "presentacion": "1 rollo • 10 cm x 10 m",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "fixomull-stretch-10-cm-x-10-mts.webp"
+  ],
+  "descripcion": "FIXOMULL STRETCH • Gasa autoadhesiva en tejido sin tejer • Rollo de 10 cm x 10 m • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
