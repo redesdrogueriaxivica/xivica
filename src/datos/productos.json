@@ -15373,5 +15373,38 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "cinta-quirurgica-fixosafe-5-cm-x-10-mts",
+  "titulo": "CINTA QUIRURGICA FIXOSAFE 5 CM X 10 MTS",
+  "precio": 15500,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "varios",
+  "subcategoria": null,
+  "marca": "Fixosafe",
+  "presentacion": "1 rollo • 5 cm x 10 m",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "cinta-quirurgica-fixosafe-5-cm-x-10-mts.webp"
+  ],
+  "descripcion": "CINTA QUIRURGICA FIXOSAFE no tejida adhesiva • Rollo 5 cm x 10 m • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
