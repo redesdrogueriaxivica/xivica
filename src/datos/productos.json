@@ -15835,5 +15835,104 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "ciruelax-forte-24-comprimidos",
+  "titulo": "CIRUELAX FORTE 24 COMPRIMIDOS",
+  "precio": 36500,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "bienestar-nutricion",
+  "subcategoria": null,
+  "marca": "Garden House",
+  "presentacion": "Caja x 24 comprimidos",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "ciruelax-forte-24-comprimidos.webp"
+  ],
+  "descripcion": "CIRUELAX FORTE • Comprimidos recubiertos • Caja x 24 • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "ciruelax-forte-60-comprimidos",
+  "titulo": "CIRUELAX FORTE 60 COMPRIMIDOS",
+  "precio": 67200,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "bienestar-nutricion",
+  "subcategoria": null,
+  "marca": "Garden House",
+  "presentacion": "Caja x 60 comprimidos",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "ciruelax-forte-60-comprimidos.webp"
+  ],
+  "descripcion": "CIRUELAX FORTE • Comprimidos recubiertos • Caja x 60 • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "ciruelax-forte-jalea-300-gr",
+  "titulo": "CIRUELAX FORTE JALEA 300 GR",
+  "precio": 69800,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "bienestar-nutricion",
+  "subcategoria": null,
+  "marca": "Garden House",
+  "presentacion": "Frasco 300 g",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "ciruelax-forte-jalea-300-gr.webp"
+  ],
+  "descripcion": "CIRUELAX FORTE • Jalea • Frasco 300 g • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
