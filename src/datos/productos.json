@@ -16165,5 +16165,71 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "bisolvon-adultos-jarabe-120-ml",
+  "titulo": "BISOLVON ADULTOS JARABE 120 ML",
+  "precio": 36700,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "respiratorio",
+  "marca": "Bisolvon",
+  "presentacion": "Frasco 120 ml • Sabor chocolate-cereza",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "bisolvon-adultos-jarabe-120-ml.webp"
+  ],
+  "descripcion": "BISOLVON ADULTOS • Jarabe sabor chocolate-cereza • Frasco 120 ml • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "bisolvon-max-jarabe-120-ml",
+  "titulo": "BISOLVON MAX JARABE 120 ML",
+  "precio": 41800,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "respiratorio",
+  "marca": "Bisolvon",
+  "presentacion": "Frasco 120 ml",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "bisolvon-max-jarabe-120-ml.webp"
+  ],
+  "descripcion": "BISOLVON MAX • Jarabe • Frasco 120 ml • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
