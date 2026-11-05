@@ -16066,5 +16066,38 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "amiodarona-200-mg-10-tabletas-la-sante",
+  "titulo": "AMIODARONA 200 MG 10 TABLETAS LA SANTE",
+  "precio": 74400,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "cardiovascular",
+  "marca": "La Santé",
+  "presentacion": "Caja x 10 tabletas",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "amiodarona-200-mg-10-tabletas-la-sante.webp"
+  ],
+  "descripcion": "AMIODARONA 200 MG LA SANTE • Caja x 10 tabletas • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
