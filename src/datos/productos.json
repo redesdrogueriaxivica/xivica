@@ -16132,5 +16132,38 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "dulcolax-bisacodilo-20-grageas",
+  "titulo": "DULCOLAX BISACODILO 20 GRAGEAS",
+  "precio": 31900,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "gastrointestinal",
+  "marca": "Dulcolax",
+  "presentacion": "Caja x 20 grageas",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "dulcolax-bisacodilo-20-grageas.webp"
+  ],
+  "descripcion": "DULCOLAX BISACODILO • Caja x 20 grageas • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
