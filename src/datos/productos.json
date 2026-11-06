@@ -16627,5 +16627,38 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "travad-pik-naranja-caja-x-2-sobres",
+  "titulo": "TRAVAD PIK NARANJA CAJA X 2 SOBRES",
+  "precio": 102700,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": null,
+  "marca": "Travad",
+  "presentacion": "Caja x 2 sobres + vaso dosificador",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "travad-pik-naranja-caja-x-2-sobres.webp"
+  ],
+  "descripcion": "TRAVAD PIK • Caja x 2 sobres sabor naranja • Polvo para reconstituir a solución oral • Incluye vaso dosificador • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
