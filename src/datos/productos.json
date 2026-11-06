@@ -16594,5 +16594,38 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "calendula-solucion-oral-360-ml-labfarve",
+  "titulo": "CALENDULA SOLUCION ORAL 360 ML LABFARVE",
+  "precio": 23900,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": null,
+  "marca": "Labfarve",
+  "presentacion": "Frasco 360 ml",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "calendula-solucion-oral-360-ml-labfarve.webp"
+  ],
+  "descripcion": "CALENDULA • Solución oral • Frasco 360 ml • Libre de alcohol y azúcar • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
