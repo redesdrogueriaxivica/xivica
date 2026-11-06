@@ -16264,5 +16264,38 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "terovan-50-24-mg-26-mg-30-tabletas",
+  "titulo": "TEROVAN 50 24 MG / 26 MG 30 TABLETAS",
+  "precio": 102000,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "cardiovascular",
+  "marca": "Adium",
+  "presentacion": "Caja x 30 tabletas recubiertas",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "terovan-50-24-mg-26-mg-30-tabletas.webp"
+  ],
+  "descripcion": "TEROVAN 50 • Caja x 30 tabletas recubiertas • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
