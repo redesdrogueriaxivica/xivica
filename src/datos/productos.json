@@ -16429,5 +16429,71 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "hidraplus-75-zinc-cereza-4-sachets-x-100-ml",
+  "titulo": "HIDRAPLUS 75 ZINC CEREZA 4 SACHETS X 100 ML",
+  "precio": 14200,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "bienestar-nutricion",
+  "subcategoria": "gastrointestinal",
+  "marca": "Hidraplus",
+  "presentacion": "Bolsa x 4 sachets de 100 ml",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "hidraplus-75-zinc-cereza-4-sachets-x-100-ml.webp"
+  ],
+  "descripcion": "HIDRAPLUS 75 CON ZINC • Suero oral sabor cereza • Bolsa x 4 sachets de 100 ml • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "hidraplus-75-zinc-manzana-4-sachets-x-100-ml",
+  "titulo": "HIDRAPLUS 75 ZINC MANZANA 4 SACHETS X 100 ML",
+  "precio": 14200,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "bienestar-nutricion",
+  "subcategoria": "gastrointestinal",
+  "marca": "Hidraplus",
+  "presentacion": "Bolsa x 4 sachets de 100 ml",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "hidraplus-75-zinc-manzana-4-sachets-x-100-ml.webp"
+  ],
+  "descripcion": "HIDRAPLUS 75 CON ZINC • Suero oral sabor manzana • Bolsa x 4 sachets de 100 ml • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
