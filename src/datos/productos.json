@@ -16297,5 +16297,137 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "hidraplus-75-zinc-cereza-400-ml-suero",
+  "titulo": "HIDRAPLUS 75 ZINC CEREZA 400 ML SUERO",
+  "precio": 11000,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "bienestar-nutricion",
+  "subcategoria": "gastrointestinal",
+  "marca": "Hidraplus",
+  "presentacion": "Frasco 400 ml",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "hidraplus-75-zinc-cereza-400-ml-suero.webp"
+  ],
+  "descripcion": "HIDRAPLUS 75 CON ZINC • Suero oral sabor cereza • Frasco 400 ml • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "hidraplus-75-zinc-coco-400-ml-suero",
+  "titulo": "HIDRAPLUS 75 ZINC COCO 400 ML SUERO",
+  "precio": 11000,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "bienestar-nutricion",
+  "subcategoria": "gastrointestinal",
+  "marca": "Hidraplus",
+  "presentacion": "Frasco 400 ml",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "hidraplus-75-zinc-coco-400-ml-suero.webp"
+  ],
+  "descripcion": "HIDRAPLUS 75 CON ZINC • Suero oral sabor coco • Frasco 400 ml • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "hidraplus-75-zinc-manzana-400-ml-suero",
+  "titulo": "HIDRAPLUS 75 ZINC MANZANA 400 ML SUERO",
+  "precio": 11000,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "bienestar-nutricion",
+  "subcategoria": "gastrointestinal",
+  "marca": "Hidraplus",
+  "presentacion": "Frasco 400 ml",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "hidraplus-75-zinc-manzana-400-ml-suero.webp"
+  ],
+  "descripcion": "HIDRAPLUS 75 CON ZINC • Suero oral sabor manzana • Frasco 400 ml • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "stodaline-jarabe-sin-azucar-200-ml",
+  "titulo": "STODALINE JARABE SIN AZUCAR 200 ML",
+  "precio": 57500,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "respiratorio",
+  "marca": "Boiron",
+  "presentacion": "Frasco 200 ml • Con vaso dosificador",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "stodaline-jarabe-sin-azucar-200-ml.webp"
+  ],
+  "descripcion": "STODALINE • Jarabe sin azúcar • Frasco 200 ml con vaso dosificador • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
