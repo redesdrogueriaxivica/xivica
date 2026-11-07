@@ -16759,5 +16759,38 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "vitybell-30-capsulas-blandas",
+  "titulo": "VITYBELL 30 CAPSULAS BLANDAS",
+  "precio": 121000,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "bienestar-nutricion",
+  "subcategoria": "vitaminas",
+  "marca": "Procaps",
+  "presentacion": "Caja x 30 cápsulas blandas",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "vitybell-30-capsulas-blandas.webp"
+  ],
+  "descripcion": "VITYBELL • Suplemento dietario • Biotina, ácido pantoténico, cobre, selenio, zinc, riboflavina, niacinamida y piridoxina • Caja x 30 cápsulas blandas • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
