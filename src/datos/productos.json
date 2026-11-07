@@ -16693,5 +16693,71 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "tena-pants-clasico-large-paq-x-16",
+  "titulo": "TENA PANTS CLASICO LARGE PAQ X 16",
+  "precio": 54700,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "cuidado-personal",
+  "subcategoria": "adulto-mayor",
+  "marca": "Tena",
+  "presentacion": "Paquete x 16 unidades",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "tena-pants-clasico-large-paq-x-16.webp"
+  ],
+  "descripcion": "TENA PANTS CLÁSICO • Talla L (Large) • Nivel 6 • Cintura 100-147 cm • Paquete x 16 unidades • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "tena-pants-clasico-medium-paq-x-16",
+  "titulo": "TENA PANTS CLASICO MEDIUM PAQ X 16",
+  "precio": 53500,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "cuidado-personal",
+  "subcategoria": "adulto-mayor",
+  "marca": "Tena",
+  "presentacion": "Paquete x 16 unidades",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "tena-pants-clasico-medium-paq-x-16.webp"
+  ],
+  "descripcion": "TENA PANTS CLÁSICO • Talla M (Medium) • Nivel 6 • Cintura 80-112 cm • Paquete x 16 unidades • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
