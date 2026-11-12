@@ -17419,5 +17419,38 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "bronquisan-jarabe-180-ml",
+  "titulo": "BRONQUISAN JARABE 180 ML",
+  "precio": 21000,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "respiratorio",
+  "marca": "El Mana",
+  "presentacion": "Caja x 180 ml",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "bronquisan-jarabe-180-ml.webp"
+  ],
+  "descripcion": "BRONQUISAN JARABE • El Mana • Caja x 180 ml • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
