@@ -17452,5 +17452,71 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "glucerna-vainilla-400-gr",
+  "titulo": "GLUCERNA VAINILLA 400 GR",
+  "precio": 89800,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "bienestar-nutricion",
+  "subcategoria": "suplementos",
+  "marca": "Abbott",
+  "presentacion": "400 g",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "glucerna-vainilla-400-gr.webp"
+  ],
+  "descripcion": "GLUCERNA VAINILLA • Abbott • Tarro x 400 g • Polvo para preparar • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "glucerna-vainilla-850-gr",
+  "titulo": "GLUCERNA VAINILLA 850 GR",
+  "precio": 179500,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "bienestar-nutricion",
+  "subcategoria": "suplementos",
+  "marca": "Abbott",
+  "presentacion": "850 g",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "glucerna-vainilla-850-gr.webp"
+  ],
+  "descripcion": "GLUCERNA VAINILLA • Abbott • Tarro x 850 g • Polvo para preparar • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
