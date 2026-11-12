@@ -960,8 +960,8 @@
   "precio": 69000,
   "precio_antes": null,
   "descuento": null,
-  "categoria": "bienestar-nutricion",
-  "subcategoria": null,
+  "categoria": "medicamentos",
+  "subcategoria": "gastrointestinal",
   "marca": null,
   "presentacion": "60 Tabletas",
   "rx": null,
@@ -17008,6 +17008,72 @@
    "lyrica-75-mg-30-capsulas.webp"
   ],
   "descripcion": "LYRICA • Pregabalina 75 mg • Caja x 30 cápsulas • Estuche precintado • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "alka-seltzer-original-14-tabletas",
+  "titulo": "ALKA SELTZER ORIGINAL 14 TABLETAS",
+  "precio": 17900,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "gastrointestinal",
+  "marca": "Bayer",
+  "presentacion": "Caja x 14 tabletas efervescentes",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "alka-seltzer-original-14-tabletas.webp"
+  ],
+  "descripcion": "ALKA SELTZER ORIGINAL • Caja x 14 tabletas efervescentes • Bayer • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "alka-seltzer-extreme-8-sobres",
+  "titulo": "ALKA SELTZER EXTREME 8 SOBRES",
+  "precio": 21700,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "gastrointestinal",
+  "marca": "Bayer",
+  "presentacion": "Caja x 8 sobres de polvo efervescente",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "alka-seltzer-extreme-8-sobres.webp"
+  ],
+  "descripcion": "ALKA SELTZER EXTREME • Caja x 8 sobres de polvo efervescente • Bayer • Entrega 30-60 min • Original sellado.",
   "origen": {
    "rx": "pendiente",
    "presentacion": "titulo",
