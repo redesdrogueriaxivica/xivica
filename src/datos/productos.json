@@ -8471,7 +8471,7 @@
  {
   "slug": "digestar-fibra-psyllium-12-sbs",
   "titulo": "DIGESTAR FIBRA PSYLLIUM 12 SBS",
-  "precio": 20900,
+  "precio": 26200,
   "precio_antes": null,
   "descuento": null,
   "categoria": "bienestar-nutricion",
@@ -16975,6 +16975,39 @@
    "bronquisan-jalea-240-ml.webp"
   ],
   "descripcion": "BRONQUISAN JALEA • Totumo, sauco, eucalipto y propóleo • Frasco 240 ml • 100% natural • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "lyrica-75-mg-30-capsulas",
+  "titulo": "LYRICA 75 MG 30 CAPSULAS",
+  "precio": 45600,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": null,
+  "marca": "Pfizer",
+  "presentacion": "Caja x 30 cápsulas",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "lyrica-75-mg-30-capsulas.webp"
+  ],
+  "descripcion": "LYRICA • Pregabalina 75 mg • Caja x 30 cápsulas • Estuche precintado • Entrega 30-60 min • Original sellado.",
   "origen": {
    "rx": "pendiente",
    "presentacion": "titulo",
