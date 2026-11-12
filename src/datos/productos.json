@@ -17221,5 +17221,38 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "teatrical-crema-facial-aclaradora-100-gr",
+  "titulo": "TEATRICAL CREMA FACIAL ACLARADORA 100 GR",
+  "precio": 26900,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "cuidado-personal",
+  "subcategoria": "cuidado-piel",
+  "marca": "Teatrical",
+  "presentacion": "Pote x 100 g",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "teatrical-crema-facial-aclaradora-100-gr.webp"
+  ],
+  "descripcion": "TEATRICAL CREMA FACIAL ACLARADORA • Pote x 100 g • Con filtro UV • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
