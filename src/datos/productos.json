@@ -16825,5 +16825,38 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "medibiotix-entero-balance-10-sobres",
+  "titulo": "MEDIBIOTIX ENTERO BALANCE 10 SOBRES",
+  "precio": 79200,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "bienestar-nutricion",
+  "subcategoria": "gastrointestinal",
+  "marca": "Heel",
+  "presentacion": "Caja x 10 sobres • 55,5 g",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "medibiotix-entero-balance-10-sobres.webp"
+  ],
+  "descripcion": "MEDIBIOTIX ENTERO BALANCE • Suplemento dietario con probióticos y prebióticos, zinc, potasio, sodio y glucosa • Caja x 10 sobres (55,5 g) • Sin lactosa, sin gluten • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
