@@ -17518,5 +17518,71 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "bronquisan-jalea-kids",
+  "titulo": "BRONQUISAN JALEA KIDS",
+  "precio": 16000,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "respiratorio",
+  "marca": "El Mana",
+  "presentacion": "Frasco",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "bronquisan-jalea-kids.webp"
+  ],
+  "descripcion": "BRONQUISAN JALEA KIDS • El Mana • Frasco • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "bronquisan-6-sobres-x-4-tabletas",
+  "titulo": "BRONQUISAN 6 SOBRES X 4 TABLETAS MASTICABLES",
+  "precio": 11500,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "respiratorio",
+  "marca": "El Mana",
+  "presentacion": "6 sobres x 4 tabletas (105 g)",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "bronquisan-6-sobres-x-4-tabletas.webp"
+  ],
+  "descripcion": "BRONQUISAN • El Mana • 6 sobres x 4 tabletas masticables • 105 g • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
