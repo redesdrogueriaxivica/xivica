@@ -17320,5 +17320,104 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "teatrical-coreana-crema-facial-100-gr",
+  "titulo": "TEATRICAL COREANA CREMA FACIAL 100 GR",
+  "precio": 27500,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "cuidado-personal",
+  "subcategoria": "cuidado-piel",
+  "marca": "Teatrical",
+  "presentacion": "Pote x 100 g",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "teatrical-coreana-crema-facial-100-gr.webp"
+  ],
+  "descripcion": "TEATRICAL COREANA CREMA FACIAL • Pote x 100 g • Células madre y arroz • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "teatrical-crema-facial-humectante-100-gr",
+  "titulo": "TEATRICAL CREMA FACIAL HUMECTANTE 100 GR",
+  "precio": 16500,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "cuidado-personal",
+  "subcategoria": "cuidado-piel",
+  "marca": "Teatrical",
+  "presentacion": "Pote x 100 g",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "teatrical-crema-facial-humectante-100-gr.webp"
+  ],
+  "descripcion": "TEATRICAL CREMA FACIAL HUMECTANTE • Pote x 100 g • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "teatrical-coreana-crema-facial-200-gr",
+  "titulo": "TEATRICAL COREANA CREMA FACIAL 200 GR",
+  "precio": 40200,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "cuidado-personal",
+  "subcategoria": "cuidado-piel",
+  "marca": "Teatrical",
+  "presentacion": "Pote x 200 g",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "teatrical-coreana-crema-facial-200-gr.webp"
+  ],
+  "descripcion": "TEATRICAL COREANA CREMA FACIAL • Pote x 200 g • Células madre y arroz • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
