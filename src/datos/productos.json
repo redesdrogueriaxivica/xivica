@@ -16858,5 +16858,71 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "cyclofem-ampolla-1-ml",
+  "titulo": "CYCLOFEM AMPOLLA 1 ML",
+  "precio": 24900,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "anticonceptivos",
+  "marca": "Profamilia",
+  "presentacion": "Caja x 1 ampolla de 1 ml + jeringa",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "cyclofem-ampolla-1-ml.webp"
+  ],
+  "descripcion": "CYCLOFEM • Suspensión inyectable • Acetato de medroxiprogesterona 25 mg + cipionato de estradiol 5 mg • Caja x 1 ampolla de 1 ml con jeringa • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "vagilac-lactobacillus-14-capsulas",
+  "titulo": "VAGILAC LACTOBACILLUS 14 CAPSULAS",
+  "precio": 59700,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "bienestar-nutricion",
+  "subcategoria": "suplementos",
+  "marca": "Plamatech",
+  "presentacion": "Caja x 14 cápsulas",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "vagilac-lactobacillus-14-capsulas.webp"
+  ],
+  "descripcion": "VAGILAC • Suplemento dietario con lactobacilos y prebióticos • Caja x 14 cápsulas • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
