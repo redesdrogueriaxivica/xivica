@@ -17089,5 +17089,137 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "almipro-unguento-30-gr",
+  "titulo": "ALMIPRO UNGUENTO 30 GR",
+  "precio": 11500,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "cuidado-piel",
+  "marca": "Almipro",
+  "presentacion": "Frasco x 30 g",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "almipro-unguento-30-gr.webp"
+  ],
+  "descripcion": "ALMIPRO UNGUENTO 30 GR • Frasco x 30 g • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "almipro-unguento-60-gr",
+  "titulo": "ALMIPRO UNGUENTO 60 GR",
+  "precio": 20500,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "cuidado-piel",
+  "marca": "Almipro",
+  "presentacion": "Frasco x 60 g",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "almipro-unguento-60-gr.webp"
+  ],
+  "descripcion": "ALMIPRO UNGUENTO 60 GR • Frasco x 60 g • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "almipro-unguento-125-gr",
+  "titulo": "ALMIPRO UNGUENTO 125 GR",
+  "precio": 36300,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "cuidado-piel",
+  "marca": "Almipro",
+  "presentacion": "Frasco x 125 g",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "almipro-unguento-125-gr.webp"
+  ],
+  "descripcion": "ALMIPRO UNGUENTO 125 GR • Frasco x 125 g • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "almipro-unguento-500-gr",
+  "titulo": "ALMIPRO UNGUENTO 500 GR",
+  "precio": 66500,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "cuidado-piel",
+  "marca": "Almipro",
+  "presentacion": "Frasco x 500 g",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "almipro-unguento-500-gr.webp"
+  ],
+  "descripcion": "ALMIPRO UNGUENTO 500 GR • Frasco x 500 g • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
