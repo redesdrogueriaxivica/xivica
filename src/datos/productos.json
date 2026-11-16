@@ -1592,7 +1592,7 @@
  {
   "slug": "baycuten-n-crema-35-gr",
   "titulo": "BAYCUTEN N CREMA 35 GR",
-  "precio": 37700,
+  "precio": 57200,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
@@ -17738,6 +17738,40 @@
   "origen": {
    "rx": "pendiente",
    "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "baycuten-n-crema-20-gr",
+  "titulo": "BAYCUTEN N CREMA 20 GR",
+  "precio": 34200,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "cuidado-piel",
+  "marca": "Bayer",
+  "presentacion": "20 g - Crema",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "baycuten-n-crema-20-gr.webp"
+  ],
+  "descripcion": "BAYCUTEN N CREMA 20 GR • Crema para uso externo • Caja original • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "subcategoria": "inferido",
    "registro_invima": "pendiente",
    "principio_activo": "pendiente",
    "concentracion": "pendiente",
