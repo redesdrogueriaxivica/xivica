@@ -17784,5 +17784,39 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "eutirox-125-mcg-50-tbs",
+  "titulo": "EUTIROX 125 MCG 50 TBS",
+  "precio": 97800,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "tiroides-hormonal",
+  "marca": "Merck Serono",
+  "presentacion": "125 mcg - 50 Tabletas",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "eutirox-125-mcg-50-tbs.webp"
+  ],
+  "descripcion": "EUTIROX 125 MCG • 50 tabletas • Caja original • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "subcategoria": "inferido",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
