@@ -17650,5 +17650,39 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "sildenafil-50-mg-2-tabletas-masticables-la-sante",
+  "titulo": "SILDENAFIL 50 MG 2 TABLETAS MASTICABLES LA SANTE",
+  "precio": 7500,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "salud-sexual",
+  "marca": "La Sante",
+  "presentacion": "50 mg - 2 Tabletas masticables",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "sildenafil-50-mg-2-tabletas-masticables-la-sante.webp"
+  ],
+  "descripcion": "SILDENAFIL 50 MG LA SANTE • 2 tabletas masticables • Caja original • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "subcategoria": "inferido",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
