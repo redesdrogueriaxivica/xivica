@@ -17521,21 +17521,21 @@
  },
  {
   "slug": "bronquisan-jalea-kids",
-  "titulo": "BRONQUISAN JALEA KIDS",
+  "titulo": "BRONQUISAN JALEA KIDS 240 ML",
   "precio": 16000,
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
   "subcategoria": "respiratorio",
   "marca": "El Mana",
-  "presentacion": "Frasco",
+  "presentacion": "Frasco 240 ml",
   "rx": null,
   "stock": true,
   "destacado": false,
   "imagenes": [
    "bronquisan-jalea-kids.webp"
   ],
-  "descripcion": "BRONQUISAN JALEA KIDS • El Mana • Frasco • Entrega 30-60 min • Original sellado.",
+  "descripcion": "BRONQUISAN JALEA KIDS • El Mana • Frasco x 240 ml • Entrega 30-60 min • Original sellado.",
   "origen": {
    "rx": "pendiente",
    "presentacion": "titulo",
@@ -17569,6 +17569,72 @@
    "bronquisan-6-sobres-x-4-tabletas.webp"
   ],
   "descripcion": "BRONQUISAN • El Mana • 6 sobres x 4 tabletas masticables • 105 g • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "openxy-0-025-pediatrico-spray-15-ml",
+  "titulo": "OPENXY 0.025% PEDIATRICO SPRAY 15 ML",
+  "precio": 32900,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "respiratorio",
+  "marca": "Tecnoquimicas",
+  "presentacion": "Spray nasal x 15 ml",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "openxy-0-025-pediatrico-spray-15-ml.webp"
+  ],
+  "descripcion": "OPENXY 0.025% • Solución en spray nasal • 15 ml • No Drip • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "openxy-0-05-adultos-spray-15-ml",
+  "titulo": "OPENXY 0.05% ADULTOS SPRAY 15 ML",
+  "precio": 41700,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "respiratorio",
+  "marca": "Tecnoquimicas",
+  "presentacion": "Spray nasal x 15 ml",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "openxy-0-05-adultos-spray-15-ml.webp"
+  ],
+  "descripcion": "OPENXY 0.05% • Solución en spray nasal • 15 ml • No Drip • Entrega 30-60 min • Original sellado.",
   "origen": {
    "rx": "pendiente",
    "presentacion": "titulo",
