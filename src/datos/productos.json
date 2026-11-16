@@ -17884,5 +17884,39 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "tiroxin-62-mcg-50-tabletas",
+  "titulo": "TIROXIN 62 MCG 50 TABLETAS",
+  "precio": 38900,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "tiroides-hormonal",
+  "marca": "Siegfried",
+  "presentacion": "62 mcg - 50 Tabletas",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "tiroxin-62-mcg-50-tabletas.webp"
+  ],
+  "descripcion": "TIROXIN 62 MCG • 50 tabletas • Caja original • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "subcategoria": "inferido",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
