@@ -17684,5 +17684,71 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "afrin-adulto-solucion-nasal-15-ml",
+  "titulo": "AFRIN ADULTO SOLUCION NASAL 15 ML",
+  "precio": 27500,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "respiratorio",
+  "marca": "Bayer",
+  "presentacion": "Frasco x 15 ml",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "afrin-adulto-solucion-nasal-15-ml.webp"
+  ],
+  "descripcion": "AFRIN ADULTO • Solución nasal • Frasco x 15 ml • Bayer • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "afrin-pediatrico-gotas-nasales-15-ml",
+  "titulo": "AFRIN PEDIATRICO GOTAS NASALES 15 ML",
+  "precio": 21000,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "respiratorio",
+  "marca": "Bayer",
+  "presentacion": "Frasco x 15 ml",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "afrin-pediatrico-gotas-nasales-15-ml.webp"
+  ],
+  "descripcion": "AFRIN PEDIATRICO • Gotas nasales • Frasco x 15 ml • Bayer • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
