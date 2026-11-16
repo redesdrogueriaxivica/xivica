@@ -17818,5 +17818,71 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "glucerna-vainilla-liquido-237-ml",
+  "titulo": "GLUCERNA VAINILLA LIQUIDO 237 ML",
+  "precio": 14100,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "bienestar-nutricion",
+  "subcategoria": "suplementos",
+  "marca": "Abbott",
+  "presentacion": "237 ml",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "glucerna-vainilla-liquido-237-ml.webp"
+  ],
+  "descripcion": "GLUCERNA VAINILLA • Abbott • Botella x 237 ml • Listo para consumir • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "glucerna-fresa-liquido-237-ml",
+  "titulo": "GLUCERNA FRESA LIQUIDO 237 ML",
+  "precio": 14100,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "bienestar-nutricion",
+  "subcategoria": "suplementos",
+  "marca": "Abbott",
+  "presentacion": "237 ml",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "glucerna-fresa-liquido-237-ml.webp"
+  ],
+  "descripcion": "GLUCERNA FRESA • Abbott • Botella x 237 ml • Listo para consumir • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
