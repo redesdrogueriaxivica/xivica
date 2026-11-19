@@ -17951,5 +17951,75 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "lactovit-lactourea-leche-corporal-1000-ml",
+  "titulo": "LACTOVIT LACTOUREA LECHE CORPORAL 1000 ML",
+  "precio": 51200,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "cuidado-personal",
+  "subcategoria": "cuidado-piel",
+  "marca": "Lactovit",
+  "presentacion": "1000 ml",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "lactovit-lactourea-leche-corporal-1000-ml.webp"
+  ],
+  "descripcion": "LACTOVIT LACTOUREA • Leche corporal • 1000 ml • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "marca": "titulo",
+   "subcategoria": "inferido",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "lactovit-lactourea-leche-corporal-400-ml",
+  "titulo": "LACTOVIT LACTOUREA LECHE CORPORAL 400 ML",
+  "precio": 32500,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "cuidado-personal",
+  "subcategoria": "cuidado-piel",
+  "marca": "Lactovit",
+  "presentacion": "400 ml",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "lactovit-lactourea-leche-corporal-400-ml.webp"
+  ],
+  "descripcion": "LACTOVIT LACTOUREA • Leche corporal • 400 ml • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "marca": "titulo",
+   "subcategoria": "inferido",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
