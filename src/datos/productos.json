@@ -18087,5 +18087,71 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "freegen-pf-solucion-oftalmica-15-ml",
+  "titulo": "FREEGEN PF 0.5% SOLUCION OFTALMICA 15 ML",
+  "precio": 73800,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "salud-visual",
+  "marca": "Ophtha",
+  "presentacion": "15 ml",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "freegen-pf-solucion-oftalmica-15-ml.webp"
+  ],
+  "descripcion": "FREEGEN PF • Solución oftálmica • 15 ml • Libre de preservantes • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "freegen-solucion-oftalmica-pague-15-lleve-25-ml",
+  "titulo": "FREEGEN 0.5% SOLUCION OFTALMICA PAGUE 15 LLEVE 25 ML",
+  "precio": 66500,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "salud-visual",
+  "marca": "Ophtha",
+  "presentacion": "25 ml (pague 15 ml)",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "freegen-solucion-oftalmica-pague-15-lleve-25-ml.webp"
+  ],
+  "descripcion": "FREEGEN • Solución oftálmica • Pague 15 ml y lleve 25 ml • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
