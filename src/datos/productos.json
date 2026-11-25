@@ -18153,5 +18153,38 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "micardis-40-mg-28-comprimidos",
+  "titulo": "MICARDIS 40 MG 28 COMPRIMIDOS",
+  "precio": 16400,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "cardiovascular",
+  "marca": "Boehringer Ingelheim",
+  "presentacion": "40 mg - 28 Comprimidos",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "micardis-40-mg-28-comprimidos.webp"
+  ],
+  "descripcion": "MICARDIS 40 MG • 28 comprimidos • Caja original • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
