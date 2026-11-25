@@ -18021,5 +18021,71 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "duotrav-solucion-oftalmica-2-5-ml",
+  "titulo": "DUOTRAV 40 MCG/ML + 5 MG/ML SOLUCION OFTALMICA 2.5 ML",
+  "precio": 61500,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "salud-visual",
+  "marca": "Alcon",
+  "presentacion": "2.5 ml",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "duotrav-solucion-oftalmica-2-5-ml.webp"
+  ],
+  "descripcion": "DUOTRAV • Solución oftálmica • 2.5 ml • Alcon • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "ciruelax-minitabs-20-comprimidos",
+  "titulo": "CIRUELAX MINITABS 20 COMPRIMIDOS",
+  "precio": 21500,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "bienestar-nutricion",
+  "subcategoria": null,
+  "marca": null,
+  "presentacion": "Caja x 20 comprimidos",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "ciruelax-minitabs-20-comprimidos.webp"
+  ],
+  "descripcion": "CIRUELAX MINITABS 20 COMPRIMIDOS complemento nutricional. • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
