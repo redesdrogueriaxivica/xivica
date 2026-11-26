@@ -18318,5 +18318,104 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "eclosynt-250-mcg-aerosol-200-dosis",
+  "titulo": "ECLOSYNT 250 MCG AEROSOL INHALADOR X 200 DOSIS",
+  "precio": 49900,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "respiratorio",
+  "marca": null,
+  "presentacion": "250 mcg - Inhalador x 200 dosis",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "eclosynt-250-mcg-aerosol-200-dosis.webp"
+  ],
+  "descripcion": "ECLOSYNT 250 MCG • Aerosol inhalador x 200 dosis • Caja original • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "eclosynt-50-mcg-aerosol-200-dosis",
+  "titulo": "ECLOSYNT 50 MCG AEROSOL INHALADOR X 200 DOSIS",
+  "precio": 43800,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "respiratorio",
+  "marca": null,
+  "presentacion": "50 mcg - Inhalador x 200 dosis",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "eclosynt-50-mcg-aerosol-200-dosis.webp"
+  ],
+  "descripcion": "ECLOSYNT 50 MCG • Aerosol inhalador x 200 dosis • Caja original • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "eclosynt-nas-50-mcg-aerosol-nasal-200-dosis",
+  "titulo": "ECLOSYNT-NAS 50 MCG AEROSOL NASAL X 200 DOSIS",
+  "precio": 51300,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "respiratorio",
+  "marca": null,
+  "presentacion": "50 mcg - Inhalador nasal x 200 dosis",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "eclosynt-nas-50-mcg-aerosol-nasal-200-dosis.webp"
+  ],
+  "descripcion": "ECLOSYNT-NAS 50 MCG • Aerosol nasal x 200 dosis • Caja original • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
