@@ -18417,5 +18417,40 @@
   "forma_farmaceutica": null,
   "promo_flash_vence": null,
   "promo_flash_donde": null
+ },
+ {
+  "slug": "eclamp-150-mg-30-tabletas-recubiertas",
+  "titulo": "ECLAMP 150 MG 30 TABLETAS RECUBIERTAS",
+  "precio": 73900,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": "analgesicos",
+  "marca": null,
+  "presentacion": "150 mg - 30 Tabletas recubiertas",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "eclamp-150-mg-30-tabletas-recubiertas.webp"
+  ],
+  "descripcion": "ECLAMP 150 MG • 30 tabletas recubiertas • Caja original • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "marca": "titulo",
+   "subcategoria": "inferido",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
  }
 ]
