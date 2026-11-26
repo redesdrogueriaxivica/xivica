@@ -8608,7 +8608,7 @@
   "precio_antes": null,
   "descuento": null,
   "categoria": "medicamentos",
-  "subcategoria": null,
+  "subcategoria": "cardiovascular",
   "marca": null,
   "presentacion": "80 mg · 28 Tabletas",
   "rx": null,
@@ -18171,6 +18171,72 @@
    "micardis-40-mg-28-comprimidos.webp"
   ],
   "descripcion": "MICARDIS 40 MG • 28 comprimidos • Caja original • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "mounjaro-2-5-mg-0-5-ml-vial-unidosis",
+  "titulo": "MOUNJARO 2.5 MG/0.5 ML VIAL UNIDOSIS",
+  "precio": 225000,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": null,
+  "marca": "Eli Lilly",
+  "presentacion": "2.5 mg/0.5 ml - 1 vial",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "mounjaro-2-5-mg-0-5-ml-vial-unidosis.webp"
+  ],
+  "descripcion": "MOUNJARO 2.5 MG/0.5 ML • Vial unidosis • Caja original • Entrega 30-60 min • Original sellado.",
+  "origen": {
+   "rx": "pendiente",
+   "presentacion": "titulo",
+   "registro_invima": "pendiente",
+   "principio_activo": "pendiente",
+   "concentracion": "pendiente",
+   "forma_farmaceutica": "pendiente"
+  },
+  "presentacion_comercial": null,
+  "registro_invima": null,
+  "principio_activo": null,
+  "concentracion": null,
+  "forma_farmaceutica": null,
+  "promo_flash_vence": null,
+  "promo_flash_donde": null
+ },
+ {
+  "slug": "mounjaro-5-mg-0-5-ml-vial-unidosis",
+  "titulo": "MOUNJARO 5 MG/0.5 ML VIAL UNIDOSIS",
+  "precio": 302000,
+  "precio_antes": null,
+  "descuento": null,
+  "categoria": "medicamentos",
+  "subcategoria": null,
+  "marca": "Eli Lilly",
+  "presentacion": "5 mg/0.5 ml - 1 vial",
+  "rx": null,
+  "stock": true,
+  "destacado": false,
+  "imagenes": [
+   "mounjaro-5-mg-0-5-ml-vial-unidosis.webp"
+  ],
+  "descripcion": "MOUNJARO 5 MG/0.5 ML • Vial unidosis • Caja original • Entrega 30-60 min • Original sellado.",
   "origen": {
    "rx": "pendiente",
    "presentacion": "titulo",
